@@ -136,7 +136,7 @@ def filter_dates(base_date, suspects):
 
 
 
-def get_assembleias_publicas(base_date, url, starting_page=1):
+def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
     """
     Busca as assembleias públicas que irão ocorrer a partir da @base_date, usando a @url e iniciando da @starting_page e indo até o fim
     """
@@ -144,6 +144,10 @@ def get_assembleias_publicas(base_date, url, starting_page=1):
     res = []
 
     while True:
+
+        if(ending_page is not None and starting_page > ending_page):
+            break
+
         # Faz a requisição
         response = requests.get('{0}&page={1}'.format(url, starting_page))
 
@@ -197,13 +201,19 @@ def get_assembleias_publicas(base_date, url, starting_page=1):
         for audiencia in audiencias:
             # Se não foi encontrada data
             if not datas[audiencia]:
-                objt = {'title': audiencias[audiencia]['secretaria'], 'date': None, 'url': links[audiencia]}
-                res.append(objt)
+                objt = {}
+                objt['title'] = audiencias[audiencia]['secretaria']
+                objt['date'] = None
+                objt['url'] = links[audiencia]
+                res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
             # Se foi encontrada data
             else:
                 data = str(datas[audiencia][0])
-                objt = {'title': audiencias[audiencia]['secretaria'], 'date': data, 'url': links[audiencia]}
-                res.append(objt)
+                objt = {}
+                objt['title'] = audiencias[audiencia]['secretaria']
+                objt['date'] = data
+                objt['url'] = links[audiencia]
+                res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
     
     # Retorna as assembleias públicas
     return res
