@@ -203,6 +203,7 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
             if not datas[audiencia]:
                 objt = {}
                 objt['title'] = audiencias[audiencia]['secretaria']
+                objt['text'] = audiencias[audiencia]['texto']
                 objt['date'] = None
                 objt['url'] = links[audiencia]
                 res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
@@ -211,6 +212,7 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
                 data = str(datas[audiencia][0])
                 objt = {}
                 objt['title'] = audiencias[audiencia]['secretaria']
+                objt['text'] = audiencias[audiencia]['texto']
                 objt['date'] = data
                 objt['url'] = links[audiencia]
                 res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
