@@ -182,8 +182,9 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
 
                 # Se encontra Audiência ou Pública no texto, é um caso a ser observado
                 if(fit_pattern(texto, r'Audiência') or fit_pattern(texto, r'Pública')):
-                    index = get_index(nota['id'])
-                    audiencias[index] = nota
+                    if(fit_pattern(texto, r'às')):
+                        index = get_index(nota['id'])
+                        audiencias[index] = nota
         
         # Percorre as audiências encontradas
         for audiencia in audiencias:
@@ -203,19 +204,19 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
             if not datas[audiencia]:
                 objt = {}
                 objt['title'] = audiencias[audiencia]['secretaria']
-                objt['text'] = audiencias[audiencia]['texto']
+                objt['text'] = audiencias[audiencia]['texto'].encode('utf8')
                 objt['date'] = None
                 objt['url'] = links[audiencia]
-                res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
+                res.append(objt)
             # Se foi encontrada data
             else:
                 data = str(datas[audiencia][0])
                 objt = {}
                 objt['title'] = audiencias[audiencia]['secretaria']
-                objt['text'] = audiencias[audiencia]['texto']
+                objt['text'] = audiencias[audiencia]['texto'].encode('utf8')
                 objt['date'] = data
                 objt['url'] = links[audiencia]
-                res.append(json.dumps(objt, ensure_ascii=False).encode('utf8'))
+                res.append(objt)
     
     # Retorna as assembleias públicas
     return res

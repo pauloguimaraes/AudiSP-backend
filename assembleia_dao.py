@@ -18,7 +18,7 @@ def set_connection(user='root', password='123456', db_name='audisp'):
 
 def insere(assembleia, connection):
     cursor = connection.cursor()
-    query = 'INSERT INTO audiencia(title, date, url, texto) VALUES (%s, %s, %s, %s)'
+    query = 'INSERT INTO audiencia(titulo, data_audi, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
     ass_tupla = (assembleia['title'], assembleia['date'], assembleia['url'], assembleia['text'].decode('utf8'))
 
     # print(assembleia['text'].decode('utf8'))

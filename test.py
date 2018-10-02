@@ -28,6 +28,7 @@ Módulo de teste de execução
 
 # Módulos necessários
 import datetime
+import sys
 
 from assembleia_dao import set_connection, insere
 from get_assembleias import get_assembleias_publicas
@@ -54,8 +55,8 @@ def main():
             try:
                 # obj_file.write('{0}\n'.format(linha.decode('utf-8')))
                 insere(linha, set_connection(user='root', password='123456', db_name='audisp'))
-            except:
-                print('a')
+            except Exception as e:
+                print('{0}'.format(e.args[1]))
 
 
 
