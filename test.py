@@ -28,7 +28,6 @@ Módulo de teste de execução
 
 # Módulos necessários
 import datetime
-import sys
 
 from assembleia_dao import set_connection, insere
 from get_assembleias import get_assembleias_publicas
@@ -46,17 +45,15 @@ def main():
     Método principal da aplicação
     """
 
-    retorno = get_assembleias_publicas(base_date=hoje, url=url, starting_page=1, ending_page=50)
+    retorno = get_assembleias_publicas(base_date=hoje, url=url, starting_page=1, ending_page=10)
     
     
     # Escreve no arquivo
-    with open('./teste.txt', 'a') as obj_file:    
-        for linha in retorno:
-            try:
-                # obj_file.write('{0}\n'.format(linha.decode('utf-8')))
-                insere(linha, set_connection(user='root', password='123456', db_name='audisp'))
-            except Exception as e:
-                print('{0}'.format(e.args[1]))
+    for linha in retorno:
+        try:
+            insere(linha, set_connection(user='root', password='123456', db_name='audisp'))
+        except Exception as e:
+            print('{0}'.format(e.args[1]))
 
 
 

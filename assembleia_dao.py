@@ -25,5 +25,24 @@ def insere(assembleia, connection):
     cursor.execute(query, ass_tupla)
 
     connection.commit()
+
+    query = 'SELECT id FROM audiencia ORDER BY id DESC LIMIT 1'
+    cursor.execute(query)
+    
+    id_ass = 0
+    for(id) in cursor:
+        id_ass = int(id[0])
+
+    cursor.close()
+
+    cursor = connection.cursor()
+
+    query_1 = 'INSERT INTO audiencia_limpa(fk_id_audiencia, texto) VALUES(%s, %s)'
+    # print(assembleia['text_limpo'].decode('utf-8'))
+    ass_tupla_1 = (id_ass, assembleia['text_limpo'].decode('utf-8'))
+
+    cursor.execute(query_1, ass_tupla_1)
+    connection.commit()
+
     cursor.close()
     connection.close()
