@@ -29,8 +29,10 @@ Módulo de teste de execução
 # Módulos necessários
 import datetime
 
-from assembleia_dao import set_connection, insere
-from get_assembleias import get_assembleias_publicas
+import dao.connection_factory as conn
+import dao.audiencia_dao as audienciadao
+import dao.audiencia_limpa_dao as audilimpadao
+from controller.get_audiencias import get_audiencias_publicas
 
 
 
@@ -45,13 +47,17 @@ def main():
     Método principal da aplicação
     """
 
-    retorno = get_assembleias_publicas(base_date=hoje, url=url, starting_page=1, ending_page=10)
-    
-    
-    # Escreve no arquivo
+    retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=1, ending_page=10)
+
     for linha in retorno:
         try:
-            insere(linha, set_connection(user='root', password='123456', db_name='audisp'))
+            connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+            
+            id_inserido = audienciadao.insere(linha, connection)
+            audilimpadao.insere(id_inserido, linha, connection)
+
+            conn.close(connection)
+
         except Exception as e:
             print('{0}'.format(e.args[1]))
 

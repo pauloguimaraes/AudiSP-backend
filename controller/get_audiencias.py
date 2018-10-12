@@ -21,7 +21,7 @@ https://github.com/EACH-Lab2017/ACH3778_Governo_Aberto
 Professora Doutora Gisele da Silva Craveiro
 
 Descrição:
-Módulo responsável por recuperar as assembleias com a finalidade de popular uma base de dados
+Módulo responsável por recuperar as audiencias com a finalidade de popular uma base de dados
 """
 
 
@@ -33,13 +33,13 @@ import re
 import requests
 import string
 
-from util_assembleias import fit_pattern
+from controller.util_audiencias import fit_pattern
 
 
 
 def get_index(identify):
     """
-    Limpa a @identify de forma a recuperar o identificador da assembleia
+    Limpa a @identify de forma a recuperar o identificador da audiencia
     """
 
     pedaco = identify.replace('/', '')
@@ -137,7 +137,11 @@ def filter_dates(base_date, suspects):
 
 
 
-def limpa_texto(texto):
+def clear_text(texto):
+    """
+    Método responsável por limpar o texto da audiência.
+    Será útil para treinamento NLU
+    """
     novo_texto = texto.decode('utf-8').upper()
     novo_texto = re.sub(r'[' + re.escape(string.punctuation) + ']', ' ', novo_texto)
     novo_texto = novo_texto.replace('Ç', 'C').replace('º', 'O').replace('ª', 'A')
@@ -150,9 +154,10 @@ def limpa_texto(texto):
     return novo_texto
 
 
-def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
+
+def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
     """
-    Busca as assembleias públicas que irão ocorrer a partir da @base_date, usando a @url e iniciando da @starting_page e indo até o fim
+    Busca as audiencias públicas que irão ocorrer a partir da @base_date, usando a @url e iniciando da @starting_page e indo até o fim
     """
 
     res = []
@@ -210,8 +215,6 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
             # Filtra as datas
             datas[audiencia] = filter_dates(base_date, datas[audiencia])
 
-        print('Na pagina {0} temos {1}'.format(starting_page-1, len(audiencias)))
-        
         # Percorre as audiências encontradas, para montar o objeto
         for audiencia in audiencias:
             # Se não foi encontrada data
@@ -220,7 +223,7 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
                 objt['title'] = audiencias[audiencia]['secretaria']
                 str_texto = audiencias[audiencia]['texto'].replace('\n', '').strip().encode('utf8')
                 objt['text'] = str_texto
-                objt['text_limpo'] = limpa_texto(str_texto)
+                objt['text_limpo'] = clear_text(str_texto)
                 objt['date'] = None
                 objt['url'] = links[audiencia]
                 res.append(objt)
@@ -231,10 +234,12 @@ def get_assembleias_publicas(base_date, url, starting_page=1, ending_page=None):
                 objt['title'] = audiencias[audiencia]['secretaria']
                 str_texto = audiencias[audiencia]['texto'].replace('\n', '').strip().encode('utf8')
                 objt['text'] = str_texto
-                objt['text_limpo'] = limpa_texto(str_texto)
+                objt['text_limpo'] = clear_text(str_texto)
                 objt['date'] = data
                 objt['url'] = links[audiencia]
                 res.append(objt)
     
-    # Retorna as assembleias públicas
+    # Retorna as audiencias públicas
     return res
+
+
