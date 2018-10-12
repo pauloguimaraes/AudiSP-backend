@@ -29,6 +29,7 @@ Módulo de teste de execução
 # Módulos necessários
 import datetime
 
+import controller.file_manipulation as fileman
 import dao.connection_factory as conn
 import dao.audiencia_dao as audienciadao
 import dao.audiencia_limpa_dao as audilimpadao
@@ -54,7 +55,10 @@ def main():
             connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
             
             id_inserido = audienciadao.insere(linha, connection)
+            fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'].decode('utf-8'))
+            
             audilimpadao.insere(id_inserido, linha, connection)
+            fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'].decode('utf-8'))
 
             conn.close(connection)
 
