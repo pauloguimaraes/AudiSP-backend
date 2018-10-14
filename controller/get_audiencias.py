@@ -217,27 +217,23 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
 
         # Percorre as audiências encontradas, para montar o objeto
         for audiencia in audiencias:
+            objt = {}
+            objt['title'] = audiencias[audiencia]['secretaria']
+            str_texto = audiencias[audiencia]['texto'].strip().encode('utf8')
+            objt['text'] = str_texto
+            objt['text_limpo'] = clear_text(str_texto)
+            objt['url'] = links[audiencia]
+
             # Se não foi encontrada data
             if not datas[audiencia]:
-                objt = {}
-                objt['title'] = audiencias[audiencia]['secretaria']
-                str_texto = audiencias[audiencia]['texto'].replace('\n', '').strip().encode('utf8')
-                objt['text'] = str_texto
-                objt['text_limpo'] = clear_text(str_texto)
                 objt['date'] = None
-                objt['url'] = links[audiencia]
-                res.append(objt)
+                
             # Se foi encontrada data
             else:
                 data = str(datas[audiencia][0])
-                objt = {}
-                objt['title'] = audiencias[audiencia]['secretaria']
-                str_texto = audiencias[audiencia]['texto'].replace('\n', '').strip().encode('utf8')
-                objt['text'] = str_texto
-                objt['text_limpo'] = clear_text(str_texto)
                 objt['date'] = data
-                objt['url'] = links[audiencia]
-                res.append(objt)
+                
+            res.append(objt)
     
     # Retorna as audiencias públicas
     return res
