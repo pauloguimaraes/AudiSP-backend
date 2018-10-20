@@ -35,6 +35,9 @@ def write_audiencia(arquivo, audiencia):
     """
     Escreve a @audiencia no @arquivo
     """
-    
-    with open(arquivo, 'w') as obj_file:
-        obj_file.write(audiencia)
+    try:
+        with open(arquivo, 'w', encoding='latin-1') as obj_file:
+            obj_file.write(audiencia)
+    except:
+        with open(arquivo, 'w', encoding='utf-8') as obj_file:
+            obj_file.write(audiencia)

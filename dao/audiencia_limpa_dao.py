@@ -35,7 +35,7 @@ def insere(id_audiencia, audiencia, connection):
     cursor = connection.cursor()
 
     query = 'INSERT INTO audiencia_limpa(fk_id_audiencia, texto) VALUES(%s, %s)'
-    tupla = (id_audiencia, audiencia['text_limpo'].decode('utf-8'))
+    tupla = (id_audiencia, audiencia['text_limpo'])#.decode('utf-8'))
 
     cursor.execute(query, tupla)
     connection.commit()

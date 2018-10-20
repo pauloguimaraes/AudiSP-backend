@@ -47,24 +47,41 @@ def main():
     """
     Método principal da aplicação
     """
-
-    retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=1, ending_page=10)
-
-    for linha in retorno:
-        try:
-            connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+    maxrange = 2070
+    upLimit = 0
+    jump = 30
+    for x in range(0,2100,jump):
+        if(x > maxrange):
+            break
+        if(x + jump > maxrange):
+            upLimit = maxrange
+        else:
+            upLimit = x+jump
+        retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=x, ending_page=upLimit)
+        contador = 0
+        for linha in retorno:
+            try:
+                contador+=1
+                connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
             
-            id_inserido = audienciadao.insere(linha, connection)
-            fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'].decode('utf-8'))
+                id_inserido = audienciadao.insere(linha, connection)
+                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])#.decode('utf-8'))
             
-            audilimpadao.insere(id_inserido, linha, connection)
-            fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'].decode('utf-8'))
+            except Exception as e:
+                print(str(x) + " up "+str(upLimit)+" count "+str(contador))
+                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
+                print('{0}'.format(str(e)))#e.args[1]))
+				
+            try:
+                audilimpadao.insere(id_inserido, linha, connection)
+                fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])#.decode('utf-8'))
 
-            conn.close(connection)
+            except Exception as e:
+                print(str(x) + " up "+str(upLimit)+" count "+str(contador))
+                print('{0}'.format(str(e)))#e.args[1]))
+                conn.close(connection)
 
-        except Exception as e:
-            print('{0}'.format(e.args[1]))
-
+        del retorno
 
 
 if(__name__ == '__main__'):

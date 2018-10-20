@@ -142,15 +142,17 @@ def clear_text(texto):
     Método responsável por limpar o texto da audiência.
     Será útil para treinamento NLU
     """
-    novo_texto = texto.decode('utf-8').upper()
-    novo_texto = re.sub(r'[' + re.escape(string.punctuation) + ']', ' ', novo_texto)
+    novo_texto = texto.upper()#.decode('utf-8').upper()
+    novo_texto = re.sub(r'[' + ',.-;\+\=\_' + ']', ' ', novo_texto)#re.escape(string.punctuation) + ']', ' ', novo_texto)
+    novo_texto = re.sub(r'\(\(.*?\)\)','',novo_texto) #remove as marcações no formato ((TITULO)) 
+    novo_texto = re.sub(r'[\n\r]+', ' ',novo_texto)
     novo_texto = novo_texto.replace('Ç', 'C').replace('º', 'O').replace('ª', 'A')
     novo_texto = re.sub(r'[ÁÀÃÂÄ]', 'A', novo_texto)
     novo_texto = re.sub(r'[ÉÈẼÊË]', 'E', novo_texto)
     novo_texto = re.sub(r'[ÍÌĨÎÏ]', 'I', novo_texto)
     novo_texto = re.sub(r'[ÓÒÕÔÖ]', 'O', novo_texto)
     novo_texto = re.sub(r'[ÚÙŨÛÜ]', 'U', novo_texto)
-    novo_texto = novo_texto.encode('utf-8')
+    #novo_texto = novo_texto.encode('utf-8')
     return novo_texto
 
 
@@ -172,6 +174,7 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
 
         # Se tem resposta extrai a data
         if(response.status_code == 200):
+            print(str(starting_page))
             data = json.loads(response.content)
         else:
             print("Falha!")
@@ -219,7 +222,7 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
         for audiencia in audiencias:
             objt = {}
             objt['title'] = audiencias[audiencia]['secretaria']
-            str_texto = audiencias[audiencia]['texto'].strip().encode('utf8')
+            str_texto = audiencias[audiencia]['texto'].strip()#.encode('utf8')
             objt['text'] = str_texto
             objt['text_limpo'] = clear_text(str_texto)
             objt['url'] = links[audiencia]

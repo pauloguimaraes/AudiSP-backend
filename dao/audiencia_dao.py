@@ -46,6 +46,10 @@ def get_last_audiencia(connection):
     cursor.close()
     return id_ass
 
+def get_assembleia_list(limit, connection):
+    cursor = connection.cursor();
+    query =  'SELECT '
+
 
 
 def insere(audiencia, connection):
@@ -57,7 +61,7 @@ def insere(audiencia, connection):
     cursor = connection.cursor()
 
     query = 'INSERT INTO audiencia(titulo, data_audi, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
-    ass_tupla = (audiencia['title'], audiencia['date'], audiencia['url'], audiencia['text'].decode('utf8'))
+    ass_tupla = (audiencia['title'], audiencia['date'], audiencia['url'], audiencia['text'])#.decode('utf8'))
 
     cursor.execute(query, ass_tupla)
     connection.commit()
