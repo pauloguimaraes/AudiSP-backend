@@ -68,7 +68,7 @@ def main():
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])#.decode('utf-8'))
             
             except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count "+str(contador))
+                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
                 print('{0}'.format(str(e)))#e.args[1]))
 				
@@ -77,10 +77,9 @@ def main():
                 fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])#.decode('utf-8'))
 
             except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count "+str(contador))
+                print(str(x) + " up "+str(upLimit)+" count limpo "+str(contador))
                 print('{0}'.format(str(e)))#e.args[1]))
                 conn.close(connection)
-        break
         del retorno
 
 

@@ -152,6 +152,7 @@ def clear_text(texto):
     novo_texto = re.sub(r'[ÍÌĨÎÏ]', 'I', novo_texto)
     novo_texto = re.sub(r'[ÓÒÕÔÖ]', 'O', novo_texto)
     novo_texto = re.sub(r'[ÚÙŨÛÜ]', 'U', novo_texto)
+    novo_texto = re.sub(r'\s+',' ',novo_texto)
     #novo_texto = novo_texto.encode('utf-8')
     return novo_texto
 
