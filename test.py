@@ -80,7 +80,7 @@ def main():
                 print(str(x) + " up "+str(upLimit)+" count "+str(contador))
                 print('{0}'.format(str(e)))#e.args[1]))
                 conn.close(connection)
-
+        break
         del retorno
 
 

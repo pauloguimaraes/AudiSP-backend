@@ -143,7 +143,7 @@ def clear_text(texto):
     Será útil para treinamento NLU
     """
     novo_texto = texto.upper()#.decode('utf-8').upper()
-    novo_texto = re.sub(r'[' + ',.-;\+\=\_' + ']', ' ', novo_texto)#re.escape(string.punctuation) + ']', ' ', novo_texto)
+    novo_texto = re.sub(r'[' + ',.\-;+=_' + ']', ' ', novo_texto)#re.escape(string.punctuation) + ']', ' ', novo_texto)
     novo_texto = re.sub(r'\(\(.*?\)\)','',novo_texto) #remove as marcações no formato ((TITULO)) 
     novo_texto = re.sub(r'[\n\r]+', ' ',novo_texto)
     novo_texto = novo_texto.replace('Ç', 'C').replace('º', 'O').replace('ª', 'A')
