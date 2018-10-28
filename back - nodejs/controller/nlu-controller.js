@@ -12,9 +12,6 @@ var options = {
 
 
 function getAudiencia(req) {
-    console.log(options.uri);
-
-
     return new Promise(
         (resolve, reject) => {
             options.json = {
