@@ -4,10 +4,11 @@ const AudienciaModel = require('./models/audiencia')
 const PautaModel = require('./models/pauta')
 const PublicacaoModel = require('./models/publicacao')
 const InteresseModel = require('./models/interesse')
+require('dotenv').load();
 //var config = require('./configuration/config')
 
-const sequelize = new Sequelize(process.env.DATABASE, process.env.USERNAME, process.env.PASSWORD, {
-  host: process.env.HOST,
+const sequelize = new Sequelize(process.env.MYSQL_DATABASE, process.env.MYSQL_USERNAME, process.env.MYSQL_PASSWORD, {
+  host: process.env.MYSQL_HOST,
   dialect: 'mysql',
   pool: {
     max: 10,
@@ -22,7 +23,7 @@ const Pauta = PautaModel(sequelize,Sequelize)
 const Interesse = InteresseModel(sequelize,Sequelize)
 const Audiencia = AudienciaModel(sequelize,Sequelize)
 const Publicacao = PublicacaoModel(sequelize,Sequelize)
-const AudienciaPauta = sequelize.define('audienciaPauta', {})
+const AudienciaPauta = sequelize.define('audienciaPauta', {},{timestamps:false,freezeTableName: true})
 Audiencia.belongsTo(Publicacao, {
     foreignKey: {
     name: 'id_publicacao',
