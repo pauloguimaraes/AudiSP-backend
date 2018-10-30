@@ -4,10 +4,10 @@ const AudienciaModel = require('./models/audiencia')
 const PautaModel = require('./models/pauta')
 const PublicacaoModel = require('./models/publicacao')
 const InteresseModel = require('./models/interesse')
-var config = require('./configuration/config')
+//var config = require('./configuration/config')
 
-const sequelize = new Sequelize(config.database, config.username, config.password, {
-  host: config.host,
+const sequelize = new Sequelize(process.env.DATABASE, process.env.USERNAME, process.env.PASSWORD, {
+  host: process.env.HOST,
   dialect: 'mysql',
   pool: {
     max: 10,
