@@ -1,4 +1,4 @@
-
+const Audiencia = require('../sequelize').Audiencia
 var sugeridas = [
     {
         nome: 'Audiência Pública',
@@ -89,10 +89,11 @@ function getAudienciaSugerida(req) {
         });
 };
 
-function getListaAudencias(req) {
+function getListaAudencias(req,res) {
     return new Promise(
         (resolve, reject) => {
-            resolve(lista);
+            resolve(
+                Audiencia.findAll());
         });
 }
 

@@ -36,7 +36,7 @@ def get_last_audiencia(connection):
     cursor = connection.cursor()
 
     # Recupera o último ID
-    query = 'SELECT id FROM audiencia ORDER BY id DESC LIMIT 1'
+    query = 'SELECT id FROM publicacao ORDER BY id DESC LIMIT 1'
     cursor.execute(query)
     
     id_ass = 0
@@ -45,11 +45,6 @@ def get_last_audiencia(connection):
 
     cursor.close()
     return id_ass
-
-def get_assembleia_list(limit, connection):
-    cursor = connection.cursor();
-    query =  'SELECT '
-
 
 
 def insere(audiencia, connection):
@@ -60,7 +55,7 @@ def insere(audiencia, connection):
 
     cursor = connection.cursor()
 
-    query = 'INSERT INTO audiencia(titulo, data_audi, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
+    query = 'INSERT INTO publicacao(titulo, data_audi, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
     ass_tupla = (audiencia['title'], audiencia['date'], audiencia['url'], audiencia['text'])#.decode('utf8'))
 
     cursor.execute(query, ass_tupla)

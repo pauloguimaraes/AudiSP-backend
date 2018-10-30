@@ -2,7 +2,7 @@ create database audisp;
 
 USE audisp;
 
-CREATE TABLE audiencia (
+CREATE TABLE publicacao (
     id INT NOT NULL AUTO_INCREMENT
     ,titulo TEXT NOT NULL
     ,data_audi DATETIME
@@ -12,51 +12,59 @@ CREATE TABLE audiencia (
 );
 
 
-ALTER TABLE audiencia CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-ALTER TABLE audiencia DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-ALTER TABLE audiencia CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-CREATE TABLE audiencia_limpa (
-    fk_id_audiencia INT NOT NULL
+CREATE TABLE publicacao_limpa (
+    fk_id_publicacao INT NOT NULL
     ,texto TEXT NOT NULL
     ,processada BIT NOT NULL DEFAULT b'0'
-    ,FOREIGN KEY(fk_id_audiencia) REFERENCES audiencia(id)
+    ,FOREIGN KEY(fk_id_publicacao) REFERENCES publicacao(id)
 );
 
 
-ALTER TABLE audiencia_limpa CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao_limpa CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-ALTER TABLE audiencia_limpa DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao_limpa DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-ALTER TABLE audiencia_limpa CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE publicacao_limpa CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-CREATE TABLE interesse (
-    id INT NOT NULL AUTO_INCREMENT
-    ,interesse VARCHAR(255) NOT NULL
-    ,PRIMARY KEY(id)
+create table audiencia (
+    id int not null PRIMARY KEY AUTO_INCREMENT,
+    id_publicacao int not null,
+    data date,
+    horario varchar(255),
+    FOREIGN KEY(id_publicacao) REFERENCES publicacao(id)
+);
+
+create table pauta (
+    id int not null primary key AUTO_INCREMENT,
+    nome varchar(255) not null
+);
+
+create table audienciaPauta (
+    id_audiencia int not null,
+    id_pauta int not null,
+    FOREIGN KEY(id_audiencia) REFERENCES audiencia(id),
+    FOREIGN KEY(id_pauta) REFERENCES pauta(id)
 );
 
 CREATE TABLE usuario (
     id INT NOT NULL AUTO_INCREMENT
     ,nome VARCHAR(512) NOT NULL
-    ,email VARCHAR(255) NOT NULL
+    ,email VARCHAR(255) NOT NULL 
     ,nascimento DATE
+    ,token_fb varchar(255) not null
     ,PRIMARY KEY(id)
 );
 
-CREATE TABLE senha (
-    fk_id_usuario INT NOT NULL
-    ,senha VARCHAR(255) NOT NULL
-    ,FOREIGN KEY(fk_id_usuario) REFERENCES usuario(id)
-    ,PRIMARY KEY(fk_id_usuario)
-);
-
-CREATE TABLE usuario_interesse (
-    fk_id_usuario INT NOT NULL
-    ,fk_id_interesse INT NOT NULL
-    ,FOREIGN KEY(fk_id_interesse) REFERENCES interesse(id)
-    ,FOREIGN KEY(fk_id_usuario) REFERENCES usuario(id)
-    ,PRIMARY KEY(fk_id_usuario, fk_id_interesse)
+CREATE TABLE interesse (
+    id_usuario INT NOT NULL,
+    id_pauta int NOT NULL,
+    score int,
+    FOREIGN KEY(id_usuario) REFERENCES usuario(id),
+    FOREIGN KEY(id_pauta) REFERENCES pauta(id)
 );
