@@ -6,6 +6,7 @@ module.exports = (sequelize, type) => {
             autoIncrement: true
           },
         data: type.DATEONLY,
-        horario: type.STRING
+        horario: type.STRING,
+        local: type.STRING
     }, {timestamps:false,freezeTableName: true})
 }
