@@ -33,7 +33,7 @@ import re
 import requests
 import string
 
-from controller.util_audiencias import fit_pattern
+from scrapper.controller.util_audiencias import fit_pattern
 
 
 
