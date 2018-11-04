@@ -5,7 +5,7 @@ USE audisp;
 CREATE TABLE publicacao (
     id INT NOT NULL AUTO_INCREMENT
     ,titulo TEXT NOT NULL
-    ,data_audi DATETIME
+    ,data DATETIME
     ,texto TEXT NOT NULL
     ,url_devcolab VARCHAR(255)
     ,PRIMARY KEY(id)

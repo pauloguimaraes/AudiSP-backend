@@ -38,8 +38,8 @@ from controller.get_audiencias import get_audiencias_publicas
 
 
 # Variáveis
-url = 'http://devcolab.each.usp.br/do/catalog.json?f[data][]=years_mais_5&q=audiencia+publica&per_page=5'
-hoje = datetime.date(2010, 3, 20)
+url = 'http://devcolab.each.usp.br/do/catalog.json?q=audiencia+publica&sort=data+desc&per_page=5'
+hoje = datetime.date(2013, 3, 20)
 
 
 
@@ -47,10 +47,10 @@ def main():
     """
     Método principal da aplicação
     """
-    maxrange = 2070
+    maxrange = 5000
     upLimit = 0
     jump = 30
-    for x in range(0,2100,jump):
+    for x in range(0,maxrange,jump):
         if(x > maxrange):
             break
         if(x + jump > maxrange):

@@ -24,6 +24,7 @@ Descrição:
 Módulo responsável por fazer interações com audiências na base de dados
 """
 
+import datetime
 
 
 def get_last_audiencia(connection):
@@ -55,8 +56,8 @@ def insere(audiencia, connection):
 
     cursor = connection.cursor()
 
-    query = 'INSERT INTO publicacao(titulo, data_audi, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
-    ass_tupla = (audiencia['title'], audiencia['date'], audiencia['url'], audiencia['text'])#.decode('utf8'))
+    query = 'INSERT INTO publicacao(titulo, data, url_devcolab, texto) VALUES (%s, %s, %s, %s)'
+    ass_tupla = (audiencia['title'], audiencia['data'], audiencia['url'], audiencia['text'])#.decode('utf8'))
 
     cursor.execute(query, ass_tupla)
     connection.commit()
