@@ -1,4 +1,4 @@
-const Audiencia = require('../sequelize').Audiencia
+const Audiencia = require('../sequelize').User
 const Pauta = require('../sequelize').Pauta
 var sugeridas = [
     {
@@ -94,10 +94,10 @@ function getListaAudencias(req,res) {
     return new Promise(
         (resolve, reject) => {
             resolve(
-                Audiencia.findAll({include: [{
+                Audiencia.findAll(/*{include: [{
                     model:Pauta, 
                     attributes: ['nome']
-                }]}
+                }]}*/
                 )
             );
         });
