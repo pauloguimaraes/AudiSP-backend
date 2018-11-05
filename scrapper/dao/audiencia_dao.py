@@ -48,6 +48,26 @@ def get_last_audiencia(connection):
     return id_ass
 
 
+
+def get_data_ultima_audiencia(connection):
+    """
+    """
+
+    cursor = connection.cursor()
+
+    query = "SELECT MAX(data) AS 'data_pub' FROM publicacao ORDER BY data DESC"
+    cursor.execute(query)
+
+    data_pub_var = None
+    for(data_pub) in cursor:
+        data_pub_var = data_pub[0]
+    
+    print('DATA: {0}'.format(data_pub))
+
+    cursor.close()
+    return data_pub_var
+
+
 def insere(audiencia, connection):
     """
     Insere a @audiencia na base de dados, usando a @connection.

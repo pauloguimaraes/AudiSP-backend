@@ -84,8 +84,8 @@ def filter_dates(base_date, suspects):
 
                     builded_date = datetime.date(ano, mes, dia)
 
-                    # Se a data encontrada estiver for maior que a base pode adicioná-la ao retorno
-                    if(base_date <= builded_date):
+                    # Se a data encontrada for maior que a base pode adicioná-la ao retorno
+                    if(base_date >= builded_date):
                         datas.append(builded_date)
 
                 except:
@@ -124,7 +124,7 @@ def filter_dates(base_date, suspects):
                     builded_date = datetime.date(ano, mes, dia)
 
                     # Se a data encontrada estiver for maior que a base pode adicioná-la ao retorno
-                    if(base_date <= builded_date):
+                    if(base_date >= builded_date):
                         datas.append(builded_date)
                 except:
                     continue

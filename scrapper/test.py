@@ -57,13 +57,25 @@ def main():
             upLimit = maxrange
         else:
             upLimit = x+jump
-        retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=x, ending_page=upLimit)
+
+        
+        connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+        data_ultima_aud_no_banco = audienciadao.get_data_ultima_audiencia(connection)
+
+        if(data_ultima_aud_no_banco is not None):
+            print('caiu aqui, com data')
+            retorno = get_audiencias_publicas(base_date=data_ultima_aud_no_banco, url=url, starting_page=x, ending_page=upLimit)
+        else:
+            print('sem data')
+            retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=x, ending_page=upLimit)
+
+        
         contador = 0
         for linha in retorno:
             try:
                 contador+=1
                 connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
-            
+                
                 id_inserido = audienciadao.insere(linha, connection)
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])#.decode('utf-8'))
             

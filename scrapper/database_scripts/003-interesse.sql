@@ -1,5 +1,0 @@
-CREATE TABLE interesse (
-    id INT NOT NULL AUTO_INCREMENT
-    ,interesse VARCHAR(255) NOT NULL
-    ,PRIMARY KEY(id)
-);
