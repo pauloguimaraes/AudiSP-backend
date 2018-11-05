@@ -1,0 +1,757 @@
+((TÍTULO))DECRETO  Nº  43.233,  DE  22  DE  MAIO  DE  2003
+((EMENTA))Regulamenta os procedimentos administrativos disciplinares, bem como a Lei nº 13.519, de 6 de fevereiro de 2003, que altera dispositivos das Leis nº 8.989, de 29 de outubro de 1979, e nº 10.182, de 30 de outubro de 1986, e revoga os Decretos nºs 35.912, de 26 de fevereiro de 1996 e 37.698, de 11 de novembro de 1998.
+((TEXTO))MARTA SUPLICY, Prefeita do Município de São Paulo, no uso de suas atribuições que lhe são conferidas por lei,
+CONSIDERANDO a necessidade de atualizar as disposições relativas aos procedimentos administrativos disciplinares, bem como de regulamentar a Lei nº 13.519, de 6 de fevereiro de 2003, que altera dispositivos das Leis nº 8.989, de 29 de outubro de 1979, e nº 10.182, de 30 de outubro de 1986,
+D E C R E T A:
+
+TÍTULO I
+DOS PROCEDIMENTOS DISCIPLINARES
+
+Art. 1º. Os procedimentos de natureza disciplinar, previstos na Lei nº 8.989, de 29 de outubro de 1979, com as alterações introduzidas pela Lei nº 13.519, de 6 de fevereiro de 2003, bem como nas Leis nºs 9.160, de 3 de dezembro de 1980, e 13.167, de 5 de julho de 2001, ficam regulamentados na conformidade das disposições  deste decreto.
+Parágrafo único. No que couber, o presente decreto aplica-se, subsidiariamente, aos procedimentos disciplinares referentes a servidores regidos por legislação específica.
+Art. 2º. São procedimentos disciplinares:
+I - de preparação e investigação:
+a) a Apuração Preliminar (artigos 96 a 102);
+b) a Sindicância (artigos 103 a 107).
+c) o Procedimento de Investigação da Ouvidoria-Geral do Município (artigos 108 a 111);
+II - do exercício da pretensão punitiva:
+a) a Aplicação Direta de Penalidade (artigos 112 e 113);
+b) o Processo Sumário (artigos 114 a 119);
+c) o Procedimento Sumário (artigos 120 e 121);
+d) o Inquérito Administrativo (artigos 83 a 95);
+e) o Inquérito Administrativo Especial (artigos 122 a 132);
+III - de Exoneração de Servidor em Estágio Probatório (artigos 133 a 136).
+
+TÍTULO II
+DAS NORMAS GERAIS SOBRE O PROCEDIMENTO DISCIPLINAR
+CAPÍTULO I
+DA PARTE E DE SEUS PROCURADORES
+
+Art. 3º. São considerados parte nos procedimentos disciplinares de exercício da pretensão punitiva o servidor público municipal efetivo, o titular de cargo em comissão, o admitido e o contratado.
+Art. 4º. Os servidores incapazes, temporária ou permanentemente, serão representados ou assistidos por seus pais, tutores ou curadores, na forma da lei civil.
+Parágrafo único. Não existindo representantes legalmente investidos, na impossibilidade comprovada de trazê-los ao procedimento disciplinar ou se houver pendências judiciais ou dúvidas sobre a capacidade do servidor, serão convocados como seus representantes o cônjuge ou companheiro, os pais, os filhos ou parentes até segundo grau, observada a ordem aqui estabelecida.
+Art. 5º. A parte poderá constituir advogado legalmente habilitado para acompanhar os termos dos procedimentos disciplinares de seu interesse, outorgando-lhe procuração com poderes específicos para representá-lo no processo e, se for o caso, os especiais do artigo 38 do Código de Processo Civil, bem como, expressamente, para solicitar seu desligamento do serviço público. 
+§ 1º. Se não constituir advogado, por meio de entrega do necessário instrumento de mandato, até a data da audiência de interrogatório ou no prazo que o Presidente da Comissão Processante fixar nessa audiência, ou for declarada revel, nos procedimentos previstos no artigo 2º, inciso II, alíneas "b", "c", "d" e "e", ser-lhe-á dado defensor, na pessoa de Procurador Municipal, que não terá poderes para receber citação e confessar.
+§ 2º. A parte poderá, a qualquer tempo, constituir advogado, hipótese em que se encerrará, de imediato, a representação por defensor dativo.
+§ 3º. O não comparecimento do defensor, ainda que motivado, não determinará o adiamento de ato algum do processo, devendo o Procurador Presidente, nesse caso, designar defensor "ad hoc", preferencialmente dentre os integrantes da Defensoria Dativa do Departamento de Procedimentos Disciplinares da Procuradoria Geral do Município.
+§ 4º. Será dado defensor dativo à parte quando esta, notificada de que seu defensor constituído não apresentou razões finais, não constituir novo advogado ou não apresentá-las no prazo de 3 (três) dias, considerando-se tacitamente revogada a procuração existente nos autos.
+§ 5º. Eventuais providências de caráter ético perante a Ordem dos Advogados do Brasil, decorrentes da atuação do defensor constituído, serão de exclusiva incumbência da parte.
+
+CAPÍTULO II
+DAS COMISSÕES PROCESSANTES
+
+Art. 6º. Todos os procedimentos disciplinares referentes a servidores da Administração Direta, exceto a Apuração Preliminar, a Aplicação Direta de Penalidade e aqueles de competência da Secretaria Municipal de Segurança Urbana, que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, serão processados pelas Comissões Processantes Permanentes do Departamento de Procedimentos Disciplinares - PROCED, da Procuradoria Geral do Município, salvo os casos de designação de Comissão Especial.
+Art. 7º. As Comissões Processantes, Permanentes ou Especiais, serão obrigatoriamente compostas por um Presidente, Procurador Municipal, e por  Comissários, funcionários efetivos.
+§ 1º. As Sindicâncias poderão ser processadas por Comissão Processante Permanente integrada por Comissários admitidos. 
+§ 2º. Os membros da Comissão Processante Permanente deverão identificar-se em todos os atos que praticarem ou dos quais participarem no decorrer do processo.
+Art. 8º. São deveres da Comissão Processante:
+I - garantir os princípios da ampla defesa e do contraditório, nos procedimentos de exercício da pretensão punitiva;
+II - realizar as audiências com a presença de todos os seus membros;
+III - apresentar relatório final.
+Art. 9º. São deveres do Presidente:
+I - instaurar o procedimento disciplinar no prazo legal e nos termos do despacho da autoridade competente, com a ciência dos Comissários;
+II - manifestar-se nos autos, no prazo máximo de 5 (cinco) dias, quando não houver elementos suficientes para a prática do ato previsto no inciso I deste artigo, justificando a não instauração e solicitando as providências necessárias;
+III - dirigir e impulsionar o procedimento disciplinar, em especial:
+a) determinar citações, intimações, notificações e diligências;
+b) decretar a revelia;
+c) designar defensor dativo;
+d) proferir despachos;
+e) designar e presidir as audiências, colhendo diretamente as provas;
+f) determinar o que for conveniente ou necessário para a manutenção da ordem durante as audiências, inclusive a requisição de Guarda Civil Metropolitano, registrando nos autos tais circunstâncias;
+g) determinar, de ofício ou a requerimento da parte, as provas necessárias à instrução do procedimento;
+h) expedir ofícios e requisitar informações diretamente a quaisquer órgãos públicos, municipais ou não, e responder às solicitações por eles formuladas;
+i) comunicar o fato imputado como crime à autoridade competente;
+j) determinar providências aos Comissários e ao Cartório;
+l) designar Comissário para elaborar a triagem final e o relatório final;
+m) zelar pela regularidade formal do procedimento e pela observância dos prazos;
+n) orientar os Comissários na elaboração do relatório final.
+Art. 10. São deveres dos Comissários:
+I - tomar ciência dos termos do processo quando da instauração, preparando-se para as audiências;
+II - cumprir as providências determinadas pelo Presidente, dentre outras:
+a) datilografar ou digitar as audiências;
+b) receber e remeter a carga de processos da Comissão Processante, preenchendo e assinando os controles de tramitação necessários;
+c) quando conclusos os autos, numerar todas as suas folhas, providenciando a juntada de documentos e termos, inclusive nos processos acompanhantes ou que corram paralelamente;
+d) colher as assinaturas e rubricas nos termos de assentada;
+e) promover diligências pessoais ou telefônicas para esclarecimento de questões relativas à instrução;
+III - auxiliar na instrução, efetuando reperguntas em audiência e propondo provas;
+IV - proceder à triagem final do processo;
+V - elaborar relatório final.
+
+CAPÍTULO III
+DOS AUXILIARES DAS COMISSÕES PROCESSANTES
+
+Art. 11. São auxiliares das Comissões Processantes de PROCED:
+I - os Cartórios;
+II - o Setor de Expedição de Intimações e Documentos Correlatos;
+III - o Setor de Diligências;
+IV - o Setor de Protocolo;
+V - um Médico.
+§ 1º. As Comissões Processantes Permanentes da Primeira e Segunda Subprocuradorias da Primeira Procuradoria de PROCED serão auxiliadas também pelo Grupo de Atuação em Procedimentos Especiais - GAPE.
+§ 2º. As Comissões Processantes poderão solicitar, quando necessário, a designação de assistente técnico, dentre servidores municipais de qualquer Secretaria, com formação especializada na matéria cuja análise o processo requeira, sendo o pedido encaminhado ao Secretário dos Negócios Jurídicos.
+Art. 12. Incumbe ao Cartório:
+I - atender com presteza e urbanidade o público em geral e manter o necessário sigilo acerca dos assuntos tratados nos processos, prestando informação a terceiros apenas sobre o andamento destes;
+II - lavrar o registro dos procedimentos e zelar pelo andamento e atualização dos dados relativos a seu trâmite;
+III - numerar e rubricar todas as folhas dos processos, bem como proceder à juntada, imediatamente após seu recebimento, dos documentos relativos aos processos existentes na respectiva Procuradoria, dando ciência ao Presidente da Comissão;
+IV - certificar, datar e rubricar os atos e termos do procedimento, em especial vista à parte e conclusão ao Presidente da Comissão Processante;
+V - expedir mandados de citação, intimações, notificações e ofícios, bem como providenciar publicações;
+VI - receber petições e rol de testemunhas mediante protocolo;
+VII - cumprir as determinações do Presidente da Comissão Processante;
+VIII - ter os processos sob sua guarda e responsabilidade, permitindo a saída dos autos de Cartório, mediante carga, quando:
+a) encaminhados às Comissões Processantes, à Defensoria Dativa ou  ao Setor de Diligências;
+b) retirados pelos defensores e estagiários com procuração nos autos, mediante apresentação da carteira da OAB, nos prazos legais do tríduo probatório e das razões finais, ressalvado o disposto no artigo 24 deste decreto;
+c) o Presidente da Comissão, em caráter excepcional, deferir, fundamentadamente e por prazo determinado, requerimento do advogado constituído;
+d) requisitados pelo Diretor de PROCED ou por seus Assistentes, pelos Chefes de Procuradoria ou pelos Presidentes de outras Comissões Processantes de PROCED.
+§ 1º. As atribuições acima arroladas serão distribuídas entre os servidores do Cartório a critério da chefia da seção.
+§ 2º. A Chefia do Cartório da Primeira Procuradoria designará um ou mais funcionários para atender, com exclusividade, à demanda proveniente das Comissões Processantes da Primeira e Segunda Subprocuradorias.
+Art. 13. Ao Setor de Expedição de Intimações e Documentos Correlatos incumbe proceder às citações, intimações, notificações e outros atos determinados pelo Presidente da Comissão Processante, devolvendo os respectivos instrumentos em Cartório tão logo cumpridos ou com justificativa de seu não cumprimento.
+Art. 14. Compete ao Setor de Diligências atender às determinações do Diretor de PROCED, de seus Assistentes, dos Chefes de Procuradoria e dos Presidentes das Comissões Processantes, em especial:
+I - obter informações sobre inquéritos policiais e processos judiciais discriminados em despacho, bem como cópias das peças que sirvam de subsídio ao procedimento disciplinar, mediante diligência pessoal, quando determinada;
+II - obter certidões em Cartórios e outros órgãos auxiliares da Justiça;
+III - obter documentos, declarações ou outras informações de órgãos públicos ou privados, quando não for possível trazê-las ao processo por meio de ofício.
+Art. 15. Compete ao Setor de Protocolo  prestar informações completas sobre o registro de processos disciplinares constante de seus arquivos, em processos e expedientes que lhe forem encaminhados, no prazo máximo de 48 (quarenta e oito) horas.
+Art. 16. Compete ao Médico em exercício em PROCED atender às solicitações formuladas em processos ou expedientes, em especial:
+I - formular quesitos para a realização de audiências ou perícias médicas;
+II - promover a análise de processos, emitindo parecer sobre questão técnica da área médica;
+III - participar de audiências, quando necessário;
+IV - convocar servidores para entrevista pessoal, a fim de se manifestar quanto a questões médicas que os envolvam;
+V - promover diligências pessoais no Departamento de Saúde do Trabalhador Municipal - DESAT ou em órgãos da área da Saúde, quando houver necessidade;
+VI - participar de perícias ou outras diligências, quando solicitado pelo Presidente da Comissão, mediante autorização do Diretor de PROCED. 
+Art. 17. O Grupo de Atuação em Procedimentos Especiais - GAPE será composto por um Coordenador, pelo Médico referido no artigo anterior e por uma equipe de servidores designados pelo Diretor de PROCED para auxiliar as Comissões Processantes Permanentes nos processos relativos às infrações previstas no artigo 189 da Lei nº 8.989, de 1979, com as modificações introduzidas pela Lei nº 13.519, de 2003, ou nos casos de prisão de servidor, preventiva ou em flagrante delito.
+Parágrafo único. Compete ao GAPE atender aos despachos do Presidente das Comissões nos prazos assinalados, especialmente:
+I - localizar a parte ou testemunhas, promovendo a respectiva citação ou intimação;
+II - realizar diligências externas de qualquer natureza, necessárias à instrução dos feitos. 
+
+CAPÍTULO IV
+DA DEFENSORIA DATIVA
+
+Art. 18. O Diretor de PROCED designará Procuradores para compor a Defensoria Dativa, que atuará, nos casos previstos neste decreto, nos processos em tramitação no Departamento, aos quais será juntada cópia da portaria de designação.
+Art. 19. A Defensoria Dativa  de PROCED será coordenada por um Procurador e auxiliada por:
+I - servidores bacharéis em ciências sociais e jurídicas ou estagiários dessa área, todos com inscrição na Ordem dos Advogados do Brasil, para apoio técnico;
+II - servidores para apoio administrativo.
+Art. 20. São deveres dos Defensores Dativos, inclusive do Coordenador:
+I - estabelecer contato pessoal com a parte, colhendo elementos para o bom e fiel exercício de seu mandato;
+II - formular reperguntas à testemunha, em audiência, nos termos estabelecidos no artigo 56 deste decreto;
+III - atender à intimação expressa dos Presidentes de Comissões Processantes de PROCED, respeitados os prazos legais;
+IV - requerer provas, fundamentando seu pedido;
+V - apresentar razões finais;
+VI - orientar as partes, estabelecendo horário de atendimento.
+
+CAPÍTULO V
+DOS PRAZOS
+
+Art. 21. Os prazos dos procedimentos disciplinares são aqueles previstos na Lei nº 8.989, de 1979, com as alterações introduzidas pela Lei nº 13.519, de 2003, bem como na Lei nº 9.160, de 1980, e neste decreto. 
+§ 1º. O prazo é contínuo e será computado excluindo-se o dia do começo e incluindo-se o dia do vencimento, salvo expressa disposição em contrário.
+§ 2º. Considera-se prorrogado o prazo até o primeiro dia útil, se o vencimento ocorrer no sábado, domingo, feriado, ponto facultativo municipal ou se o expediente administrativo for encerrado antes do horário normal. 
+Art. 22. Decorrido o prazo, extingue-se para a parte, automaticamente, o direito de praticar o ato, salvo se esta provar que não o realizou por motivo relevante, imprevisível e alheio à sua vontade ou à de seu defensor, hipótese em que o Presidente da Comissão Processante poderá autorizar sua prática, fixando prazo para tal. 
+Art. 23. Não havendo disposição específica expressa na lei ou neste decreto, nem estipulação diversa pelo Presidente da Comissão Processante, o prazo para a prática de atos a cargo da parte será de 48 (quarenta e oito) horas.
+Parágrafo único. A parte poderá renunciar ao prazo estabelecido exclusivamente a seu favor. 
+Art. 24. Quando, no mesmo procedimento disciplinar, houver mais de uma parte com diferentes defensores, os prazos serão comuns e correrão em Cartório, sendo contado em dobro o prazo para as razões finais.
+Art. 25. As unidades deverão atender às solicitações das Comissões Processantes ou esclarecer a impossibilidade de fazê-lo, no prazo de 5 (cinco) dias, sob pena de responsabilidade  funcional do servidor incumbido de seu atendimento.
+Parágrafo único. O prazo será contado a partir da data do recebimento da solicitação. 
+
+CAPÍTULO VI
+DA SUSPENSÃO PREVENTIVA
+
+Art. 26. A suspensão preventiva prevista no artigo 199 da Lei nº 8.989, de 1979, com a redação que lhe foi dada pela Lei nº 13.519, de 20033, será decretada mediante proposta motivada da autoridade incumbida da instrução do feito, da qual constarão, além da exposição dos indícios de materialidade e autoria:
+I - no caso de suspensão preventiva com vistas a assegurar a averiguação da infração, as razões que demonstram a necessidade do afastamento do servidor;
+II - no caso de suspensão preventiva com vistas a inibir a possibilidade de reiteração da prática de irregularidades, os motivos pelos quais se vislumbra o risco de sua reiteração.
+§ 1º. Para os fins do disposto no "caput" deste artigo, consideram-se autoridades incumbidas da instrução do feito:
+I - o Presidente da Comissão Processante, quando se tratar de Sindicância ou de procedimento disciplinar do exercício da pretensão punitiva;
+II - o Ouvidor-Geral, quando se tratar de Procedimento de Investigação da Ouvidoria-Geral do Município.
+§ 2º. Com exceção dos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, de competência da Secretaria Municipal de Segurança Urbana, a suspensão preventiva será apreciada e decretada por despacho do Secretário dos Negócios Jurídicos, nos pedidos formulados por PROCED ou pela Ouvidoria-Geral, podendo ser determinado o comparecimento obrigatório do servidor suspenso ao órgão requisitante, em periodicidade a ser estabelecida, para tomar ciência dos atos do procedimento.
+§ 3º. A decisão de que trata o § 2º deste artigo será publicada e dela constará expressamente o período da suspensão preventiva.
+Art. 27. A suspensão preventiva poderá ser decretada:
+I - na Sindicância e no Procedimento de Investigação da Ouvidoria-Geral do Município,  após a oitiva do servidor;
+II - no procedimento disciplinar do exercício da pretensão punitiva, após a citação válida do servidor.
+Parágrafo único. Na hipótese prevista no inciso II do "caput" deste artigo, o servidor suspenso preventivamente será descontado em 1/3 (um terço) de seus vencimentos. 
+Art. 28. A suspensão preventiva não poderá ser decretada:
+I - quando o único indício existente da prática de irregularidade consistir em denúncia anônima ou formulada por pessoa que não autorize a divulgação de sua identidade pelo órgão que recebeu a denúncia;
+II - enquanto não houver identificação inequívoca do servidor, que permita atribuir-lhe, em tese, a autoria da irregularidade, não se permitindo, para esse fim, o mero reconhecimento fotográfico. 
+Art. 29. O servidor poderá ser suspenso preventivamente pelo prazo de até 120 (cento e vinte) dias.
+Parágrafo único. O servidor suspenso preventivamente na Sindicância ou no Procedimento de Investigação da Ouvidoria-Geral do Município poderá ser novamente suspenso pelo prazo máximo de 120 (cento e vinte) dias, por ocasião da instauração de procedimento disciplinar do exercício da pretensão punitiva, se persistirem as condições discriminadas no  "caput" do artigo 199 da Lei nº 8.989, de 1979, com a redação dada pela Lei nº 13.519, de 2003.
+Art. 30. A autoridade incumbida da instrução do feito deverá, ao tomar conhecimento, por qualquer meio e em qualquer fase do procedimento, de que não mais persistem as razões que ensejaram a suspensão preventiva, propor sua cessação, motivadamente, ao Secretário dos Negócios Jurídicos ou, nos casos de servidores do Quadro de Profissionais da Guarda Civil Metropolitana, ao Secretário Municipal de Segurança Urbana.
+Art. 31. Os procedimentos disciplinares com suspensão preventiva decretada terão tramitação urgente e preferencial, devendo ser concluídos no prazo da suspensão, salvo justificativa fundamentada.
+§ 1º. O Diretor de PROCED ou o Ouvidor-Geral encaminharão os autos desses procedimentos disciplinares para a análise do Secretário dos Negócios Jurídicos até, pelo menos, 72 (setenta e duas) horas antes da data do término do período da suspensão preventiva.
+§ 2º. Todas as unidades deverão atender às solicitações das Comissões Processantes ou da Ouvidoria-Geral, ou esclarecer a impossibilidade de fazê-lo, no prazo de 24 (vinte e quatro) horas a contar do seu recebimento, sob pena de suspensão de vencimentos do funcionário incumbido de seu atendimento. 
+Art. 32. O despacho proferido pela autoridade competente, ao término de quaisquer dos procedimentos previstos no artigo 27, será publicado e fará cessar, automaticamente, a suspensão preventiva decretada.
+§ 1º. Nas sindicâncias e nos procedimentos de investigação da Ouvidoria-Geral do Município, o despacho que encerrar o procedimento mencionará expressamente o nome e o registro funcional do servidor cuja suspensão preventiva é cessada, ficando o setor de pessoal de sua unidade de lotação responsável pela notificação do interessado.
+§ 2º. A decisão final que aplicar pena de suspensão determinará o cômputo do período de suspensão preventiva efetivamente cumprida, que será deduzido do total cominado, fixando-se os acertos pecuniários cabíveis, nos termos do parágrafo único do artigo 200 da Lei nº 8.989, de 1979.
+
+CAPÍTULO VII
+DAS COMUNICAÇÕES DOS ATOS
+Seção I
+Das Citações
+
+Art. 33. Todo servidor que for parte em procedimento disciplinar será citado, sob pena de nulidade do procedimento, para dele participar e defender-se.
+Parágrafo único. O comparecimento espontâneo da parte supre a falta de citação.
+Art. 34. A citação far-se-á, no mínimo, 48 (quarenta e oito) horas antes da data do interrogatório designado, da seguinte forma:
+I - por entrega pessoal do mandado, em PROCED ou por meio do Setor de Pessoal da unidade de lotação do servidor;
+II - por correspondência;
+III - por edital;
+IV - por entrega através do Grupo de Atuação em Procedimentos Especiais - GAPE, nos inquéritos administrativos especiais. 
+Parágrafo único. Se a parte estiver presa, a citação será pessoal por meio de mandado.
+Art. 35. A citação por entrega pessoal em PROCED far-se-á quando a parte estiver em exercício, de acordo com as seguintes disposições:
+I - uma vez designada a data para o interrogatório, o Presidente da Comissão Processante determinará a intimação da parte para, em 10 (dez) dias contados da publicação no Diário Oficial do Município, comparecer pessoalmente a PROCED e retirar, em Cartório, a contrafé do mandado de citação;
+II - a chefia do setor de pessoal da unidade em que a parte estiver em exercício deverá cientificá-la pessoalmente da publicação e encaminhar a PROCED, em 3 (três) dias, comprovante com a ciência ou justificativa de sua ausência; 
+III - comparecendo a PROCED, a parte receberá a contrafé do mandado, mediante assinatura do original que será, de imediato, juntado aos respectivos autos. 
+§ 1º. Se, embora cientificada nos termos do inciso II deste artigo, a parte não retirar o mandado, seu pagamento será suspenso, por ofício encaminhado ao DRH pela Chefia de Procuradoria, nos termos do artigo 230 da Lei nº 8.989, de 1979, até que compareça a PROCED para aquele fim.
+§ 2º. No caso de descumprimento do disposto no inciso II deste artigo, a Chefia de Procuradoria de PROCED providenciará a suspensão dos vencimentos da chefia do setor de pessoal ali mencionada, a quem será encaminhado o próprio mandado, a fim de que promova a citação da parte, entregando-lhe a contrafé e devolvendo o original a PROCED, com a data da citação e a assinatura da parte, mediante o que seus vencimentos serão liberados. 
+Art. 36. Far-se-á citação por correspondência quando a parte não estiver em exercício, hipótese em que o mandado será encaminhado com aviso de recebimento, para o endereço residencial constante do cadastro da unidade de lotação.
+Art. 37. Estando a parte em local incerto e não sabido, ou não sendo encontrada, por duas vezes, no endereço residencial constante do cadastro de sua unidade de lotação, PROCED promoverá sua citação por editais, publicados no Diário Oficial do Município durante 3 (três) dias consecutivos, designando dia e hora para o interrogatório, com antecedência mínima de 5 (cinco) dias contados a partir da última publicação.
+Art. 38. O mandado de citação conterá a designação de dia, hora e local para interrogatório e será acompanhado da cópia do termo de instauração, que dele fará parte integrante.
+
+Seção II
+Das intimações e notificações
+
+Art. 39. A intimação ou a notificação do servidor em efetivo exercício será feita mediante publicação no Diário Oficial do Município, ressalvado o disposto no parágrafo único do artigo 126 deste decreto.
+Parágrafo único. Caberá ao chefe do setor de pessoal de cada unidade, sob pena de suspensão de seus vencimentos, diligenciar para que o servidor tome ciência da publicação, encaminhando o respectivo comprovante a PROCED ou, caso o servidor não esteja em exercício, informando seu endereço residencial e o motivo de seu afastamento, no prazo de 5 (cinco) dias. 
+Art. 40. O servidor que, sem justa causa, deixar de atender à intimação com prazo marcado terá, por decisão da Chefia de Procuradoria de PROCED, suspenso o pagamento de seus vencimentos ou proventos, até que satisfaça a exigência. 
+Art. 41. A intimação ou a notificação dos defensores será feita mediante publicação no Diário Oficial do Município, da qual constarão o número do processo e os nomes da parte e do advogado, com seu número de inscrição na OAB. 
+§ 1º. Dos atos realizados em audiência reputam-se intimados ou notificados, desde logo, a parte e seu defensor. 
+§ 2º. Considera-se intimado o defensor dativo na data do recebimento dos autos que lhe forem encaminhados pelo Cartório, mediante carga. 
+
+CAPÍTULO VIII
+DAS PROVAS
+Seção I
+Disposições Gerais
+
+Art. 42. Todos os meios de prova admitidos em Direito e moralmente legítimos são hábeis para demonstrar a veracidade dos fatos. 
+Art. 43. O Presidente da Comissão Processante poderá indeferir, mediante despacho fundamentado, as provas que considerar excessivas, impertinentes ou protelatórias.
+Art. 44. Quando não houver disposição específica, as provas serão produzidas na forma preconizada na lei processual penal.
+
+Seção II
+Da Prova Documental
+
+Art. 45. Fazem a mesma prova que o original as certidões de processos judiciais e as reproduções de documentos autenticados por oficial público, ou conferidas e autenticadas por servidor público competente para tal ato. 
+Art. 46. Admitem-se como prova as declarações constantes de documento particular, assinado pelo declarante, bem como depoimentos constantes de apurações preliminares e sindicâncias que, comprovadamente, não puderem ser reproduzidos.
+Art. 47. Caberá à parte que impugnar prova, produzir a perícia necessária à comprovação do alegado. 
+
+Seção III
+Da Prova Testemunhal
+
+Art. 48. A prova testemunhal é sempre admissível, podendo ser indeferida pelo Presidente da Comissão Processante:
+I - se os fatos sobre os quais serão inquiridas as testemunhas já foram provados por documentos ou confissão da parte;
+II - quando só puderem ser provados por documentos ou perícia.
+Parágrafo único. A prova referencial da defesa, relativa aos antecedentes ou à conduta pregressa do indiciado, será feita exclusivamente por meio de documentos ou declarações por escrito, que poderão ser apresentados até o prazo das razões finais. 
+Art. 49. Compete à parte entregar em Cartório o rol das testemunhas de defesa, indicando seu nome completo e número do documento de identificação e, se forem servidores municipais em exercício, sua unidade de lotação atual e número do registro funcional, podendo substitui-las até a data da audiência designada. 
+Art. 50. A parte poderá arrolar, no máximo, 4 (quatro) testemunhas.
+Art. 51. Incumbirá à parte apresentar em audiência, independentemente de intimação e sob pena de preclusão:
+I - as testemunhas por ela arroladas que não sejam servidores municipais em exercício;
+II - as testemunhas substitutas, sejam servidores municipais em exercício ou não;
+III - as testemunhas, servidores municipais em exercício, que, apesar de regularmente intimadas, deixarem de comparecer à audiência, se insistir em sua oitiva. 
+Art. 52. Primeiramente serão ouvidas as testemunhas da Comissão e, após, as da parte.
+Art. 53. Antes de depor, a testemunha será qualificada, indicando nome, função ou profissão, local de trabalho, número do documento de identificação, residência e número do registro funcional se for servidor municipal, bem como se tem parentesco com a parte ou interesse no feito, hipóteses em que não prestará compromisso.
+Parágrafo único. Se a testemunha for contraditada, o Presidente da Comissão procederá na forma prevista no artigo 214 do Código de Processo Penal.
+Art. 54. As testemunhas deporão separadamente, de modo que uma não saiba nem ouça os depoimentos das demais, em audiência perante os membros da Comissão Processante e, se for o caso, o defensor e a parte.
+§ 1º. As testemunhas serão advertidas pelo Presidente da Comissão Processante das penas cominadas ao falso testemunho pela lei penal. 
+§ 2º. Se a testemunha, por motivo relevante, estiver impossibilitada de comparecer à audiência, mas não de prestar depoimento, o Presidente da Comissão Processante poderá designar dia, hora e local para inquiri-la.
+§ 3º. Sendo necessária a oitiva de testemunha que estiver cumprindo pena privativa de liberdade, o Presidente da Comissão Processante poderá solicitar à autoridade competente que apresente o preso em dia e hora designados para a realização da audiência. 
+§ 4º. O Presidente da Comissão Processante poderá, ao invés de realizar a audiência mencionada no § 3º deste artigo, fazer a inquirição por escrito, oficiando à autoridade competente, para que tome o depoimento da testemunha, conforme as perguntas formuladas pela Comissão Processante e, se for o caso, pelo defensor. 
+Art. 55. Se o Presidente da Comissão Processante verificar que a presença da parte, por suas atitudes, poderá influir no ânimo da testemunha, de modo que prejudique a verdade do depoimento, fará retirá-la, prosseguindo na inquirição, com a presença de seu defensor, devendo, nesse caso, constar do termo de audiência essa ocorrência e os motivos que a determinaram.
+Art. 56. O Presidente da Comissão Processante inquirirá a testemunha, podendo os Comissários requerer ao Presidente que formule reperguntas, bem como, na seqüência, a defesa, nos procedimentos disciplinares do exercício da pretensão punitiva.
+Parágrafo único. O Presidente da Comissão Processante poderá indeferir as reperguntas, mediante justificativa expressa, transcrevendo-as no termo, se o interessado assim o requerer.
+Art. 57. O depoimento, depois de lavrado, será rubricado e assinado pelos membros da Comissão Processante, pela testemunha e, se for o caso, pelo defensor e pela parte.
+Parágrafo único. Se a testemunha se recusar a assinar ou estiver impossibilitada de fazê-lo, o Presidente da Comissão fará o registro do fato no termo de audiência, na presença de duas testemunhas convocadas para tal fim, que também o assinarão. 
+Art. 58. O Presidente da Comissão Processante poderá determinar, de ofício ou mediante requerimento:
+I - a oitiva de testemunhas referidas nos depoimentos, se considerada necessária e conveniente à formação da convicção da Comissão Processante;
+II - a acareação de duas ou mais testemunhas, ou de alguma delas com a parte, quando houver divergência essencial entre as declarações sobre fato que possa ser determinante na conclusão do procedimento;
+III - a realização de reconhecimento pessoal.
+
+Seção IV
+Da Prova Pericial
+
+Art. 59. A prova pericial consistirá em exames, vistorias e avaliações e será indeferida pelo Presidente da Comissão Processante quando dela não depender a prova do fato. 
+Art. 60. Quando o exame tiver por objeto a autenticidade ou a falsidade de documento, ou for de natureza médico-legal, a Comissão requisitará elementos, preferencialmente às autoridades policiais ou judiciais, quando em curso investigação criminal ou processo judicial. 
+Art. 61. Quando o exame tiver por objeto a autenticidade de letra ou firma, o Presidente da Comissão Processante poderá determinar à pessoa a quem se atribui a autoria do documento que copie ou escreva, sob ditado, dizeres diferentes, para fins de comparação e posterior perícia, se necessário ou conveniente. 
+Art. 62. Sendo necessária perícia médica da parte, o órgão pericial da Municipalidade de São Paulo dará à solicitação da Comissão Processante caráter urgente e preferencial.
+Art. 63. Quando não houver possibilidade de obtenção de elementos junto às autoridades policiais ou judiciais e a perícia for indispensável para a conclusão do processo, PROCED solicitará à Procuradoria Geral do Município a contratação de perito para esse fim.
+
+CAPÍTULO IX
+DAS AUDIÊNCIAS E DO INTERROGATÓRIO DA PARTE
+
+Art. 64. Comparecendo à audiência, a  parte será qualificada antes de ser interrogada, indicando nome, cargo ou função, local de trabalho, número do documento de identificação, endereço residencial e número do registro funcional, bem como se tem defensor.
+§ 1º. Se a parte, por motivo relevante, estiver impossibilitada de comparecer à audiência, mas não de prestar depoimento, o Presidente da Comissão Processante poderá designar dia, hora e local para interrogá-la.
+§ 2º. Se houver mais de uma parte no mesmo processo, cada uma delas será interrogada separadamente. 
+§ 3º. Se o defensor da parte estiver presente ao interrogatório, não poderá, de qualquer forma, intervir ou influir nas perguntas e nas respostas.
+Art. 65. Havendo recusa da parte em responder às perguntas que lhe forem feitas no interrogatório, o Presidente da Comissão Processante fará consigná-las no termo.
+
+CAPÍTULO X
+DA REVELIA E SUAS CONSEQÜÊNCIAS
+
+Art. 66. O Presidente da Comissão Processante decretará a revelia da parte que, regularmente citada, não se apresentar perante a Comissão no dia, hora e local designados para interrogatório.
+§ 1º. A regular citação será comprovada mediante juntada aos autos:
+I - da contrafé do respectivo mandado, no caso de citação pessoal;
+II - das cópias dos 3 (três) editais publicados no Diário Oficial do Município, no caso de citação por edital;
+III - do Aviso de Recebimento - AR, no caso de citação pelo correio;
+§ 2º. Não sendo possível realizar a citação, o intimador ou o GAPE certificará os motivos nos autos. 
+Art. 67. A revelia deixará de ser decretada ou, se decretada, será revogada se a parte comprovar, a qualquer tempo, motivo de força maior que tenha impossibilitado seu comparecimento à data designada para o interrogatório.
+Parágrafo único. Revogada a revelia, será realizado o interrogatório, reiniciando-se a instrução com aproveitamento dos atos instrutórios já realizados, desde que ratificados pela parte, por termo lançado nos autos. 
+Art. 68. Decretada a revelia, dar-se-á prosseguimento ao procedimento disciplinar, designando-se defensor dativo.
+Parágrafo único. É assegurado ao revel o direito de constituir defensor, a qualquer tempo. 
+Art. 69. A decretação da revelia acarreta a preclusão das provas que deveriam ser requeridas, especificadas e/ou produzidas pela parte em seu interrogatório, assegurada a faculdade de juntada de documentos com as razões finais.
+Parágrafo único. No Inquérito Administrativo, ocorrendo a revelia, a defesa poderá requerer provas no tríduo probatório. 
+Art. 70. A parte revel não será intimada pela Comissão Processante para a prática de qualquer ato, constituindo ônus da defesa dativa com ela comunicar-se, se assim entender necessário.
+§ 1º. Desde que compareça perante a Comissão Processante ou intervenha no processo, pessoalmente ou por meio de defensor constituído, a parte revel passará a ser intimada pela Comissão para a prática de atos processuais.
+§ 2º. O disposto no parágrafo anterior não implica revogação da revelia, nem elide os demais efeitos desta. 
+
+CAPÍTULO XI
+DOS IMPEDIMENTOS E DA SUSPEIÇÃO
+
+Art. 71. É defeso ao membro da Comissão Processante exercer suas funções em procedimento disciplinar:
+I - de que for parte ou relativo a fatos nos quais figure como vítima ou de que seja testemunha presencial;
+II - em que interveio como mandatário da parte, defensor dativo ou testemunha;
+III - quando a parte, o denunciante, o denunciado ou a vítima for seu cônjuge,  companheiro, parente consangüíneo ou afim em linha reta, ou na colateral até segundo grau, amigo íntimo ou inimigo capital;
+IV - quando, em procedimento conexo, estiver postulando como advogado da parte o próprio membro, seu cônjuge, companheiro ou parentes consangüíneos ou afins, em linha reta ou na colateral, até o segundo grau;
+V - quando houver atuado na Apuração Preliminar ou na Sindicância que precederam o procedimento do exercício de pretensão punitiva;
+VI - na revisão, quando tenha atuado no processo originário.
+Art. 72. A argüição de impedimento previsto no artigo anterior ou de suspeição de parcialidade de alguns ou de todos os membros da Comissão Processante e do defensor dativo precederá qualquer outra, salvo quando fundada em motivo superveniente. 
+§ 1º. A argüição será feita por quem estiver impedido ou for suspeito, ou pela parte, em declaração escrita e motivada, que suspenderá o andamento do processo.
+§ 2º - A argüição de impedimento ou suspeição será apreciada pelo Diretor de PROCED, que:
+I - se a acolher, substituirá o(s) impedido(s) ou suspeito(s) ou redistribuirá o processo;
+II - se a rejeitar, motivará a decisão e devolverá o processo à Comissão Processante para prosseguimento. 
+
+CAPÍTULO XII
+DA FORMAÇÃO E DA EXTINÇÃO DO PROCEDIMENTO DISCIPLINAR
+E DA COMPETÊNCIA PARA DECIDIR E APLICAR PENALIDADES
+Seção I
+Da Formação do Procedimento
+
+Art. 73. O procedimento disciplinar começa por iniciativa da autoridade administrativa, sendo competente para determinar sua instauração:
+I - o responsável pela unidade onde os fatos ocorreram, na Apuração Preliminar de que trata o artigo 201 da Lei nº 8.989, de 1979, com as alterações introduzidas pela Lei nº 13.519, de 2003;
+II - o Secretário dos Negócios Jurídicos, nos casos de inquéritos administrativos comuns e especiais, nas hipóteses do artigo 188, incisos III, IV, V, VI e VII e do artigo 189 da Lei nº 8.989, de 1979, com as alterações introduzidas pela Lei nº 13.519, de 2003;
+III - o Diretor de PROCED, nos casos de:
+a) inquéritos administrativos e procedimentos sumários decorrentes de faltas ao serviço, nos termos do artigo 188, incisos I e II, da Lei nº 8.989, de 1979;
+b) inquéritos administrativos e procedimentos sumários decorrentes de acidentes envolvendo viaturas municipais, mediante proposta da comissão encarregada da Sindicância de que trata a Lei nº 7.415, de 30 de dezembro de 1969, ou do Conselho Municipal de Acidentes com Viaturas Municipais - COMUV;
+c) procedimentos sumários previstos no parágrafo 2º do artigo 23 da Lei nº 9.160, de 1980;
+d) sindicâncias de que trata o artigo 203 da Lei nº 8.989, de 1979;
+e) processos sumários de que trata o artigo 202 da Lei nº 8.989, de 1979;
+f) procedimentos de exoneração de servidor em estágio probatório de que trata o artigo 19 da Lei nº 8.989, de 1979;
+IV - o Secretário Municipal de Segurança Urbana, nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, na forma prevista na Lei nº 13.530, de 14 de março de 2003;
+V - o Ouvidor-Geral, nos procedimentos de investigação da Ouvidoria-Geral do Município previstos na Lei nº 13.167, de 5 julho de 2001.
+Parágrafo único. A partir da determinação de instauração do Inquérito Administrativo, Procedimento Sumário ou Procedimento de Exoneração em Estágio Probatório, a parte só poderá ser exonerada, dispensada a pedido ou licenciada sem vencimentos após a decisão final, devendo os expedientes respectivos acompanhar o procedimento, exceção feita ao disposto no artigo 153 deste decreto.
+
+Seção II
+Da Extinção do Procedimento
+
+Art. 74. O procedimento disciplinar extingue-se com a publicação do despacho decisório pela autoridade administrativa competente.
+§ 1º. Da publicação constará  o número do processo, os nomes da parte e do advogado e seu número de inscrição na Ordem dos Advogados do Brasil - OAB.
+§ 2º. O processo, após sua extinção na forma do "caput" e do § 1º deste artigo, será enviado à Unidade de Recursos Humanos - URH da Secretaria em que estiver lotado o servidor para as necessárias anotações em seu prontuário e arquivamento, se não interposto recurso. 
+Art. 75. Extingue-se o procedimento sem julgamento de mérito nos seguintes casos:
+I - arquivamento da Apuração Preliminar, do Procedimento de Investigação da Ouvidoria-Geral do Município ou da Sindicância;
+II - morte da parte;
+III - ilegitimidade da parte;
+IV - quando o procedimento disciplinar versar sobre a mesma infração de outro, em curso ou já decidido; 
+V - anistia;
+VI - demissão, dispensa ou exoneração do cargo da parte em outro processo;
+VII - aposentadoria por invalidez da parte.
+§ 1º. No caso de surgimento de novos elementos, os procedimentos mencionados no inciso I poderão ser reabertos por despacho do Secretário dos Negócios Jurídicos ou, nos casos de servidores do Quadro de Profissionais da Guarda Civil Metropolitana, do Secretário Municipal de Segurança Urbana. 
+§ 2º. Nos casos dos incisos VI e VII, o número do processo será anotado no prontuário do ex-servidor, sendo obrigatória a reabertura do feito, se restabelecido o vínculo funcional ou revertida a aposentadoria, observado o disposto no artigo 170, inciso I, deste decreto.
+Art. 76. Extingue-se o procedimento de exercício da pretensão punitiva com julgamento de mérito, quando a autoridade administrativa proferir decisão:
+I - pela absolvição ou imposição de penalidade; 
+II - pela decretação da prescrição.
+Parágrafo único. O processo extinto com julgamento de mérito não poderá ser reaberto.
+
+Seção III
+Da Competência para Decidir e Aplicar Penalidades
+
+Art. 77. A decisão nos procedimentos disciplinares far-se-á por despacho motivado da autoridade administrativa competente, no qual será mencionada a disposição legal em que se fundamenta o ato.
+Art. 78. Compete ao Prefeito a aplicação das penas de demissão, nos casos dos incisos III, IV, V e VI do artigo 188 da Lei nº 8989, de 1979, de demissão a bem do serviço público e de cassação de aposentadoria e disponibilidade.
+Art. 79. Compete ao Secretário dos Negócios Jurídicos decidir, exceto nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, de competência da Secretaria Municipal de Segurança Urbana:
+I - as Sindicâncias;
+II - os Processos Sumários, os Procedimentos Sumários e os Procedimentos de Exoneração em Estágio Probatório;
+III - os Inquéritos Administrativos, nos casos de:
+a) absolvição;
+b) desclassificação da infração ou abrandamento de penalidade, de que resulte a imposição de pena de repreensão ou de suspensão;
+c) demissão, nas hipóteses dos incisos I, II e VII do artigo 188 da Lei nº 8989, de 1979.
+Art. 80. Compete aos Secretários Municipais e aos Subprefeitos decidir as apurações preliminares, nos termos do artigo 102, e ao Ouvidor-Geral os procedimentos de investigação da Ouvidoria-Geral do Município, nos termos do artigo 110, ambos deste decreto.
+Art. 81. Compete  aos Diretores de Departamento e às chefias mediata e imediata do servidor a aplicação direta de penalidade de repreensão ou suspensão de até 5 (cinco) dias.
+Art. 82. As penalidades poderão ser abrandadas levando-se em conta as circunstâncias da falta disciplinar e o anterior comportamento do funcionário.
+
+TÍTULO III
+DO PROCEDIMENTO DISCIPLINAR COMUM
+INQUÉRITO ADMINISTRATIVO
+
+Art. 83. O procedimento disciplinar comum é o Inquérito Administrativo, cujo rito será aplicado subsidiariamente aos demais.
+Art. 84. Instaurar-se-á Inquérito Administrativo quando a falta disciplinar, por sua natureza, puder determinar a dispensa dos servidores admitidos estáveis ou a demissão, a cassação de aposentadoria ou de disponibilidade dos efetivos ou comissionados.
+Art. 85. São fases do Inquérito Administrativo:
+I - instauração e indiciamento;
+II - citação;
+III - instrução, que compreende: interrogatório, provas da Comissão, tríduo probatório e provas da defesa;
+IV - triagem final;
+V - razões finais;
+VI - relatório final;
+VII - encaminhamento para decisão;
+VIII - decisão.
+Art. 86. O Inquérito Administrativo será instaurado pelo Presidente, com a ciência dos Comissários, no prazo de 5 (cinco) dias, contados do recebimento dos autos pela Comissão Processante, ressalvado o disposto no inciso II do artigo 9º.
+Art. 87. O termo de instauração e indiciamento deverá conter, obrigatoriamente:
+I - menção ao despacho que determinou sua instauração e a indicação da autoria, com nome completo e número do registro funcional da parte;
+II - a descrição objetiva da conduta irregular imputada à parte;
+III - os dispositivos legais violados e aqueles que prevêem a penalidade aplicável;
+IV - a ciência de que a parte poderá requerer todas as provas admitidas em direito e pertinentes à espécie;
+V - a ciência de que é facultado à parte constituir advogado para acompanhar o processo e defendê-la e de que, não o fazendo, ser-lhe-á nomeado defensor dativo na pessoa de Procurador Municipal;
+VI - designação de dia, hora e local para o interrogatório, ao qual a parte deverá comparecer, sob pena de revelia;
+VII - nomes completos e número dos registros funcionais dos membros da Comissão Processante.
+Art. 88. A parte será citada para participar do processo e se defender, sendo-lhe assegurado o direito de acompanhá-lo pessoalmente, ressalvado o disposto nos artigos 55 e 64, § 2º, deste decreto, desde que o faça com urbanidade, e de intervir, por seu defensor, nas provas e diligências que se realizarem.
+Art. 89. Regularizada a representação processual da parte, a Comissão Processante promoverá a tomada de depoimentos, acareações, investigações e diligências cabíveis, objetivando a coleta de prova e recorrendo, quando necessário, a técnicos e peritos, de modo a permitir a completa elucidação dos fatos. 
+Parágrafo único. A defesa será intimada de todas as provas e diligências determinadas, com antecedência mínima de 48 (quarenta e oito) horas, facultando-se-lhe a formulação de quesitos, quando se tratar de prova pericial, hipótese em que o prazo de intimação será de 5 (cinco) dias.
+Art. 90. Realizadas as provas da Comissão Processante, a defesa será intimada para requerer, em 3 (três) dias, as provas que pretende produzir.
+Art. 91. Realizadas as provas da defesa, será procedida triagem final que poderá ensejar a determinação de novas diligências para dirimir dúvida sobre ponto relevante, saneando o processo.
+Art. 92. Encerrada a instrução, dar-se-á vista ao defensor para apresentação, por escrito e no prazo de 5 (cinco) dias úteis, das razões finais. 
+Art. 93. Apresentadas as razões finais, a Comissão Processante elaborará, no prazo de 5 (cinco) dias úteis, o relatório final que deverá conter:
+I - a descrição objetiva dos atos processuais relevantes;
+II - a análise das provas produzidas e das alegações da defesa;
+III - conclusão fundamentada no conjunto probatório, com proposta justificada de:
+a) aplicação da penalidade prevista no indiciamento;
+b) abrandamento da penalidade, nos termos do artigo 192 da Lei nº 8.989, de 1979;
+c) desclassificação da infração prevista no indiciamento;
+d) conversão do julgamento em diligência;
+e) absolvição;
+f) decretação da prescrição;
+g) extinção do feito sem julgamento do mérito;
+h) outras medidas que se fizerem necessárias ou forem de interesse público.
+Parágrafo único. Havendo divergência entre os membros da Comissão Processante, será proferido voto em separado.
+Art. 94. Com o relatório final, o processo será encaminhado ao Secretário dos Negócios Jurídicos para decisão ou manifestação e encaminhamento ao Prefeito, nos termos de suas competências. 
+Art. 95. A decisão será sempre motivada, podendo a autoridade competente divergir do relatório final da Comissão Processante ou, ainda, converter o julgamento em diligência para esclarecimentos que entender necessários. 
+
+TÍTULO IV
+DOS PROCEDIMENTOS DISCIPLINARES ESPECÍFICOS
+CAPÍTULO I
+DOS PROCEDIMENTOS DISCIPLINARES DE PREPARAÇÃO E INVESTIGAÇÃO
+Seção I
+Da Apuração Preliminar
+
+Art. 96. A Apuração Preliminar é o procedimento disciplinar de preparação e investigação determinado pela autoridade que tiver ciência de irregularidades no serviço público, objetivando a averiguação dos fatos e responsabilidades.
+Art. 97. A Apuração Preliminar será instruída com Relatório de Ocorrência (R.O.), que será elaborado em 2 (duas) vias, conforme modelo constante do Anexo I integrante deste decreto.
+§ 1º. A primeira via será autuada, iniciando o procedimento que cuidará da Apuração Preliminar.
+§ 2º. A segunda via, com a informação do número do processo autuado, deverá ser remetida ao titular da Pasta ou ao Subprefeito para ciência, acompanhamento e controle.
+§ 3º. Tratando-se de ilícito penal, o fato deverá ser imediatamente comunicado à autoridade policial.
+§ 4º. Nos casos de desaparecimento de bens patrimoniais, que possuam número de origem para sua identificação, deverá a Unidade oficiar prontamente às empresas encarregadas da manutenção técnica, noticiando o evento e fornecendo as características do bem, para eventual localização e apreensão.
+Art. 98. A Apuração Preliminar será cometida a funcionário ou grupo de funcionários, mediante portaria devidamente publicada. 
+Art. 99. A Apuração Preliminar consistirá na oitiva das pessoas envolvidas ou que possam contribuir para o esclarecimento dos fatos, devendo ser juntados aos autos todos os documentos pertinentes.
+§ 1º. Os depoentes poderão fazer-se acompanhar de advogado, mas este não poderá interferir no procedimento. 
+§ 2º. O depoente que for acompanhado de advogado deverá apresentar procuração até a data da audiência, sem a qual não será permitida a presença de seu procurador.
+§ 3º. O advogado assistirá tão somente à audiência de seu cliente, não lhe sendo facultado assistir aos demais atos de instrução ou neles interferir.
+Art. 100. A Apuração Preliminar terminará com relatório circunstanciado sobre o apurado, devendo apontar os eventuais suspeitos ou autores, com sua respectiva qualificação, ou, na sua falta, a indicação de que não foi possível comprovar os fatos ou precisar a autoria.
+Art. 101. A Apuração Preliminar deverá estar concluída no prazo de 20 (vinte) dias, a contar da publicação da portaria referida no artigo 98, findo o qual os autos serão remetidos ao titular da Pasta ou ao Subprefeito.
+Art. 102. O Secretário da Pasta a que pertencer a unidade em que o fato ocorreu ou o Subprefeito, após criteriosa análise, determinará:
+I - a aplicação direta de penalidade, nos termos do artigo 187 da Lei nº 8989, de 1979, quando a responsabilidade subjetiva pela ocorrência encontrar-se definida, porém a natureza da falta cometida não for grave, não houver dano ao patrimônio público ou se este for de valor irrisório;
+II - o arquivamento do feito, quando inexistente responsabilidade funcional pela ocorrência irregular investigada, quando ocorrer a prescrição da falta ou qualquer outro motivo que inviabilize o exercício da pretensão punitiva da Administração;
+III - a remessa dos autos a PROCED ou à Secretaria Municipal da Segurança Urbana, nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, quando:
+a) o fato irregular e a autoria estiverem comprovados;
+b) o fato irregular estiver comprovado e perfeitamente definida a responsabilidade indireta, por ação ou omissão;
+c) existirem fortes indícios de ocorrência de responsabilidade funcional, que exijam a complementação das investigações através de Sindicância.
+Parágrafo único. A decisão do Secretário da Pasta ou do Subprefeito será publicada.
+
+Seção II
+Da Sindicância
+
+Art. 103. A Sindicância é o procedimento disciplinar de preparação e investigação instaurado pelo Presidente da Comissão Processante, quando os fatos não estiverem esclarecidos ou faltarem elementos indicativos de autoria.
+Parágrafo único. O Presidente da Comissão Processante, quando houver notícia de fato tipificado como crime, enviará a devida comunicação à autoridade competente, mediante prévia ciência da Chefia de Procuradoria, se a medida ainda não tiver sido adotada. 
+Art. 104. A Sindicância não comporta o contraditório e tem caráter sigiloso, devendo ser ouvidos todos os envolvidos nos fatos, se necessária a prova testemunhal. 
+Parágrafo único. A presença de advogado será permitida na forma prevista nos §§ 1º, 2º e 3º do artigo 99. 
+Art. 105. É assegurada vista dos autos da Sindicância àquele que, mediante requerimento justificado, comprove seu legítimo interesse no feito e a finalidade do pedido.
+Parágrafo único. O requerimento será dirigido ao Presidente da Comissão Processante, que decidirá sobre o pedido, justificadamente, no prazo máximo de 48 (quarenta e oito) horas. 
+Art. 106. O relatório final da Sindicância conterá a descrição articulada dos fatos e proposta objetiva ante o que se apurou, recomendando o arquivamento do feito ou a instauração de procedimento do exercício da pretensão punitiva e, se necessário, a adoção de medidas de interesse público. 
+Parágrafo único. Quando recomendar a instauração de procedimento do exercício da pretensão punitiva, o relatório final deverá descrever a conduta irregular, apontar a autoria e os dispositivos legais infringidos, sugerindo, expressamente,  o procedimento cabível. 
+Art. 107. Compete ao Diretor de PROCED prorrogar, mediante pedido fundamentado do Presidente da Comissão Processante, o prazo de conclusão das Sindicâncias. 
+
+Seção III
+Do Procedimento de Investigação da Ouvidoria-Geral do Município
+
+Art. 108. O Procedimento de Investigação da Ouvidoria-Geral do Município será instaurado pelo Ouvidor-Geral quando houver denúncia de irregularidade no serviço público municipal que, por suas características, ensejar a apuração para esclarecimento dos fatos e de eventuais responsabilidades funcionais.
+Art. 109. Determinada a instauração, a denúncia será autuada e o procedimento instruído com todas as provas colhidas no curso da investigação que observará, no que couber, às regras previstas nas Seções I e II do Capítulo I do Título IV deste decreto e às disposições constantes do Código de Processo Penal relativas à instrução do inquérito policial.
+Art. 110. Concluído o Procedimento de Investigação da Ouvidoria-Geral do Município, o Ouvidor-Geral determinará as providências cabíveis, na forma prevista nos incisos II e III do artigo 102, ou a remessa dos autos ao Secretário da Pasta a que pertencer o servidor, para as providências mencionadas no inciso I do mesmo artigo.
+Art. 111. A decisão do Ouvidor-Geral será publicada.
+
+CAPÍTULO II
+DOS PROCEDIMENTOS DISCIPLINARES DE EXERCÍCIO DA PRETENSÃO PUNITIVA
+Seção I
+Da Aplicação Direta de Penalidade
+
+Art. 112. As penas de repreensão e suspensão de até 5 (cinco) dias poderão ser aplicadas diretamente pelas chefias imediata ou mediata do servidor que tiverem conhecimento da infração disciplinar.
+§ 1º. A aplicação da pena será precedida de notificação por escrito da chefia ao servidor, que conterá a descrição da conduta irregular a ele imputada, os dispositivos legais infringidos e a pena a que está sujeito, conferindo-lhe, expressamente, o prazo de 3 (três) dias para apresentação de defesa, conforme modelo constante do Anexo II integrante deste decreto.
+§ 2º. A defesa será feita por escrito, podendo ser elaborada pessoalmente pelo servidor ou por defensor constituído e será entregue, contra-recibo, à autoridade notificante.
+§ 3º. O não acolhimento da defesa ou sua não apresentação no prazo legal acarretará a aplicação das penalidades previstas no "caput" deste artigo, mediante ato motivado, expedindo-se a respectiva portaria e providenciando-se a anotação, em prontuário, da penalidade aplicada, após publicação no Diário Oficial do Município.
+Art. 113. Aplicada a penalidade, encerra-se a pretensão punitiva da Administração, ficando vedada a instauração de qualquer outro procedimento disciplinar contra o servidor punido pela conduta irregular descrita na notificação de que trata o § 1º do artigo 112 deste decreto.
+
+Seção II
+Do Processo Sumário
+
+Art. 114. Instaura-se Processo Sumário quando a falta disciplinar, pelas proporções ou pela natureza, ensejar pena de suspensão superior a 5 (cinco) dias. 
+Art. 115. O Processo Sumário será instaurado pelo Presidente da Comissão Processante, com a ciência dos Comissários e deverá ter toda a instrução concentrada em audiência.
+Art. 116. O termo de instauração conterá, obrigatoriamente:
+I - menção ao despacho que determinou sua instauração e a indicação da autoria, com nome completo e número do registro funcional da parte;
+II - a descrição objetiva da conduta irregular imputada à parte;
+III - os dispositivos legais violados e aqueles que prevêem a penalidade aplicável;
+IV - a designação cautelar da Defensoria Dativa para assistir a parte, se necessário, na audiência concentrada de instrução;
+V - designação de data, hora e local para o interrogatório, ao qual a parte deverá comparecer sob pena de revelia;
+VI - ciência de que a parte poderá comparecer à audiência acompanhada de defensor de sua livre escolha, regularmente constituído;
+VII - intimação para que a parte apresente, na audiência concentrada de instrução, toda prova documental que possuir, bem como rol de suas testemunhas de defesa, que não poderão exceder a 4 (quatro);
+VIII - notificação de que, na mesma audiência, serão produzidas as provas da Comissão, devidamente especificadas, sendo as providências de convocação adotadas pelo Cartório somente após a citação válida da parte;
+IX - nomes completos e número dos registros funcionais dos membros da Comissão Processante.
+Art. 117. Interrogada a parte e produzida a prova da Comissão Processante, o Presidente fará lavrar termo de deliberação, do qual sairá intimada a defesa, fazendo dele constar:
+I - determinação de produção de outras provas da Comissão quando for o caso;
+II - designação de data e hora para oitiva das testemunhas constantes do rol apresentado e manifestação da defesa, sob pena de preclusão, quanto à necessidade de produção de outras provas, sobre as quais deliberará no ato.
+Art. 118. Encerrada a instrução, dar-se-á vista à defesa para apresentação de razões finais, no prazo de 5 (cinco) dias.
+Art. 119. Apresentadas as razões finais, a Comissão Processante elaborará relatório final, observadas as disposições do artigo 93, encaminhando-se o processo para decisão.
+
+Seção III
+Do Procedimento Sumário
+
+Art. 120. O Procedimento Sumário é o procedimento disciplinar de exercício da pretensão punitiva instaurado para as infrações que, por sua natureza, possam determinar a pena de dispensa do servidor admitido não estável, ressalvado o disposto no "caput" do artigo 122  deste decreto.
+Art. 121. Aplicam-se ao Procedimento Sumário o disposto na Seção II do Capítulo II do Título IV deste decreto e as disposições da Lei nº 9.160, de 1980.
+
+Seção IV
+Do Inquérito Administrativo Especial
+
+Art. 122. Instaurar-se-á Inquérito Administrativo Especial nos casos das infrações previstas no artigo 189 da Lei nº 8.989, de 1979, com as alterações introduzidas pela Lei nº 13.519, de 2003, ou da prisão, preventiva ou em flagrante delito, de servidor efetivo ou admitido, estável ou não, comissionado ou aposentado.
+Parágrafo único. Os inquéritos administrativos especiais serão distribuídos às Comissões Processantes Permanentes integrantes da Primeira e da Segunda Subprocuradorias da Primeira Procuradoria de PROCED, exceto aqueles que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, de competência da Secretaria Municipal de Segurança Urbana.
+Art. 123. Havendo mais de uma parte, será promovido o desmembramento do processo, formando-se autos independentes para cada uma, por determinação do Diretor de PROCED.
+Art. 124. Recebido o processo, a Comissão Processante promoverá, em 5 (cinco) dias, sua análise, para verificar se estão presentes elementos suficientes para a instauração.
+§ 1º. Quando insuficientes os elementos, o Presidente da Comissão determinará as providências necessárias à sua obtenção. 
+§ 2º. Presentes os elementos, o procedimento será instaurado e a parte citada para dele participar e se defender. 
+Art. 125. O termo de instauração e indiciamento conterá, obrigatoriamente:
+I - menção ao despacho que determinou sua instauração e a indicação da autoria, com nome completo e número do registro funcional da parte;
+II - a descrição objetiva da conduta irregular imputada à parte;
+III - os dispositivos legais violados e aqueles que prevêem a penalidade aplicável;
+IV - a ciência de que a parte poderá requerer todas as provas admitidas em direito e pertinentes à espécie;
+V - a designação cautelar da Defensoria Dativa para assistir a parte, se necessário, na audiência concentrada de instrução;
+VI - designação de data, hora e local para o interrogatório, ao qual deverá comparecer sob pena de revelia;
+VII - ciência de que poderá a parte comparecer à audiência acompanhada de defensor de sua livre escolha, regularmente constituído;
+VIII - notificação de que, na mesma audiência, serão produzidas as provas da Comissão, devidamente especificadas, sendo as providências de convocação adotadas pelo Cartório somente após a citação válida da parte;
+IX - nomes completos e número dos registros funcionais dos membros da Comissão Processante.
+Art. 126. Interrogada a parte e produzida a prova da Comissão Processante, o Presidente fará lavrar termo de deliberação, determinando a produção de outras provas da Comissão ou proferirá despacho de abertura do tríduo probatório, do que sairá intimada a defesa.
+Parágrafo único. As testemunhas de defesa comparecerão à audiência designada, independentemente de intimação, ainda que sejam servidores municipais em exercício, podendo ser substituídas, na forma prevista no artigo 49.
+Art. 127. Realizadas as provas requeridas pela defesa, será procedida triagem final em 48 (quarenta e oito) horas, que poderá ensejar a determinação de novas  diligências  para  dirimir  dúvida sobre ponto relevante, saneando o processo.
+Art. 128. Encerrada a instrução, dar-se-á vista ao defensor para apresentação, por escrito e no prazo de 5 (cinco) dias úteis, das razões finais. 
+Art. 129. Apresentadas as razões finais, a Comissão Processante elaborará, no prazo de 5 (cinco) dias úteis, o relatório final, na forma preconizada no artigo 93.
+Art. 130. O Inquérito Administrativo Especial deverá ser concluído no prazo de 60 (sessenta) dias, contados da data da citação válida do indiciado, podendo ser prorrogado, a juízo da autoridade que determinou sua instauração, mediante justificativa, pelo prazo máximo de 60 (sessenta) dias. 
+Art. 131. Com o relatório final, o processo será encaminhado ao Secretário dos Negócios Jurídicos, observado o disposto nos artigos 94 e 95. 
+Art. 132. Todas as unidades deverão atender às solicitações das Comissões Processantes ou esclarecer a impossibilidade de fazê-lo, no prazo de 24 (vinte e quatro) horas a contar do seu recebimento, sob pena de suspensão de vencimentos do servidor incumbido de seu atendimento.
+Parágrafo único. As solicitações serão encaminhadas com cópia às Chefias de Gabinete das Secretarias ou Subprefeituras respectivas, que deverão zelar pela observância do prazo cominado no "caput" deste artigo, informando à Comissão solicitante, em caso de descumprimento, o nome e o número do registro funcional do servidor cujos vencimentos deverão ser suspensos.
+
+TÍTULO V
+DA EXONERAÇÃO DE SERVIDOR EM ESTÁGIO PROBATÓRIO
+
+Art. 133. Instaurar-se-á Procedimento de Exoneração de Servidor em Estágio Probatório nos seguintes casos:
+I - inassiduidade;
+II - ineficiência;
+III - indisciplina;
+IV - insubordinação;
+V - falta de dedicação ao serviço;
+VI - má conduta.
+Parágrafo único. A inassiduidade é caracterizada pela ausência reiterada e injustificada do servidor ao serviço, independentemente da configuração das hipóteses previstas nos incisos I e II e no § 1º do artigo 188 da Lei nº 8.989, de 1979.
+Art. 134. O chefe mediato ou imediato do servidor formulará representação, que será encaminhada ao Diretor de PROCED ou, nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, ao Secretário Municipal de Segurança Urbana,  para instauração do procedimento.
+Parágrafo único. A representação da chefia não exige forma especial, devendo conter os elementos essenciais, acompanhados das provas aptas a configurar os casos indicados no artigo anterior.
+Art. 135. Determinada a instauração do procedimento pela autoridade competente, a Comissão Processante dar-lhe-á cumprimento, aplicando, para tanto, as disposições dos artigos 115 a 119 deste decreto. 
+Art. 136. Sendo inviável a conclusão do procedimento antes do termo final do período de estágio  probatório da parte, o Secretário dos Negócios Jurídicos poderá convertê-lo no procedimento disciplinar adequado, com aproveitamento dos atos até então praticados, prosseguindo-se até final decisão.
+
+TÍTULO VI
+DAS DISPOSIÇÕES ESPECIAIS APLICÁVEIS AOS CONTRATADOS POR TEMPO DETERMINADO PARA ATENDER NECESSIDADE TEMPORÁRIA
+DE EXCEPCIONAL INTERESSE PÚBLICO
+
+Art. 137. A apuração de responsabilidade por faltas ao serviço e disciplinares dos servidores contratados por tempo determinado para atender necessidade de excepcional interesse público, nos termos da Lei nº 10.793, de 21 de dezembro de 1989, com as alterações introduzidas pela Lei nº 13.261, de 28 de dezembro de 2001, seguirá o procedimento disciplinar adequado, observadas as disposições deste Título.
+Art. 138. As faltas ao serviço dos servidores mencionados no artigo 137 deverão ser apreciadas e decididas sumariamente pelo próprio Secretário da Pasta ou Subprefeito contratante, com base nos comunicados e apontamentos oficiais da unidade interessada. 
+Art. 139. As faltas disciplinares serão conhecidas por suas chefias imediatas, que procederão na forma prevista no artigo 112.
+§ 1º. Concluindo, justificadamente, ser caso de rescisão do contrato, nos termos do inciso III do artigo 9º da Lei nº 10.793, de 1989, a chefia encaminhará o expediente respectivo à decisão do Secretário da Pasta ou do Subprefeito contratante. 
+§ 2º. Não deverá ser aplicada pena de suspensão que, por sua duração, possa prejudicar o serviço público contratado, hipótese em que a autoridade julgadora deverá optar pela rescisão do contrato.  
+Art. 140. A decisão que concluir pela rescisão do contrato poderá, de imediato, determinar a contratação de outra pessoa para complementação do trabalho, dentro do prazo restante, com as cautelas regulamentares. 
+Art. 141. Aplicada a penalidade, a documentação respectiva deverá ser enviada à Unidade de Recursos Humanos - URH da Secretaria ou da Subprefeitura contratante, para a anotação devida, fixando precedente de má conduta no serviço público, impeditiva de investidura. 
+Art. 142. Nas faltas disciplinares em que estiverem envolvidos servidores contratados, admitidos ou efetivos, a Apuração Preliminar, se necessária, será feita em duas vias: a primeira, para envio à Secretaria ou à Subprefeitura contratante, para as providências relativas aos servidores contratados e a segunda, para ser submetida à análise do titular da Pasta ou da Subprefeitura, nos termos do artigo 102 deste decreto.
+
+TÍTULO VII
+DAS DISPOSIÇÕES ESPECIAIS APLICÁVEIS À OCORRÊNCIA DE FALTAS
+AO SERVIÇO E AOS RESPECTIVOS PROCEDIMENTOS
+
+Art. 143. A apuração de responsabilidade pelas infrações capituladas no artigo 188, incisos I e II e § 1º da Lei n.º 8.989, de 1979, qualquer que seja a natureza do vínculo funcional do servidor, com exceção dos contratados a que se refere o Título VI deste decreto, seguirá o procedimento disciplinar adequado, observadas as disposições previstas neste Título.
+Art. 144. Verificada a ocorrência de 15 (quinze) faltas consecutivas ou de 40 (quarenta) interpoladas, a chefia do setor de pessoal da unidade de exercício do servidor deverá, sob pena de responsabilidade funcional, entregar-lhe carta de orientação, advertindo-o das conseqüências decorrentes do processo de faltas, conforme modelo constante do Anexo III integrante deste decreto, pessoalmente ou por correspondência com aviso de recebimento.
+Art. 145. Alcançando o servidor a 31ª (trigésima primeira) falta consecutiva ou a 61ª (sexagésima primeira) interpolada durante o ano, a chefia do setor de pessoal deverá, sob pena de responsabilidade funcional, no prazo de 5 (cinco) dias, formalizar a comunicação de faltas no formulário específico.
+Parágrafo único. As chefias imediata e mediata do servidor faltoso deverão se manifestar, de maneira clara e pormenorizada, sobre sua conduta, nos campos próprios do formulário de comunicação de faltas, no mesmo prazo fixado no "caput" deste artigo, sob pena de responsabilidade funcional.
+Art. 146. A chefia do setor de pessoal promoverá a autuação do processo, instruindo-o com:
+I - formulário "Comunicação de Faltas", integralmente preenchido;
+II - cópia da carta de orientação a que se refere o artigo 144;
+III - comprovante da entrega da correspondência de que trata o inciso II ou a informação do motivo pelo qual não foi ela recebida pelo servidor;
+IV - informação quanto a eventual pedido de afastamento ou de desligamento do servidor.
+Art. 147. Autuado, o processo será encaminhado à Unidade de Recursos Humanos - URH da respectiva Secretaria para exame de sua regularidade formal.
+§ 1º. Caso o processo não esteja instruído com todos os elementos referidos no artigo 146, será devolvido à unidade de origem para a necessária complementação.
+§ 2º. Encontrando-se ativo o vínculo funcional, o processo será instruído com informações referentes à exclusão do servidor da folha de pagamento e à sua situação funcional, sendo encaminhado diretamente a PROCED ou, nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, à Secretaria Municipal de Segurança Urbana.
+§ 3º. Verificada a ocorrência de desligamento do servidor do serviço público municipal, será anotado em seu prontuário o período de faltas, que permanecerão injustificadas, e consignado o número do processo administrativo, remetendo-se os autos ao arquivo.
+§ 4º. Na hipótese de vir a ser restabelecido o vínculo funcional anterior, a Unidade de Recursos Humanos - URH da Secretaria em que estiver lotado o servidor providenciará a reativação do procedimento, remetendo-o diretamente a PROCED ou, nos casos que envolvam servidores do Quadro de Profissionais da Guarda Civil Metropolitana, à Secretaria Municipal de Segurança Urbana.
+Art. 148. Recebido o processo, o Diretor de PROCED instaurará o procedimento disciplinar cabível ou, na hipótese de não haver elementos suficientes para a instauração, o devolverá para complementação.
+Art. 149. Os servidores que atingirem os limites de faltas de que tratam os incisos I e II e § 1º do artigo 188 da Lei nº 8.989, de 1979, ficarão afastados, automaticamente, do exercício de seu cargo ou função, até a decisão final do procedimento disciplinar, ressalvada a hipótese prevista no artigo 150 deste decreto. 
+§ 1º. Durante o período de afastamento, o servidor não terá direito à percepção de vencimentos.
+§ 2º. As faltas comunicadas nos termos do artigo 145 serão consideradas justificadas em caso de absolvição, permanecendo injustificadas se ocorrer punição.
+Art. 150. O servidor primário poderá requerer a reassunção do exercício de suas funções, por ocasião de seu interrogatório no procedimento disciplinar instaurado.
+§ 1º. Para os fins do "caput" deste artigo, considera-se primariedade a ausência de punição em processo disciplinar por faltas.
+§ 2º. Verificada a primariedade, a Comissão Processante entregará ao servidor memorando de autorização de reassunção, que deverá ser por ele apresentado em sua unidade de lotação, no prazo de 10 (dez) dias corridos contados da data da audiência de interrogatório, sob pena de permanecer afastado até decisão final do processo disciplinar.
+§ 3º. A unidade de lotação do servidor deverá informar, imediatamente, sua efetiva reassunção à Unidade de Recursos Humanos - URH da respectiva Secretaria e a PROCED.
+§ 4º. Se, após a reassunção, o servidor incorrer em novo período de faltas, estas serão comunicadas, observando-se o disposto nos artigos 144 e 145.
+Art. 151. O servidor que reassumiu suas funções após o interrogatório e for, ao final do processo, punido com suspensão, cumprirá a pena a partir do primeiro dia útil subseqüente à data da publicação do despacho que a impôs, retomando o exercício regular de suas funções imediatamente após seu cumprimento.
+Art. 152. O servidor que não reassumiu suas funções deverá fazê-lo:
+I - em caso de absolvição, no primeiro dia útil subseqüente à data da publicação do despacho decisório;
+II - em caso de aplicação de pena de suspensão, no primeiro dia útil subseqüente ao decurso do prazo da penalidade.
+Parágrafo único. Constitui ônus do servidor processado acompanhar o processo até a publicação da decisão final para efeito do disposto neste artigo, iniciando-se a contagem de novo período de faltas caso não reassuma.
+Art. 153. Se, no curso do procedimento disciplinar, o servidor pedir exoneração ou dispensa, o Presidente da Comissão Processante encaminhará o processo imediatamente à apreciação do Secretário dos Negócios Jurídicos, que poderá:
+I - acolher o pedido, considerando justificadas ou injustificadas as faltas;
+II - rejeitar o pedido, determinando, nesse caso, o prosseguimento do procedimento disciplinar. 
+
+TÍTULO VIII
+DOS RECURSOS E DA REVISÃO DAS DECISÕES DE PROCEDIMENTOS
+DISCIPLINARES
+
+Art. 154. Das decisões proferidas em procedimentos disciplinares caberão:
+I - reconsideração, dirigida à autoridade que proferiu o ato impugnado;
+II - recurso hierárquico, dirigido à autoridade hierarquicamente superior àquela que indeferiu o pedido de reconsideração e, em última instância, ao Prefeito;
+III - revisão, dirigida ao Prefeito. 
+Art. 155. A reconsideração, o recurso hierárquico e a revisão serão interpostos por petição e não terão efeito suspensivo.
+Parágrafo único. Sendo subscritos por advogado diverso daquele que atuou no processo originário, a reconsideração, o recurso hierárquico e a revisão deverão ser instruídos com o competente instrumento de mandato, atendidas as disposições previstas no "caput" do artigo 5º deste decreto.
+Art. 156. A reconsideração, o recurso hierárquico e a revisão serão processados em apartado, devendo o processo originário segui-los para instrução. 
+Parágrafo único. A reconsideração e o recurso hierárquico de decisões proferidas em processos em andamento deverão ser instruídas com cópias do processo originário, necessárias à apreciação do pedido, para não retardar o andamento daquele.
+Art. 157. Na reconsideração, no recurso hierárquico e na revisão, o ônus da prova incumbirá ao recorrente.
+Art. 158. O prazo para interposição do pedido de reconsideração e do recurso hierárquico é de 60 (sessenta) dias, contados da data da publicação oficial do ato impugnado, podendo a revisão ser requerida a qualquer tempo, desde que presentes quaisquer das hipóteses previstas no artigo 220 da Lei nº 8.989, de 1979, e no artigo 161 deste decreto.
+Art. 159. Não constituirá fundamento para a reconsideração, o recurso hierárquico e a revisão a simples alegação de injustiça da decisão.
+Art. 160. A reconsideração será cabível somente quando contiver novos argumentos e, o recurso hierárquico, quando houver pedido de reconsideração desatendido.
+Parágrafo único. A reconsideração não poderá ser renovada e o recurso hierárquico não poderá ser encaminhado mais de uma vez à mesma autoridade.
+Art. 161. A revisão será recebida e processada, mediante requerimento, quando:
+I - a decisão for manifestamente contrária a dispositivo legal ou à evidência dos autos;
+II - a decisão se fundar em depoimentos, exames periciais, vistorias ou documentos comprovadamente falsos ou eivados de erros;
+III - surgirem, após a decisão, provas da inocência do punido.
+Parágrafo único. Ocorrendo o falecimento do punido, o pedido de revisão poderá ser formulado pelo cônjuge, companheiro ou parente até o segundo grau.
+Art. 162. A revisão será processada em PROCED, exceto aquelas relativas ao Quadro de Profissionais da Guarda Civil Metropolitana, de competência da Secretaria Municipal de Segurança Urbana,  ficando impedida de funcionar no processo revisional a Comissão Processante ou quaisquer de seus membros que tenham participado do processo originário.
+Art. 163. Instaurada a revisão, a Comissão Processante deverá intimar o recorrente a comparecer para interrogatório e indicação das provas que pretende produzir.
+§ 1º. Se o recorrente for ex-servidor, fica vedada a designação de defensor dativo para assisti-lo.
+§ 2º. A inércia do recorrente pelo prazo de 30 (trinta) dias implicará o arquivamento do feito.
+Art. 164. Produzidas as provas da Comissão Processante, se necessárias, e as indicadas pelo recorrente, dar-se-á vista à defesa para apresentação de razões finais, no prazo de 5 (cinco) dias úteis. 
+Art. 165. A Comissão Processante elaborará relatório final, observado o disposto no artigo 93, incisos I e II, deste decreto, sugerindo a manutenção ou a reforma da decisão anterior.
+Art. 166. As decisões proferidas em pedido de reconsideração, recurso hierárquico e revisão não autorizam a agravação da pena e serão sempre motivadas, indicando, no caso de provimento, as retificações necessárias e as providências quanto ao passado, dispondo sobre os efeitos retroativos à data do ato ou decisão impugnada.
+
+TÍTULO IX
+DA PRESCRIÇÃO
+
+Art. 167. Prescreverá:
+I - em 2 (dois) anos, a falta que sujeite à pena de repreensão ou de suspensão;
+II - em 5 (cinco) anos, a falta que sujeite às penas de demissão a bem do serviço público, demissão, cassação de aposentadoria, disponibilidade ou dispensa.
+Parágrafo único. A infração também prevista como crime na lei penal prescreverá juntamente com ele, aplicando-se ao procedimento disciplinar, nesse caso, os prazos prescricionais estabelecidos no Código Penal, quando superiores a 5 (cinco) anos.
+Art. 168. A prescrição começará a correr da data em que a autoridade tomar conhecimento da existência de fato, ato ou conduta que possam ser caracterizados como infração. 
+Art. 169. Interromperá a prescrição o despacho que determinar a instauração de procedimento de exercício da pretensão punitiva.
+Parágrafo único. A prescrição interrompida começa a correr por inteiro da data do ato que a interrompeu.
+Art. 170. O prazo prescricional ficará suspenso:
+I - a partir do despacho que declarar o processo extinto sem julgamento de mérito, nos termos do artigo 75, incisos VI e VII, deste decreto, voltando a correr somente por ocasião de sua reabertura;
+II - a partir do despacho que converter o julgamento do processo em diligência para aguardar decisão judicial.
+Art. 171. O prazo prescricional corresponde:
+I - na hipótese de desclassificação da infração, ao da pena efetivamente aplicada;
+II - na hipótese de abrandamento, ao da pena cabível em tese.
+
+TÍTULO X
+DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+Art. 172. No caso de envolvimento de servidores submetidos a diferentes regulamentos disciplinares em um mesmo processo, dele serão extraídas cópias para formação de autos independentes, a fim de que as providências sejam tomadas  pelas Secretarias competentes.
+Art. 173. Durante a tramitação do procedimento disciplinar, fica vedada aos órgãos da Administração Municipal sua requisição para consulta ou qualquer outro fim.
+Art. 174. Os procedimentos disciplinados por este decreto terão sempre tramitação em autos próprios, sendo vedada sua instauração ou processamento em expedientes que cuidem de assunto diverso da infração a ser apurada ou punida.
+§ 1º. Os processos acompanhantes ou requisitados para subsidiar a instrução de procedimentos disciplinares serão devolvidos à unidade competente para prosseguimento, assim que extraídos os elementos necessários, por determinação do Presidente da Comissão Processante.
+§ 2º. Quando o conteúdo do acompanhante for essencial para formação de opinião e julgamento do procedimento disciplinar, os autos somente serão devolvidos à unidade após decisão final.
+Art. 175. O Diretor de PROCED, ou aquele que detenha poderes por este delegados, apreciará e decidirá os pedidos de certidões e fornecimento de reproduções xerográficas referentes a processos administrativos que estejam em andamento naquele Departamento.
+Art. 176. O pedido de vista de autos de procedimento do exercício da pretensão punitiva em tramitação em PROCED, por quem não seja parte ou defensor, dependerá de requerimento escrito que comprove seu legítimo interesse e a finalidade do pedido. 
+Art. 177. Será vedada a vista de autos de procedimentos disciplinares, inclusive para as partes e seus defensores, quando estiverem conclusos com o Presidente da Comissão Processante ou com seus Comissários e, quando se encontrarem relatados, até a publicação da decisão final.
+Art. 178. As sindicâncias de que trata o artigo 5º da Lei nº 7.415, de 30 de dezembro de 1969, serão processadas por PROCED, nos termos do artigo 39 do Decreto nº 27.321, de 11 de novembro de 1988, e deverão atender, além do disposto neste decreto, às disposições do Decreto nº 39.335, de 25 de abril de 2000.
+Art. 179. As disposições constantes do Título IV, Capítulo II, Seção IV, serão aplicáveis aos procedimentos instaurados após a publicação deste decreto.
+Art. 180. A Secretaria dos Negócios Jurídicos, a Procuradoria Geral do Município e a Ouvidoria-Geral do Município fornecerão os recursos humanos e materiais necessários ao funcionamento das Comissões Processantes Permanentes da 1ª e 2ª Subprocuradorias da Primeira Procuradoria de PROCED e do GAPE.
+Art. 181. Este decreto entrará em vigor na data de sua publicação, revogados os Decretos nº 35.912, de 26 de fevereiro de 1996, e nº 37.698, de 11 de novembro de 1998.
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos  22  de  maio  de  2003, 450º da fundação de São Paulo.
+MARTA SUPLICY, PREFEITA
+LUIZ TARCISIO TEIXEIRA FERREIRA, Secretário dos Negócios Jurídicos
+JOÃO SAYAD, Secretário de Finanças e Desenvolvimento Econômico
+MÔNICA VALENTE, Secretária Municipal de Gestão Pública
+Publicado na Secretaria do Governo Municipal, em  22  de  maio  de  2003.
+RUI GOETHE DA COSTA FALCÃO, Secretário do Governo Municipal
+
+
+
+
+Obs: (AQUI VAI O ARQUIVO ZIPADO aacaadm.033)
+
+
+
+
+
+((TÍTULO))DECRETO  Nº  43.234,  DE  22  DE  MAIO  DE  2003
+((EMENTA))Dá nova redação ao artigo 1º do Decreto nº 42.793, de 15 de janeiro de 2003.
+((TEXTO))MARTA SUPLICY, Prefeita do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+DECRETA:
+Art. 1º. O artigo 1º do Decreto nº 42.793, de 15 de janeiro de 2003, passa a vigorar com a seguinte redação:
+"Art. 1º. Ficam declarados de utilidade pública, para serem desapropriados judicialmente ou adquiridos mediante acordo, os imóveis de propriedade particular situados no Distrito de São Miguel, necessários à ampliação de mercado municipal, contidos nos perímetros e áreas abaixo mencionados, totalizando 4.538,00m2 (quatro mil, quinhentos e trinta e oito metros quadrados), indicados na planta anexa P-27.654-C3, do arquivo do Departamento de Desapropriações, a qual, rubricada pela Prefeita, fica fazendo parte integrante deste decreto:
+I - Área I, com 3.405,60m2 (três mil, quatrocentos e cinco metros e sessenta decímetros quadrados), delimitada pelo perímetro 1-2-5-7-10-15-20-23-26-29-31-34-37-40-60-38-39-35-36-32-33-30-27-28-24-25-21-22-18-19-13-14-9-6-3-4-1;
+II - Área II, com 468,00m2 (quatrocentos e sessenta e oito metros quadrados), delimitada pelo perímetro 45-46-61-62-45;
+III - Área III, com 664,40m2 (seiscentos e sessenta e quatro metros e quarenta  decímetros quadrados), delimitada pelo perímetro 53-54-56-58-59-52-49-50-47-48-51-53."(NR)
+Art. 2º. Este decreto entrará em vigor na data de sua publicação.
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos  22  de  maio  de  2003,  450º da fundação de São Paulo.
+MARTA SUPLICY, PREFEITA
+LUIZ TARCISIO TEIXEIRA FERREIRA, Secretário dos Negócios Jurídicos
+JOÃO SAYAD, Secretário de Finanças e Desenvolvimento Econômico
+Publicado na Secretaria do Governo Municipal, em  22  de  maio  de  2003.
+RUI GOETHE DA COSTA FALCÃO, Secretário do Governo Municipal
+
+((TÍTULO))DECRETO  Nº  43.235,  DE  22  DE  MAIO  DE  2003
+((EMENTA))Dá nova redação ao artigo 1º do Decreto nº 41.576, de 27 de dezembro de 2001.
+((TEXTO))MARTA SUPLICY, Prefeita do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+DECRETA:
+Art. 1º. O artigo 1º do Decreto nº 41.576, de 27 de dezembro de 2001, passa a vigorar com a seguinte redação:
+"Art. 1º. Ficam declarados de utilidade pública, para serem desapropriados judicialmente ou adquiridos mediante acordo, os imóveis de propriedade particular situados no Distrito da Móoca, necessários à implantação de complexo educacional, contidos nos perímetros e áreas abaixo mencionados, totalizando 8.619,80m2 (oito mil, seiscentos e dezenove metros e oitenta decímetros quadrados), indicados nas plantas anexas, do arquivo do Departamento de Desapropriações, as quais, rubricadas pela Prefeita, ficam fazendo parte integrante deste decreto:
+I - Planta P-27.333-C3: área 66-A, com 2.529,39m2 (dois mil, quinhentos e vinte e nove metros e trinta e nove decímetros quadrados), delimitada pelo perímetro 1-2-3-4-5-6-7-1;
+II - Planta P-27.337-C3: área 66-B, com 3.688,31m2 (três mil, seiscentos e oitenta e oito metros e trinta e um decímetros quadrados), delimitada pelo perímetro 1-2-3-4-5-6-7-1;
+III - Planta P-27.334-C3: área 66-C, com 2.402,10m2 (dois mil, quatrocentos e dois metros e dez decímetros quadrados), delimitada pelo perímetro 1-2-3-4-1."(NR)
+Art. 2º - Este decreto entrará em vigor na data de sua publicação.
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos  22  de  maio  de  2003,  450º da fundação de São Paulo.
+MARTA SUPLICY, PREFEITA
+LUIZ TARCISIO TEIXEIRA FERREIRA, Secretário dos Negócios Jurídicos
+JOÃO SAYAD, Secretário de Finanças e Desenvolvimento Econômico
+Publicado na Secretaria do Governo Municipal, em  22  de  maio  de  2003.
+RUI GOETHE DA COSTA FALCÃO, Secretário do Governo Municipal
+
+((TÍTULO))DECRETO  Nº  43.236, DE  22  DE  MAIO  DE  2003
+((EMENTA))Regulamenta a Lei nº 13.541, de 24 de março de 2003, que determina a colocação de placas informativas sobre filmagem de ambientes.
+((TEXTO))MARTA SUPLICY, Prefeita do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+D E C R E T A:
+Art. 1º. A Lei nº 13.541, de 24 de março de 2003, que determina a colocação de placa informativa sobre filmagem de ambientes, fica regulamentada de acordo com as normas constantes deste decreto.
+Art. 2º. Nos ambientes, internos ou externos, controlados por câmaras de vídeo, deverão ser afixadas placas informativas com os seguintes dizeres:
+"O AMBIENTE ESTÁ SENDO FILMADO. AS IMAGENS SÃO CONFIDENCIAIS E PROTEGIDAS NOS TERMOS DA LEI."
+Parágrafo único. As placas deverão ser afixadas de maneira a permitir sua perfeita vizualização pelo público, nos pontos de entrada e de saída dos ambientes, e ter as seguintes características:
+I - dimensões mínimas de 30 (trinta) por 30 (trinta) centímetros;
+II - letras grafadas na cor preta sobre fundo amarelo.
+Art. 3º. O não cumprimento das disposições deste decreto acarretará a aplicação das multas previstas no artigo 2º da Lei nº 13.541, de 2003.
+Art. 4º. Ao Corpo Fiscalizador das Subprefeituras incumbirá a verificação do atendimento das determinações constantes deste decreto, bem como a aplicação de sanções aos eventuais infratores.
+Art. 5º. Este decreto entrará em vigor na data de sua publicação.
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos  22  de  maio  de 2003, 450º da fundação de São Paulo.
+MARTA SUPLICY, PREFEITA
+LUIZ TARCISIO TEIXEIRA FERREIRA, Secretário dos Negócios Jurídicos
+JOÃO SAYAD, Secretário de Finanças e Desenvolvimento Econômico
+ANTONIO DONATO MADORMO, Secretário Municipal das Subprefeituras
+Publicado na Secretaria do Governo Municipal,  em 22  de  maio  de  2003.
+RUI GOETHE DA COSTA FALCÃO, Secretário do Governo Municipal
+
+((TÍTULO))DECRETO  Nº  43.237,  DE  22  DE  MAIO  DE  2003
+((EMENTA))Regulamenta a Lei n° 13.285, de 9 de janeiro de 2002, que cria o Programa de Prevenção ao Diabetes e à Anemia Infantil na Rede Municipal de Ensino, e dá outras providências.
+((TEXTO))MARTA SUPLICY, Prefeita do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+DECRETA:
+Art. 1º. O Programa de Prevenção ao Diabetes e à Anemia Infantil, criado pela Lei n° 13.285, de 9 de janeiro de 2002, será implantado pela Secretaria Municipal da Saúde conjuntamente com as Secretarias Municipais de Educação e de Abastecimento, nos termos deste decreto.
+Art. 2º. Caberá à Secretaria Municipal da Saúde elaborar, conjuntamente com a Secretaria Municipal de Abastecimento, por intermédio de sua Assessoria de Programas Estratégicos em Nutrição e Saúde, modelo de Ficha de Saúde, com o objetivo de avaliar a situação de saúde das crianças, encaminhando-a à Secretaria Municipal de Educação.
+Art. 3º. A Ficha de Saúde mencionada no artigo 2° será anexada à Ficha de Matricula dos alunos, por ocasião das matrículas e rematrículas nas unidades integrantes da rede pública municipal de ensino.
+Art. 4°. Competirá à Secretaria Municipal de Educação, por intermédio de suas unidades escolares, o preenchimento das Fichas de Saúde, as quais deverão ser posteriormente encaminhadas à Unidade Básica de Saúde de referência da área.
+Art. 5°. Incumbirão à Secretaria Municipal da Saúde, por meio da equipe da Unidade Básica de Saúde de referência da área, as seguintes atribuições:
+I - analisar as Fichas de Saúde encaminhadas pelas unidades da rede municipal de ensino, efetuando a triagem dos casos de risco ou de comprometimento da saúde que deverão ter acompanhamento médico;
+II - informar os casos selecionados à Assessoria de Programas Estratégicos em Nutrição e Saúde da Secretaria Municipal de Abastecimento;
+III - organizar agenda de atendimento para os alunos em situação de risco ou que já apresentem comprometimento da saúde.
+Parágrafo único. A listagem de agendamentos realizada pela Unidade Básica de Saúde deverá ser encaminhada à direção da unidade escolar, que informará aos responsáveis pelos alunos as datas de atendimento às crianças.
+Art. 6°. Caberá à Secretaria Municipal de Abastecimento fornecer a dieta que atenda às necessidades dos alunos portadores de diabetes ou de anemia, matriculados na rede pública municipal de ensino, mediante prévia comunicação das unidades escolares.
+Art. 7°. Para o cumprimento dos objetivos de que trata este decreto, poderão ser firmados convênio ou parcerias com órgãos federais, estaduais e municipais, bem como com entes privados.
+Art. 8°. As despesas decorrentes da execução deste decreto correrão por conta das dotações orçamentarias próprias, suplementadas se necessário.
+Art. 9°. Este decreto entrará em vigor na data de sua publicação.
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos  22  de  maio  de  2003,  450º da fundação de São Paulo.
+MARTA SUPLICY, PREFEITA
+LUIZ TARCISIO TEIXEIRA, Secretário dos Negócios Jurídicos
+JOÃO SAYAD, Secretário de Finanças e Desenvolvimento Econômico
+MARIA APARECIDA PEREZ, Secretária Municipal de Educação
+GONZALO VECINA NETO, Secretário Municipal da Saúde
+VALDEMAR FLÁVIO PEREIRA GARRETA, Secretário Municipal de Abastecimento
+Publicado na Secretaria do Governo Municipal, em  22  de  maio  de  2003.
+RUI GOETHE DA COSTA FALCÃO, Secretário do Governo Municipal

@@ -1,0 +1,265 @@
+((TITULO))PORTARIA nº  030/SAS/GAB, de 05 de setembro de 2003 
+
+((TEXTO))A Secretária Municipal de Assistência Social de São Paulo, ((NG))ALDAÍZA SPOSATI((CL)), no uso de suas atribuições legais e regulamentares, RESOLVE aprovar a Norma Técnica de Assistência Social n.º 001/2003, nos seguintes termos:
+
+
+((NG))NORMA TÉCNICA DE 
+ASSISTÊNCIA SOCIAL N.º 001/2003((CL))
+
+
+
+Esta Norma Técnica de Assistência Social regula a outorga de mérito social por meio de matrícula de organizações/entidades/associações sem fins lucrativos e credenciamento de serviços de assistência social, executados por organizações/entidades/associações não específicas de assistência social, no âmbito da Secretaria Municipal de Assistência Social e institui cadastro único de organizações socioassistenciais na condição de Banco Público de Dados de Organizações e de Serviços de Assistência Social na Cidade de São Paulo. 
+
+
+
+((NG))CAPÍTULO I 
+DOS CONCEITOS((CL))
+Art. 1º - A norma técnica de Assistência Social n.º 001/2003 da Secretaria Municipal de Assistência Social, regulada por esta Portaria, institui os seguintes conceitos:
+I - organizações/entidades/associações de assistência social: são organizações sociais que constituídas sem fins lucrativos e/ou para fins não econômicos, que realizam a provisão de necessidades de seguridade humana e defesa de direitos socioassistenciais e de eqüidade através da oferta de serviços, benefícios e projetos de proteção social básica e especial a cidadãos de diversas faixas etárias e a famílias em situações de vulnerabilidades e risco social e pessoal, que reduzem a autonomia, a capacidade de desenvolver projetos pessoais, limitam acessos e condições de exercício do protagonismo social e dos direitos de cidadania.
+II - organizações/entidades/associações não específicas de assistência social: são organizações que atuam principalmente no campo da educação, cultura, saúde, esporte, entre outras áreas adstritas ao interesse público, mas que mantêm também algum tipo de serviço de assistência social;
+III - sistema descentralizado e participativo da assistência social: consiste no conjunto orgânico de ações e de responsabilidade da União, dos Estados do Distrito Federal e dos Municípios em seus respectivos níveis, de maneira complementar e cooperativa. Essas ações são articuladas entre si por meio das Comissões Integestoras e contam com a participação da sociedade civil, por intermédio dos Conselhos. O sistema organizado é expresso pela rede prestadora de serviços assistenciais, voltada para as necessidades do conjunto da população. (in Sistema Descentralizado e Participativo da Assistência Social, publicação MPAS/julho 2002, p. 15).
+IV - sistema municipal único, descentralizado e participativo de assistência social: consiste na hierarquia de responsabilidades e respostas que o poder público municipal deve organizar, diretamente ou em parceria nas diversas regiões/distritos da cidade para responder com eficiência e eficácia e de modo democrático e participativo as demandas de proteção social básica e especial de cidadãos e de famílias em  situações de vulnerabilidade e risco pessoal e social e a defesa dos direitos socioassistenciais.
+V - rede de assistência social: consiste na interconexão de entidades governamentais e não-governamentais nprestadoras de serviços assistenciais que são oferecidos aos destinatários da Política Nacional de Assistência Social - PNAS. A rede de assistência social traduz a idéia de articulação, conexão, complementariedade e interdependência de serviços, no sentido de serem mobilizados para atender com qualidade às demandas da população. (in Sistema Descentralizado e Participativo da Assistência Social, publicação MPAS/julho 2002, p. 15).
+VI - Banco Público de Dados de Organizações e de Serviços socioassistenciais da Cidade de São Paulo - BANORGAS: consiste no conjunto de dados sistematizados e georeferenciados das organizações da sociedade civil cadastradas, matriculadas e credenciadas na Secretaria Municipal da Assistência Social, com acesso pela rede mundial de computadores, que compõe o sistema de informações pertinentes à política de assistência social da cidade previsto no inciso VII do artigo 221 da Lei Orgânica do Município de São Paulo.
+VII - cadastro: registro pelas Supervisões Regionais de Assistência Social de informações selecionadas de organizações/entidades/associações sem fins economicos existentes no âmbito dos distritos da cidade de São Paulo, que alimentam o Banco Público de Dados de Organizações e de Serviços Socioassistenciais da Cidade de São Paulo - BANORGAS;
+VIII - matrícula: é a certificação do mérito social outorgada pela Secretaria Municipal de Assistência Social à organização/entidade/associação de assistência social com sede no município de São Paulo ou com autonomia administrativa e contábil, e que desenvolva suas atividades dentro dos limites deste município, desde que atenda aos critérios fixados nesta portaria, o que a pré-qualifica para vir a estabelecer parceria sob convênio, para execução de serviços que compõem o sistema único, descentralizado e participativo de assistência social no município.
+IX - credenciamento: é a certificação  outorgada pela Secretaria Municipal de Assistência Social à organização/entidade/associação não específica de assistência social (vide inciso II), em função do(s) serviço(s) que executa na cidade de São Paulo em consonância com a política de assistência social, desde que atenda aos critérios fixados nesta portaria, o que a pré-qualifica para vir a estabelecer parcerias sob convênio na execução de serviços que compõem o sistema único, descentralizado e participativo de assistência social do município. 
+X - certificação de mérito social: é o reconhecimento outorgado pela Secretaria Municipal de Assistência Social à organização/entidade/associação de assistência social por meio da matrícula, e aos serviços de assistência social desenvolvidos pelas organizações/entidades/associações não específicas de assistência social, por meio do credenciamento, desde que estas executem seus serviços em consonância com a Política de Assistência Social.
+
+Art. 2º - A solicitação de matricula ou de credenciamento deve ser protocolada na Supervisão Regional de Assistência Social, e tramitar por meio de expediente especifico, denominado dossiê, não devendo ser autuado em processo.
+§ 1º - Quando a matrícula ou o credenciamento for efetivado em função da concessão de mérito social por conta da solicitação de outros benefícios, os documentos que subsidiaram a análise deverão ser xerocopiados do respectivo processo, para compor dossiê na Supervisão Regional de Assistência Social, acrescidos dos demais documentos previstos por esta normatização.
+§ 2º - Para a outorga de matrícula, se a organização/entidade/associação dispuser de unidades de prestação de serviços localizados em diferentes regiões, caberá à Supervisão Regional de Assistência Social correspondente, exarar parecer a fim de subsidiar manifestação conclusiva da Supervisão em que estiver situada a sede, inclusive após visita in loco às referidas unidades.
+§ 3º - No caso de credenciamento, caberá à Supervisão Regional de Assistência Social onde estiver sediada a organização, proceder aà análise e deliberar sobre a concessão ou não da referida certificação. 
+§ 4º - Quando existirem unidade(s) de prestação de serviço de assistência social em outra(s) Supervisões Regionais, caberá à Supervisão Regional de Assistência Social correspondente realizar visita à(s) referida(s) unidade(s), para a constatação do  efetivo funcionamento das atividades e a adequação do atendimento aos padrões de serviços estabelecidos pela Secretaria Municipal de Assistência Social, encaminhando  parecer técnico sobre o serviço à Supervisão Regional de Assistência Social responsável pelo credenciamento. 
+§ 5º - Sempre que necessário, o técnico poderá solicitar parecer das demais equipes distritais da Supervisão Regional de Assistência Social, bem como poderá solicitar assessoria ou consulta técnica aos setores próprios da Secretaria Municipal de Assistência Social.  
+§ 6º - Para a análise da concessão  e renovação da matrícula, a equipe técnica deverá pautar-se nos indicadores de monitoramento e avaliação contidos no Anexo VI -(Indicadores para avaliação das Organizações de Assistência Social) da presente norma.
+§ 7º - Para análise da concessão e renovação do credenciamento de uma organização/entidade/associação, a equipe técnica deverá pautar-se nos indicadores de monitoramento e avaliação contidos no Anexo VII -(Indicadores para avaliação dos serviços das Organização/entidade/associação não específicas de Assistência Social) da presente norma.
+§ 8º - A guarda do dossiê de matrícula e de credenciamento será de responsabilidade da Supervisão Regional de Assistência Social, onde está sediada a organização/entidade/associação.
+§ 9º - Em caso de mudança da sede para o âmbito territorial de outra Supervisão Regional de Assistência Social, a regional anteriormente responsável deverá enviá-lo à nova.
+
+((NG))CAPÍTULO II 
+DO MÉRITO SOCIAL((CL))
+Art. 3º. A concessão do mérito social é prerrogativa do assistente social da Secretaria Municipal de Assistência Social de São Paulo, delegada pelo Secretário a assistente social de uma Supervisão Regional de Assistência Social, e se pauta pela análise da documentação e pela avaliação in loco, à luz dos indicadores previstos nesta normatização, das organizações/entidades/associações e serviços de assistência social.
+Art. 4º. O reconhecimento do mérito social não possui caráter definitivo, uma vez que é mensurado a partir de espaço e tempo determinado, devendo ser reavaliado a cada 2 anos ou sempre que necessário.
+Art. 5º. O mérito social é concedido para:
+a) matricular as organizações/entidades/associações de assistência social na Secretaria de Assistência Social;
+b) certificar a consonância dos serviços de assistência social desenvolvidos por organizações/entidades/associações não específicas de assistência social com a política de assistência social, mesmo que não conveniados com a SAS.
+c) subsidiar o despacho decisório de outras Secretarias Municipais nos processos de solicitações de benefícios, como utilidade pública, cessão de área, isenção de taxas, entre outros;
+Art. 6º. A certificação do mérito social à organização/entidade/associação de assistência social se concretiza pela expedição do certificado de matrícula.
+Art. 7º. A certificação do mérito social do serviço de assistência social desenvolvido por organização/entidade/associação não específica da assistência social se concretiza por meio do certificado de credenciamento.
+((NG))CAPÍTULO III
+DAS NORMAS ESPECÍFICAS PARA MATRÍCULA((CL))
+Art. 8º. São requisitos para a concessão de mérito social e certificação de matrícula às organizações/entidades/associações de assistência social:
+I. ser pessoa jurídica de direito privado e finalidade pública, constituída sem fins lucrativos e/ou para fins não econômicos;
+II. ser sediada ou ter autonomia administrativa e contábil, desenvolvendo suas atividades, dentro dos limites do município de São Paulo;
+III. ser cadastrada no Banco de Organizações e Serviços Socioassistenciais da Cidade de São Paulo - BANORGAS;
+IV. garantir que pelo menos 1/3 dos serviços de assistência social  prestados pela organização/entidade/associação destinem-se ao atendimento gratuito de seus usuários, sendo vedado o pagamento direto ou indireto pelos usuários;
+V. comprovar precisamente os serviços prestados aos usuários, bem como a forma de atendimento (gratuidade, pagamento integral ou parcial);
+VI. comprovar viabilidade econômica-financeira para o cumprimento de seus objetivos;
+VII. demonstrar organização técnica, administrativa e contábil;
+VIII. comprovar sua existência legal e efetivo exercício de um ano de atividades afins;
+IX. não remunerar os membros da sua diretoria e seus conselhos, ainda que pelo desempenho de funções que não estejam correlacionadas ao cargo que ocupam, tendo em vista o " princípio da moralidade" pelo qual deve pautar-se a administração pública, inserto no artigo 37 da Constituição Federal;
+X. não possuir como membros de sua diretoria  servidores municipais na ativa ou no exercício de cargos em comissão na Secretaria de Assistência Social e nas Supervisões Regionais de Assistência Social, em respeito ao princípio da moralidade, consagrado no artigo 37 da Constituição Federal.
+§ 1º - Além dos requisitos elencados nos incisos acima, as organizações/entidades/associações da sociedade civil terão que fazer constar expressamente dos seus atos constitutivos:
+a) a denominação, finalidade, sede, duração indeterminada;
+b) que foram constituídas sem finalidade lucrativa e/ou para fins não econômicos;
+c) que tem como finalidade principal a atuação na área de assistência social;
+d) que não fazem distinção de raça, cor, língua, condição social, religiosa, política ou de outra natureza entre seus beneficiados;
+e) modo pelo qual a organização/entidade/associação é administrada e representada, ativa e passivamente, judicial e extrajudicialmente;
+f) que não concedem, direta ou indiretamente, remuneração, vantagens ou benefícios de qualquer espécie ou a qualquer título, a seus dirigentes;
+g) que não há acumulo de cargos, nas funções da diretoria, bem como, no Conselho Fiscal;
+h) que os membros não respondem nem mesmo subsidiariamente pelas obrigações sociais;
+i) constar informação referente ao mandato da diretoria, bem como, se haverá recondução do mandato pelos mesmos membros e por quantas vezes, de forma a não infringir o princípio constitucional democrático de temporariedade e alternância de poder;
+j) se os seus estatutos são passíveis de reformulação no tocante à administração e de que modo;
+k) que em caso de dissolução ou extinção, destinará o eventual patrimônio remanescente à organização/entidade/associação congênere, com atividades preponderantes e preferencialmente sediada no município de São Paulo, inscrita no Conselho Municipal de Assistência Social - COMAS, e na sua ausência, para o Fundo Municipal de Assistência Social;  
+§ 2º - No caso das fundações, exige-se que:
+a) ela seja registrada no Cartório de Registro Civil de Pessoas Jurídicas competentes;
+b) para aquelas fundações constituídas antes do advento da Lei Federal n.º 10.406, de 10 de janeiro de 2002, conste de seus estatutos que eles poderão ser reformulados, nos termos do artigo 28 do Código Civil Brasileiro (Lei Federal n( 3.071, de 1( de janeiro de 1916), observando:
+I - que a reforma seja deliberada pela maioria absoluta dos componentes para gerir e representar a fundação;
+II - que não contrarie o fim desta;
+III - que seja aprovada pela autoridade competente.
+c) para aquelas fundações constituídas após o advento da Lei Federal n.º 10.406, de 10 de janeiro de 2002, conste de seus estatutos que eles poderão ser reformulados nos termos do artigo 67 desta lei, observando:
+I - que a reforma seja deliberada por dois terços dos componentes para gerir e representar a fundação;
+II - que não contrarie ou desvirtue o fim desta;
+III - que seja aprovada pelo órgão do Ministério Público, e, caso este a denegue, poderá o juiz supri-la, a requerimento do interessado.
+§ 3º - Quando os estatutos forem omissos e não atenderem a algum dos requisitos indicados para análise, a organização/entidade/associação poderá fornecer uma declaração a fim de suprir a falta do mesmo de forma temporária, ficando a renovação da matrícula atrelada à apresentação deste, dentre outros documentos, e da ata da assembléia que deliberar sobre a reformulação estatutária.
+§ 4º - As organizações da sociedade civil e as fundações constituídas antes de 10 de janeiro de 2002, deverão adaptar seus atos constitutivos até o dia 1º de janeiro de 2004, conforme dispõe o artigo 2031 da Lei Federal n.º 10.406, de 10 de janeiro de 2.002 (Código Civil).
+Art. 9º - Os documentos necessários para a solicitação de mérito social/certificação de matrícula são os seguintes:
+I. ofício de solicitação assinado pelo representante legal da organização/entidade/associação, dirigido a correspondente Supervisão Regional de Assistência Social, conforme o anexo IV- (Modelo de Ofício de solicitação);
+II. declaração de percentagem de atendimento gratuito do ano anterior referente aos serviços de assistência social, conforme o anexo V - (Modelo de declaração de gratuidade);
+III. cópia da ata de eleição e posse da atual diretoria, devidamente registrada em cartório;
+IV. cópia do estatuto da organização/entidade/associação registrado no Cartório competente  e demais reformulações ocorridas;
+V. número da inscrição da organização/entidade/ associação no Cadastro Nacional de Pessoas Jurídicas - CNPJ, para possibilitar a qualquer momento a consulta, por meio eletrônico, sobre a sua situação;
+VI. balanço patrimonial e financeiro do exercício anterior assinado por contador inscrito no Conselho Regional de Contadores (indicando o número do registro), representante legal e tesoureiro da organização/entidade/associação;
+VII. número da inscrição da organização/entidade/ associação no Conselho Municipal de Assistência Social - COMAS, para possibilitar a consulta, por meio eletrônico, sobre a sua situação.
+VIII. número da inscrição da organização/entidade/ associação no Cadastro de Contribuintes Mobiliários -CCM para possibilitar a consulta, por meio eletrônico, sobre a sua situação de isenção/imunidade de ISS;
+IX. currículo de atividades desenvolvidas e em desenvolvimento o ano em curso. 
+Parágrafo Único - A documentação relacionada nos incisos acima deverá ser entregue na Supervisão Regional de Assistência Social, onde se encontra sediada a organização/entidade/associação mantenedora da requerente.
+((NG))CAPÍTULO IV
+DAS NORMAS ESPECÍFICAS PARA O CREDENCIAMENTO((CL))
+Art. 10. São requisitos para a certificação de mérito social/credenciamento dos serviços executados por organizações/entidades/associações não específicas de assistência social:
+I. ser pessoa jurídica de direito privado e finalidade pública, constituída sem fins lucrativos e/ou para fins não econômicos;
+II. ser sediada ou ter autonomia administrativa e contábil, desenvolvendo suas atividades dentro dos limites do Município de São Paulo;
+III. ter o serviço de assistência social cadastrado no Banco de Organizações e de Serviços Socioassistenciais da Cidade de São Paulo - BANORGAS;
+IV. executar pelo menos um serviço de assistência social, mesmo tendo a organização/entidade/associação atuação precípua em outras áreas como à educação, à cultura, à saúde, ao esporte, entre outras áreas adstritas ao interesse público.
+V. comprovar viabilidade econômico financeiro para cumprimento de seus objetivos;
+VI. demonstrar organização técnica, administrativa e contábil;
+VII. comprovar sua existência legal e efetivo exercício por no mínimo 1 (um) ano;
+VIII. não remunerar os membros da sua diretoria e seus conselhos, ainda que pelo desempenho de funções que não estejam correlacionadas ao cargo que ocupam, tendo em vista o " princípio da moralidade" pelo qual deve pautar-se a administração pública, inserto no artigo 37 da Constituição Federal;
+IX. não possuir como membros de sua diretoria servidores municipais na ativa ou no exercício de cargos em comissão na Secretaria de Assistência Social e nas Supervisões Regionais de Assistência Social, em respeito ao princípio da moralidade, consagrado no artigo 37 da Constituição Federal.
+§ 1º - Além dos requisitos elencados nos incisos acima, as organizações/entidades/associações não específicas de assistência social terão que fazer constar expressamente dos seus atos constitutivos:
+a) a denominação, finalidade, sede, duração indeterminada;
+b) que foram constituídas sem finalidade lucrativa e/ou para fins não econômicos;
+c) que não fazem distinção de raça, cor, língua, condição social, religiosa, política ou de outra natureza entre seus beneficiados;
+d) modo pelo qual a organização/entidade/associação é administrada e representada, ativa ou passivamente, judicial e extra-judicialmente;
+e) que não há acúmulo de cargos, nas funções da diretoria, bem como, no conselho fiscal;
+f) que os membros não respondem, nem mesmo subsidiariamente pelas obrigações sociais;
+g) se os estatutos são passíveis de reformulação no tocante a administração e de que modo;
+h) que em caso de dissolução ou extinção, destinará o eventual patrimônio remanescente a organização/entidade/associação congênere, com atividades preponderantes e preferencialmente sediada no município de São Paulo.
+i) constar informação referente ao mandato da diretoria, bem como, se haverá recondução do mandato pelos mesmos membros e por quantas vezes, de forma a não infringir o princípio constitucional democrático de temporariedade e alternância de poder.
+§ 2º - No caso das fundações, exige-se que:
+a) ela seja registrada no Cartório de Registro Civil de Pessoas Jurídicas competentes;
+b) para aquelas fundações constituídas antes do advento da Lei Federal n.º 10.406, de 10 de janeiro de 2002, conste de seus estatutos que eles poderão ser reformulados, nos termos do artigo 28 do Código Civil Brasileiro (Lei Federal n( 3.071, de 1( de janeiro de 1916), observando:
+I - que a reforma seja deliberada pela maioria absoluta dos componentes para gerir e representar a fundação;
+II - que não contrarie o fim desta;
+III - que seja aprovada pela autoridade competente.
+c) para aquelas fundações constituídas após o advento da Lei Federal n.º 10.406, de 10 de janeiro de 2002, conste de seus estatutos que eles poderão ser reformulados nos termos do artigo 67 desta lei, observando:
+I - que a reforma seja deliberada por dois terços dos componentes para gerir e representar a fundação;
+II - que não contrarie ou desvirtue o fim desta;
+III - que seja aprovada pelo órgão do Ministério Público, e, caso este a denegue, poderá o juiz supri-la, a requerimento do interessado. 
+Art. 11. Os documentos necessários para solicitação de credenciamento são:
+I. ofício de solicitação assinado pelo representante legal da organização/entidade/associação que executa o serviço de assistência social, dirigido à Supervisão Regional de Assistência Social correspondente ao local onde se localiza o serviço, conforme anexo IV (Modelo de ofício de solicitação);
+II. cópia da ata de eleição e posse da atual diretoria, devidamente registrada em cartório;
+III. cópia do ato constitutivo da organização/entidade/associação registrado em cartório competente e demais reformulações ocorridas;
+IV. número da inscrição da organização/entidade/associação no Cadastro Nacional de Pessoas Jurídicas - CNPJ, para possibilitar a consulta por meio eletrônico sobre a sua situação;
+V. balanço financeiro e patrimonial do exercício anterior assinado por contador inscrito no Conselho Regional de Contadores (identificando o nº. do registro), representante legal e tesoureiro da organização/entidade/associação;
+VI. número da inscrição da organização/entidade/associação no Cadastro de Contribuintes Mobiliários - CCM para possibilitar a consulta por meio eletrônico sobre a sua situação de isenção/imunidade de ISS;
+Art. 12. A Supervisão Regional de Assistência Social onde está sediada a organização/entidade/associação será responsável pela concessão e a assinatura do certificado de credenciamento.
+§1º - No caso do pedido de credenciamento  ser anterior ao cadastramento da organização/entidade/associação não específica de assistência social, cabe à Supervisão Regional de Assistência Social, correspondente ao local em que está situada a sede da organização/entidade/associação, realizar o cadastramento dela, bem como auditar, por meio de visita in loco, as informações fornecidas pela organização/entidade/associação para este fim.
+§2º - No caso do pedido de credenciamento ser posterior ao cadastramento, cabe à Supervisão Regional de Assistência Social, correspondente ao local onde se desenvolve o serviço de assistência social da organização/entidade/associação a ser credenciada subisidiar a Supervisão Regional onde  a interessada possuir sua sede, por meio de parecer técnico.
+((NG))CAPÍTULO V((CL))
+DAS REGRAS COMUNS PARA MATRÍCULA E CREDENCIAMENTO
+Art. 13. É vedada a outorga de matrícula e credenciamento às organizações/entidades/associações consideradas de benefício mútuo, isto é, destinadas a proporcionar bens ou serviços a um círculo restrito de sócios ou associados.
+Art. 14. A matrícula e o credenciamento, no que se refere à concessão das certificações, ficam submetidos às seguintes regras:
+I. as organizações/entidades/associações postulantes à matrícula e ao credenciamento  deverão providenciar a documentação necessária especificada nos artigos 09 e 11, observado o disciplinado no artigo 12, preferencialmente no período de 02 de janeiro à 31 de agosto;
+II. a matrícula e o credenciamento terão validade até o dia 30 de maio de 2º (segundo) ano a partir da data de concessão.
+III. quando a Supervisão Regional de  Assistência Social for instada a manifestar-se sobre o mérito social de uma organização/entidade/associação ou de um serviço de assistência social executado por organização/entidade/associação não específica de assistência social, para subsidiar despacho decisório sobre solicitação ou atualização de benefícios públicos concedidos por outras Pastas da Municipalidade, em caso positivo, deverá, concomitantemente, proceder à matrícula ou ao credenciamento na Secretaria Municipal de Assistência Social/ Supervisão Regional de Assistência Social, destas organizações/entidades/associações e serviços, os quais serão inseridos no Banco de organizações e serviços socioassistenciais da cidade de São Paulo.
+IV. na situação aventada no inciso acima, a organização/entidade/associação será orientada a, periodicamente, renovar sua matrícula ou o credenciamento do seu serviço, nos moldes estabelecidos por esta normatização.
+V. a Supervisão Regional de Assistência Social poderá indeferir a matrícula ou o credenciamento, devendo informar à organização/entidade/associação matriculada ou àquela cujo serviço esteja credenciado, sobre esta decisão, por meio de comunicado, do qual deve constar:
+a) o motivo do indeferimento;
+b) a possibilidade da organização/entidade/associação se manifestar sobre o indeferimento, dentro do prazo de 10 (dez) dias contínuos, a contar da data do recebimento do comunicado, excluindo-se o dia do recebimento, e incluindo-se o dia do vencimento.
+VI - considera-se prorrogado o prazo estipulado na alínea "b" do inciso anterior até o primeiro dia útil, se o vencimento ocorrer no sábado, domingo, feriado, ponto facultativo municipal ou se o expediente administrativo for encerrado antes do horário normal.
+Art. 15 - A renovação da matrícula e do credenciamento da organização/entidade/associação fica submetida às seguintes regras:
+I. as organizações/entidades/associações matriculadas e credenciadas na Secretaria Municipal de Assistência Social deverão solicitar a renovação da certificação até 60 dias antes do término da validade do registro, entregando na Supervisão Regional de Assistência Social correspondente, a documentação especificada, a saber :
+a) Ofício dirigido ao Supervisor Regional de Assistência Social, assinado pelo representante legal da organização/entidade/associação;
+b) proposta geral de trabalho da organização/entidade/associação para o ano em curso;
+c) balanço patrimonial e financeiro dos 2 (dois)  exercícios anteriores, assinados por um contador inscrito no Conselho Regional de Contadores, representante legal e tesoureiro da organização/entidade/associação;
+d) declaração de percentual de atendimento gratuito dos serviços de assistência social referente aos 2 (dois) anos anteriores; 
+e) os demais documentos que tenham sido alterados em relação aos exercícios anteriores, constantes nos artigos 09 e 11, respectivamente, no tocante à matrícula e ao credenciamento.
+II - no caso da organização/associação/entidade não possuir interesse em renovar a matrícula ou o credenciamento, deverá comunicar oficialmente a Supervisão Regional de Assistência Social desta decisão, e deverá informar ainda se possui interesse em manter-se cadastrada no Banco Público de Dados de Organizações e Serviços socioassistenciais da Cidade de São Paulo - BANORGAS.
+Art. 16 - A suspensão da matrícula e do credenciamento da organização/entidade/associação fica submetida às seguintes regras:
+I - a matrícula e o credenciamento serão suspensos por um período de até 6 (seis) meses, passível de prorrogação em caso excepcional por mais 3 (três) meses, quando:
+a) a documentação estiver desatualizada no ato da renovação;
+b) a organização/entidade/associação não estiver atendendo aos requisitos institucionais legais exigidos;
+c) a organização/entidade/associação que não observar à disposição constitucional contida no caput do artigo 5º na prestação de seus serviços (discriminação dos usuários quanto a raça, cor sexo, religião, ideologia, etc.), bem como forem apontados por técnicos, usuários, população, imprensa, etc., irregularidades no atendimento aos usuários (ausência de atividades, alimentação precária, etc.), sendo instaurado procedimento de apuração;
+d) a programação não estiver atendendo aos fins e objetivos propostos ou estar distanciada da Política Municipal de Assistência Social;
+e) a organização/entidade/associação não estiver cumprindo o que preconiza em seus estatutos;
+f) houver dúvidas quanto ao percentual dos usuários atendidos gratuitamente;
+g) a organização/entidade/associação não proceder à alteração de seus estatutos nos termos contidos na declaração entregue por ocasião da solicitação de matrícula, e de acordo com o prazo estabelecido no parágrafo 4º do artigo 8º desta Portaria;
+h) a organização/entidade/associação não estiver cumprindo as obrigações decorrentes de parceria firmada com esta Pasta.
+II - a Supervisão Regional de Assistência Social poderá suspender de plano a matrícula ou o credenciamento, devendo informar à organização/entidade/associação matriculada ou àquela cujo serviço esteja credenciado, sobre esta decisão, por meio comunicado, do qual deve constar:
+a) o motivo da suspensão;
+b) a possibilidade da organização/entidade/associação matriculada ou credenciada se manifestar sobre a suspensão, dentro do prazo de 10 (dez) dias contínuos, a contar da data do recebimento do comunicado, excluindo-se o dia do recebimento, e incluindo-se o dia do vencimento.
+III - considera-se prorrogado o prazo estipulado na alínea "b" do inciso anterior até o primeiro dia útil, se o vencimento ocorrer no sábado, domingo, feriado, ponto facultativo municipal ou se o expediente administrativo for encerrado antes do horário normal.
+IV - caso a organização/entidade/associação não regularize estas questões no prazo estabelecido, deverão ser adotadas as providências para o cancelamento da matrícula ou do credenciamento.
+V - a suspensão da matrícula ou do credenciamento não implicará na interrupção do convênio em vigência celebrado com SAS, como também não implicará na interrupção do pagamento de recursos financeiros advindos do mesmo, contudo, tal organização/entidade/associação não será considerada apta a concorrer em Audiência Pública.
+VI - a suspensão da matrícula ou do credenciamento inabilitará a organização/entidade/associação/serviço a apresentar proposta de prestação de serviço e/ou execução de projeto de assistência social, a ser debatida em audiência pública para fins de formalização de convênio com a Secretaria Municipal de Assistência Social.
+Art. 17 - O cancelamento da matrícula e do credenciamento da organização/entidade/associação fica submetido às seguintes regras:
+I - a organização/entidade/associação terá sua matrícula e o seu credenciamento cancelado quando:
+a) for extinta ou encerradas suas atividades no Município de São Paulo;
+b) forem apontadas por técnicos, usuários, população, imprensa, etc., irregularidades no atendimento e constatada a gravidade da situação averiguada (ex. maus tratos, risco de vida dos beneficiados, violência física e más condições físicas das instalações);
+c) comprovada a inobservância do atendimento gratuito, de pelo menos 1/3 dos usuários;
+d) vencido o período de suspensão, a organização/entidade/associação não tiver regularizado as questões que deram origem à suspensão;
+e) for constatado desvio de verba pública ou recursos financeiros da organização/entidade/associação, comprometendo sua idoneidade (ex. furto, embolso de valores, destinação de verba solicitada para outros fins sem a devida autorização por parte do órgão competente).
+f) for constatado, seu afastamento dos propósitos da Política Municipal de Assistência Social;
+g) for denunciado por usuários sua não observância aos seus direitos.
+II - O cancelamento da matrícula ou do credenciamento implicará na rescisão dos convênios que tenham sido celebrados com a Secretaria Municipal de Assistência Social.
+III - a organização/entidade/associação que tiver sua matrícula ou  credenciamento cancelado por irregularidades, somente poderá solicitá-la novamente, após decorridos 12 meses, desde que tenha sanado os motivos que ocasionaram o cancelamento.
+IV - a Supervisão Regional de Assistência Social poderá cancelar de plano a matrícula ou o credenciamento, devendo informar à organização/entidade/associação matriculada ou credenciada, desta decisão, por meio comunicado, do qual deve constar:
+a) o motivo do cancelamento;
+b) a possibilidade da organização/entidade/associação matriculada ou credenciada se manifestar sobre o cancelamento, dentro do prazo de 10 (dez) dias contínuos, a contar da data do recebimento do comunicado, excluindo-se o dia do recebimento, e incluindo-se o dia do vencimento.
+V - considera-se prorrogado o prazo estipulado na alínea "b" do inciso anterior até o primeiro dia útil, se o vencimento ocorrer no sábado, domingo, feriado, ponto facultativo municipal ou se o expediente administrativo for encerrado antes do horário normal.
+VI - o cancelamento da matrícula e do credenciamento não implica na retirada da organização/entidade/associação ou do serviço do Banco Público de Dados de Organizações e de Serviços de Assistência Social da cidade de São Paulo, salvo se houver extinção das atividades.
+Art. 18 - A organização/entidade/associação matriculada ou credenciada deve informar à Secretaria Municipal de Assistência Social/ Supervisão Regional de Assistência Social, a qualquer tempo, sobre todas as alterações ocorridas, principalmente quanto a:
+a) a diretoria;
+b) o estatuto;
+c) a ampliação dos serviços prestados;
+d) a paralisação total ou parcial de suas atividades;
+e) o endereços dos serviços;
+f) o endereço da sede.
+a) alterações com relação à situação do CNPJ/CCM.
+Art. 19 - A organização/entidade/associação matriculada ou credenciada poderá apresentar manifestação à Secretaria Municipal de Assistência Social, em casos excepcionais, e desde que esgotadas todas as possibilidades de resolução dos problemas na Supervisão Regional de Assistência Social correspondente, nos casos de indeferimento, suspensão e cancelamento da matrícula e do credenciamento.
+((NG))CAPÍTULO VI
+DA RESPONSABILIDADE DO TÉCNICO((CL))
+Art. 20. É de responsabilidade do Técnico da Equipe de Distrito da Supervisão Regional de Assistência Social, no que se refere a matrícula e credenciamento: 
+I. orientar e prestar assessoria técnica às organizações/entidades/associações quanto à solicitação e renovação de matrícula e credenciamento;
+II. receber e analisar a documentação entregue pela organização/entidade/associação, atentando para o contido na presente normatização;
+III. realizar visitas sistemáticas com o objetivo de familiarizar-se com os serviços e dinâmica de funcionamento e gerenciamento da organização/entidade/associação;
+IV. elaborar relatório detalhado diante da constatação de irregularidades, propondo a suspensão ou o cancelamento da matrícula ou do credenciamento;
+V. auditar as informações constantes no Anexo I (Ficha de Cadastro 1 - destinada ao cadastramento das organizações/entidades/associações e serviços que desejam obter certificação) e Anexo II  (Ficha de Cadastro 2 - destinada ao cadastramento das organizações/entidades/associações e serviços que não desejam obter certificação), para a preservação da fidedignidade dos dados que comporão a referida rede;
+VI. emitir parecer quanto ao mérito social de uma organização/entidade/associação ou de um serviço quando a Supervisão Regional de Assistência Social for instada a manifestar-se para subsidiar despacho decisório sobre solicitação ou atualização de benefícios públicos concedidos por outras Pastas da Municipalidade;
+VII. emitir parecer quanto ao mérito social nos expedientes de solicitação de matrícula, renovação, suspensão e cancelamento deste reconhecimento, Anexo IX - (Orientação para emissão de parecer técnico - matrícula);
+VIII. emitir parecer quanto ao mérito social do serviço de assistência social desenvolvido por organização/entidade/associação não específica de assistência social nos expedientes de solicitação de credenciamento, renovação, suspensão e cancelamento, Anexo X - (Orientação para emissão de parecer técnico - credenciamento);
+IX. providenciar a inserção das informações contidas na Ficha de Cadastro de Entidades/Organizações, Anexo I, no Banco de Público de Dados de Organizações e de Serviços Sócioassistenciais da Cidade de São Paulo;
+X. encaminhar o expediente com encarte de parecer para o Coordenador do respectivo  Distrito;
+XI. manter o dossiê de matrícula e de credenciamento da organização/entidade/associação organizado e atualizado quanto a sua documentação, informações sobre o trabalho desenvolvido e demais pareceres técnicos sobre outras solicitações feitas à Municipalidade, ofícios que por ventura tenham sido enviados e relatórios de reuniões que tenham sido realizados;
+((NG))CAPÍTULO VII
+DA RESPONSABILIDADE DO SUPERVISOR((CL))
+Art. 21. É de responsabilidade do Supervisor da Supervisão Regional de Assistência Social, no que se refere à matrícula e ao credenciamento: 
+I. decidir sobre a concessão, a renovação, a suspensão e o cancelamento da matrícula e do credenciamento;
+II. analisar e deliberar sobre as eventuais manifestações interpostas pelas organizações/entidades/associações nos casos de indeferimento, suspensão e cancelamento da matrícula e do credenciamento;
+III. assinar o certificado de matrícula e de credenciamento das organizações/entidades/associações sediadas na sua área regional, providenciando a posterior entrega à organização/entidade/associação;
+IV. proceder à remessa dos expedientes atinentes ao item anterior ao titular da Pasta para decisão final, nos casos em que restar configurada divergência entre a Supervisão Regional de Assistência Socialcorrespondente à sede da organização/entidade/associação e a Supervisão em cuja jurisdição sejam prestados serviços em parceria.
+
+((NG))CAPÍTULO VIII
+DA RESPONSABILIDADE DA UNIDADE CENTRAL((CL))
+Art. 22. É de responsabilidade da área técnica de parcerias da Secretaria Municipal de Assistência Social:
+I. assessorar as Supervisões Regionais de Assistência Social, quando necessário, no desenvolvimento de suas atividades relativas ao cadastramento, à matrícula, ao credenciamento e à emissão de mérito social.
+II. oferecer subsídios para o aprimoramento das relações de parcerias pautando-se no monitoramento do Banco Público de Dados de Organizações e de Serviços Socioassistenciais da Cidade de São Paulo;
+III. assessorar o titular da pasta, quando necessário.
+
+((NG))CAPÍTULO IX
+DA RESPONSABILIDADE DO SECRETÁRIO MUNICIPAL((CL))
+Art. 23. É de responsabilidade do titular da Secretária Municipal de Assistência Social:
+I. deliberar quanto à manutenção, suspensão e cancelamento, da matrícula ou credenciamento, na hipótese de divergência entre duas ou mais Supervisões Regionais acerca da matéria;
+II. analisar e deliberar sobre as eventuais manifestações interpostas pelas organizações/entidades/associações nos casos de indeferimento, suspensão e cancelamento da matrícula e do credenciamento, em casos excepcionais, e desde que esgotadas todas as possibilidades de resolução dos problemas na Supervisão Regional de Assistência Social correspondende.
+((NG))CAPÍTULO X
+DISPOSIÇÕES TRANSITÓRIAS((CL))
+Art. 24. Excepcionalmente, durante o mês de setembro deste ano, as Supervisões Regionais de Assistência Social elaborarão pareceres sobre as organizações/entidades/associações já matriculadas e credenciadas nesta Secretaria, ou sobre os novos pedidos protocolados neste mês, para a emissão do certificado de matrícula e de credenciamento.
+§1º - As novas orientações, fluxos e instrumentais do Banco de Dados das Organizações e de Serviços Socioassistenciais (BANORGAS), instituído pelo Decreto Municipal n.º 43.698/03, serão implementadas pelo período de 12 (doze) meses, quando novos certificados de matrícula e credenciamento serão emitidos, nos termos das disposições desta Portaria.
+§ 2º - Durante o período transitório de 12 (doze) meses, permanecem válidos os certificados em vigência, excepcionalmente.
+§ 3º - Os novos pedidos de matrícula e credenciamento, apresentados após o mês referido no caput deste artigo, deverão ser submetidos às regras estabelecidas nesta Portaria.
+
+((NG))CAPÍTULO XI
+DISPOSIÇÕES GERAIS((CL))
+Art. 25. Os Anexos abaixo denominados, que compõem esta Portaria, estarão disponibilizados em meio eletrônico, no site da Prefeitura de São Paulo (www.prefeitura.sp.gov.br), e serão publicados em caderno, que ficará disponível na sede desta Secretaria, e nas Supervisões Regionais de Assistência Social, dado seu extenso volume:
+I.  Anexo I - Ficha de Cadastro 1;
+II. Anexo II - Ficha de Cadastro 2;
+III. Anexo III - Manual de Orientações para Cadastramento ;
+IV. Anexo IV - Modelo de Ofício de Solicitação;
+V. Anexo V - Declaração de Gratuidade;
+VI. Anexo VI - Indicadores para Avaliação das Organizações/entidades/associações de Assistência Social;
+VII. Anexo VII - Indicadores para Avaliação dos Serviços das Organizações/entidades/associações não Específicas de Assistência Social;
+VIII. Anexo VIII - Roteiro de Relatório de Visita;
+IX. Anexo IX - Orientações para emissão de parecer técnico - matrícula;
+X. Anexo X - Orientações para emissão de parecer técnico - credenciamento;
+XI. Anexo XI - Fluxos.
+
+Art. 26. Esta Portaria entra em vigor na data de sua publicação, revogadas as disposições em contrário, e em especial a Portaria 013/SAS/GABINETE, de 28 de março de 2000 e a Portaria 024/SAS/GABINETE, de 16 de agosto de 2000.
+
+
+
+1
+
+
+1

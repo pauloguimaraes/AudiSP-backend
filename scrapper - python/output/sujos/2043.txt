@@ -1,0 +1,192 @@
+((TITULO))ATA DA CONSULTA PÚBLICA N.º 02/2008
+((TEXTO)) “EMPRESA FORNECEDORA DE SWITCH’S TIPOS 1 e 2”
+Aos 16 (dezesseis) dias do mês de maio de dois mil e sete, às 09:30 hs, na Empresa de Tecnologia da Informação e Comunicação do Município de São Paulo – PRODAM-SP S/A, reuniu-se o grupo de trabalho que elaborou a minuta do Edital, objetivando contratar empresa para “FORNECER SWITCH’S tipos 1 e 2”, do qual fazem parte os seguintes integrantes: JOSE DINIZ LAROCCA,  ANTONINHO GERALDO PIVOTTO, MARCO ANTONIO DOS SANTOS,  FÁBIO LUIS RICCI e MARCELO DA PURIFICAÇÃO. Compareceram também à presente consulta os representantes das empresas: ZOLTAN EDUARD SOLYMOSSY (ITAUTEC), MARCOS CARBONE BERNARDINO (SACTI), DAVID AMBROZIO DE OLIVEIRA (ACCTON), CARLOS EDUARDO VRUBLIESKI e PAULO ALEXANDRE OLIVEIRA (ZIVA), RENATO REGENTE (TMS), CLÁUDIO RIGHETTO (MTEL), ALEX MARQUES e ALEXANDRE JOSÉ (ENTERASYS), OSWALDO P. FIGUEIRÓ (CPM BRAXIS) e JOSÉ AUGUSTO C. FILHO e LOURIVAL MARTINS (ENTERNET). O  Sr. Jose Diniz Larocca abriu a sessão e esclareceu o intuito da Consulta Pública. Após isso, solicitou aos participantes que registrassem suas perguntas e sugestão por escrito. Os questionamentos foram os seguintes: 
+((NG))Empresa EDGE CORE((CL))
+1-	O item 11 subitem 49 impede a EDGE CORE de participr, pois o equipamento suporta somente 255 vlan’s ativas. Entendemos que essa quantidade seja suficiente. Perguntamos se são realmente necessárias 1005 vlan’s?.
+2-	O item 1 subitem 48, que exige um texto de “string” com mais de 32 caracteres. Isso impede a EDGE CORE de participar. Perguntamos a necessidade real de strings de 60 caracteres?
+3-	Recomendamos incluir a funcionalidade de Q-in-Q nos equipamentos de borda (tipo 1) se isso não restringir muito a participação.
+4-	Recomendamos a inclusão de IGMP v3 nos equipamentos de borda (tipo 1), se isso não restringir a participação.
+5-	ACL extendida impede a participação da EDGE-CORE.
+((NG))Empresa ENTERASYS((CL))
+Switch Tipo I – 10/100
+1- Caráter : Modificação – Item 5
+- Modificar o texto de suporte a freqüência para 50 a 60 Hz, ou deixar claro que freqüências entre os intervalos de 47 a 63 Hz serão aceitas.
+2- Caráter : Sugestão
+- Para o Switch Tipo I, considerar o uso simultâneo das duas portas 10/100/1000 Base TX somadas as duas portas do tipo SFP Mini-Gbic. Dessa maneira será garantido, em um mesmo equipamento, a possibilidade de possuir uplinks redundantes para tolerância a falhas e alta disponibilidade, assim como o empilhamento com switches anteriores e ou posteriores a este na pilha (utilizando as duas portas 10/100/1000 para empilhamento), ou de outra forma, garantir o closed loop da pilha de switches formada para garantir a tolerância a falhas.
+- Assim como é solicitado o suporte a IEEE 802.1s para o Switch Tipo II (Item 17) que será parte integrante das redes formadas com os Switches Tipo I, é essencial que este switch suporte a mesma característica, garantindo assim a redundância (física e lógica) e balanceamento para o tráfego entre Switches Tipo I e Tipo II.
+- Conforme já sugerido na reunião de 17/05/08 (Audiência Pública), sugerimos considerar um aumento na performance do Switch (Item 9) para maior ou igual a 9Mpps, considerando o funcionamento em wire speed, bem como a possibilidade de utilizar-se todas as portas solicitadas simultaneamente na unidade e provendo uplinks redundantes e empilhamento com mais de um Switch por pilha.
+Para um melhor entendimento segue abaixo o explicativo para considerar essa performance wire speed do equipamento. 
+Tipo de porta Performance considerando pacotes de 64bps 
+100 Mbps 148.810,00 pps 
+1000 Mbps 1.488.100,00 pps 
+pps = pacotes por segundo
+Tipo de porta Portas do Switch Mpps Mínimo Total
+100Mbps 24 portas 3.571.440,00
+1000Mbps 4 portas 5.952.400,00
+Total 9.523.840,00
+9,5 Mpps
+3- Nos itens 13 e 14 
+São solicitadas padrões para redundância Spanning tree. Sugerimos a adição do padrão IEEE 802.15 pars que o switch suporte todas as funcionalidades desta tecnologia . Conforme item 17 – switch Tipo II.
+4- item 9
+Para que o switch seja Wire-Speed a performance deveria ser de no mínimo 9 Mpps. Sugerimos a alteração deste item.
+Switch Tipo II – 10/100/1000
+1- Caráter : Modificação – Item 5
+- Modificar o texto de suporte a freqüência para 50 a 60 Hz, ou deixar claro que freqüências entre os intervalos de 47 a 63 Hz serão aceitas.
+Do Fabricante
+2- Caráter : Modificação
+- A Enterasys ainda reforça questão também discutida na Audiência Pública em referência sobre a os efeitos de padronização. Desta forma, vem a Enterasys sugerir que seja incluído texto, em caráter obrigatório, para que os Switches ofertados por uma proponente tanto para o Switch Tipo I e/ou II sejam do mesmo fabricante, garantido assim a implementação de novas características técnicas para ambos, bem como o suporte, treinamento e contato com um único fabricante.
+3- item 42
+Sugerimos o suporte descrito para ACL’s extendidas, de forma a aumentar as funcionalidades de segurança do equipamento.
+((NG))Empresa TM SOLUTIONS((CL))
+Referente ao Switch tipo 1 - 10/100
+1- Item 7
+Terá que ter afinidade de somente empilhar com switch, Pois o mesmo terá que implementar o protocolo o switch desejado.
+2- Item 53
+Qual o horário de funcionamento dos sites e dias de funcionamento?
+3- Quantos switchs por localidade e endereços dos mesmos?
+Referente ao Switch tipo 2 – 10/100/1000
+1- Item 8
+Está afirmando que o switch deve ser empilhado com switch da mesma família que implemente nas portas 10/100 base tx, por se tratar de um switch 10/100/1000 basetx, não deveria implementar com o mesmo switch 10/100/1000.
+2- Quantos switchs por localidade e endereços?
+3- Terá instalação e configuração dos equipamentos ?
+4- A Assistência Técnica deverá ser somente a troca do equipamento ou ajustes de configuração quando ocorrer problemas?
+5- O atendimento técnico on-site será somente troca de equipamento no local?
+6- No atendimento técnico on-site os analistas terão que efetuar console no equipamento e analisar a configuração e dar um parecer mais apurado sobre a real situação do mesmo?
+7- Quais localidades e quantos equipamentos e modelos serão instalados nestas localidades?
+8- haverá instalação e configuração de equipamentos por parte da fornecedora?
+((NG))Empresa ENTERNET((CL))
+ITEM I – Switch 10/100
+1- Sub-Item - 5.     Deve possuir fonte de alimentação interna ao equipamento, que opere com tensões de entrada entre 100 e 240VAC e suporte freqüência entre 47 e 63hz;
+Entendemos que pela padronização brasileira, a alimentação elétrica em corrente alternada é fornecida na freqüência de 60hz e, assim sendo, os equipamentos eletro-eletrônicos incluindo-se os de comutação de pacotes de dados devam atender a esta característica cuja mesma é compulsoriamente homologada junto a ANATEL. Assim sendo, nossa sugestão é que o texto seja alterado para “Deve possuir fonte de alimentação interna ao equipamento, que opere com tensões de entrada entre 100 e 240VAC e suporte freqüência entre 50 e 60hz homologada pela ANATEL” e assim os equipamentos devidamente homologados atenderão as condições nacionais.
+2- Sub-Item – 21. Deve implementar IGMP v1, v2 Snooping;
+Entendemos que para haver melhor controle de tráfego multicast, o protocolo IGMP nas versões 1 e 2 é limitado, havendo a necessidade de inclusão da versão 3 que possibilita melhor controle deste tipo de trafego ao permitir que o mesmo seja encaminhado a partir de origens não reconhecidas ou para sub redes onde não há destinatário registrado para receber o mesmo. Assim sendo, nossa sugestão é de que o texto seja modificado para  “Deve implementar IGMP v1, v2, v3 Snooping” e assim manter compatibilidade entre esses equipamentos e os switches GigabitEthernet onde esta versão é solicitada no sub-item 28.
+ITEM II – Switch 10/100/100
+1- Sub-Item - 5. Deve possuir fonte de alimentação interna ao equipamento, que opere com tensões de entrada entre 100 e 240VAC e suporte freqüência entre 47 e 63hz;
+Entendemos que pela padronização brasileira, a alimentação elétrica em corrente alternada é fornecida na freqüência de 60hz e, assim sendo, os equipamentos eletro-eletrônicos incluindo-se os de comutação de pacotes de dados devam atender a esta característica cuja mesma é compulsoriamente homologada junto a ANATEL. Assim sendo, nossa sugestão é que o texto seja alterado para “Deve possuir fonte de alimentação interna ao equipamento, que opere com tensões de entrada entre 100 e 240VAC e suporte freqüência entre 50 e 60hz homologada pela ANATEL” e assim os equipamentos devidamente homologados atenderão as condições nacionais.
+2- Sub-Item – 8. Deve permitir ser empilhado com switch da mesma família que implemente nas portas 10/100BaseTx o protocolo IEEE 802.3af (Power Over Ethernet - PoE);
+Sugerimos apenas a correção do texto para “Deve permitir ser empilhado com switch da mesma família que implemente nas portas 10/100/1000BaseT o protocolo IEEE 802.3af (Power Over Ethernet - PoE)” visto que os equipamentos solicitados possui apenas portas GigabitEthernet.
+((NG))Empresa CPM BRAXIS((CL))
+Switches 10/ 100
+Item  7. Deve permitir ser empilhado com switch da mesma família que implemente nas portas 10/100BaseTx o protocolo IEEE 802.3af (Power Over Ethernet - PoE); 
+Entendemos que o suporte a IEEE 802.3af (Power Over Ethernet) é uma funcionalidade a ser suportada nos equipamentos porém não está sendo solicitada a funcionalidade LLDP (Link Lawyer Discovery Protocol) 802.3ab que permite a configuração automática e baseada em padrões de equipamentos conectados aos switches. Uma série de equipamentos sejam eles access-points, telefones IP, câmeras suportam esta funcionalidade o que otimiza as configurações, custos de operação e otimiza a configuração de potência do 802.3af (PoE). Seria interessante a inclusão desta funcionalidade.
+Item  13. Deve implementar IEEE 802.1D - (Spanning Tree); 
+Item  14. Deve implementar IEEE 802.1w – (Rapid Spanning Tree); 
+Item  15. Deve implementar IEEE 802.1t (802.1D Maintenance); 
+Nota-se a  preocupação com o suporte a Spanning Tree e suas variantes. Não está sendo definido no edital o número de instâncias suportadas pelo equipamento. Sugerimos que seja definido um número mínimo de 128 instâncias capazes de flexibilizar as implementações e possibilitar o balanceamento de VLANs em configurações de alta disponibilidade dado que o acesso será feito em camada 2 e, como não foi solicitado o suporte a 802.1s (Multiple Instance Spanning Tree), são necessárias pelo menos uma instância a cada 2 VLANs para possibilitar o balanceamento de tráfego.
+Item  18. Deve implementar IEEE 802.1x Port Authentication; 
+Foi solicitada a autenticação de 802.1x porém não encontramos mecanismos alternativos de autenticação para equipamentos que não suportam o suplicante 802.1x. Seria recomendado o 802.1x Web Authentication para estes casos.
+Item 36. Deve implementar Lista de acesso (ACL) de camada 2 e 3 permitindo aplicação em cada porta do switch. 
+Para este item ser funcional seria recomendável definir um número mínimo de lista de acessos. Sugerimos que seja possível a definição de até 1000 entradas de ACL por equipamento.
+Item 37. Deve implementar WRR (Weighted Round Robin) e Strict Priority; 
+O controle de filas de nossos equipamentos é o SRR (Shaped Round Robin) uma evolução do WRR (Weighted Round Robin). O SRR permite uma distribuição mais homogênea dos pacotes pelas filas em caso de tráfego intenso da fila de maior peso. Entendemos que está evolução atende com ganhos ao mecanismo WRR é que é aceitável a utilização de um ou de outro.
+Item 38. Deve suportar Inbound Rate Limiting; 
+Para tornar este requerimento funcional entendemos que deva ser definida a granularidade mínima do limite e o número de policers que possam ser aplicados. Sugestão de granularidade mínima de 1Mbps em até 64 policers.
+Item 45. Deve implementar DHCP Client 
+Sugerimos que além da implementação de DHCP Client também seja suportado o DHCP server o que, para pequenas localidades, traz economia operacional dada a simplicidade da configuração deste serviço no switch quando comparada a de um servidor.
+Item 49. Deve implementar qualidade de serviço Diffserv; 
+Sugerimos que seja especificado as funcionalidades desejadas na implementação de DiffServ. Acreditamos que seja fundamental o mapeamento dos bits de camada 2 (802.1p/ CoS) para os de camada 3 (DSCP/ Diffserv) dado o posicionamento destes equipamentos na borda da rede. Recomendamos que as ACLs tenham suporte a classificação e manipulação tanto de bits 802.1p/ CoS como DSCP.
+Switch 10/ 100/ 1000
+Item 2- Deve possuir, no mínimo, 24 (vinte e quatro) portas 10/100/1000BaseTx em conectores do tipo RJ45 diretamente conectados ao equipamento, não sendo permitido o uso de conectores do tipo TELCO; 
+A ausência de portas SFP não permite o uplink deste equipamento de forma mais flexível não restrita aos 100mts lógicos do padrão 1000 BaseTX. Recomendamos que sejam adicionadas pelo menos 4 portas SFP para flexibilizar as interligações.
+Item 3- Deve ser do tipo “empilhável” através de interfaces específicas para este fim, e com uma capacidade de largura de banda de no mínimo 16 Gbps; 
+Entendemos que a utilização de porta específica de empilhamento é devida a limitada quantidade de portas 10/ 100/ 1000. Com a adição de portas SFP conforme recomendado no item anterior entendemos que este empilhamento poderá ser feito por porta não específica.
+Item 7- Deve permitir ser empilhado com switch da mesma família que implemente nas portas 10/100BaseTx o protocolo IEEE 802.3af (Power Over Ethernet - PoE); 
+Entendemos que o suporte a IEEE 802.3af (Power Over Ethernet) é uma funcionalidade a ser suportada nos equipamentos porém não foi solicitada a funcionalidade LLDP (Link Lawyer Discovery Protocol) 802.3ab que permite a configuração automática e baseada em padrões de equipamentos conectados aos switches. Uma série de equipamentos sejam eles access-points, telefones IP, câmeras suportam esta funcionalidade o que otimiza as configurações, custos de operação e otimiza a configuração de potência do 802.3af (PoE). Seria interessante a inclusão desta funcionalidade.
+Item 17. Deve implementar IEEE 802.1s - (Multiple Spanning Tree ); 
+Item 18. Deve implementar IEEE 802.1D - (Spanning Tree); 
+Item 19. Deve implementar IEEE 802.1w – (Rapid Spanning Tree); 
+Item 20. Deve implementar IEEE 802.1t (802.1D Maintenance); 
+Percebemos a preocupação com o suporte a Spanning Tree e suas variantes. Não foi definido no edital o número de instâncias suportadas pelo equipamento. Sugerimos que seja definido um número mínimo de 128 instâncias para ser compatível com o número de instâncias originadas no acesso.
+Item 23. Deve implementar IEEE 802.1x Port Authentication; 
+Foi solicitada a autenticação de 802.1x porém não encontramos mecanismos alternativos de autenticação para equipamentos que não suportam o suplicante 802.1x. Seria recomendado o 802.1x Web Authentication para estes casos.
+Item 42. Deve implementar Lista de acesso (ACL) de camada 2 e 3 permitindo aplicação em cada porta do switch. 
+Para este item ser funcional seria recomendável definir um número mínimo de lista de acessos. Sugerimos que sejam possível a definição de até 1000 entradas de ACL por equipamento
+Item 43. Deve implementar WRR (Weighted Round Robin) e Strict Priority; 
+O controle de filas de nossos equipamentos é o SRR (Shaped Round Robin) uma evolução do WRR (Weighted Round Robin). O SRR permite uma distribuição mais homogênea dos pacotes pelas filas em caso de tráfego intenso da fila de maior peso. Entendemos que está evolução atende com ganhos ao mecanismo WRR é que é aceitável a utilização de um ou de outro.
+Item 44. Deve suportar Inbound Rate Limiting; 
+Para tornar este requerimento funcional entendemos que deva ser definida a granularidade mínima do limite e o número de policers que possam ser aplicados. Sugestão de granularidade mínima de 1Mbps em até 64 policers.
+Item 54. Deve implementar qualidade de serviço Diffserv; 
+Sugerimos que seja especificado as funcionalidades desejadas na implementação de DiffServ. Acreditamos que seja fundamental o mapeamento dos bits de camada 2 (802.1p/ CoS) para os de camada 3 (DSCP/ Diffserv) dado o posicionamento destes equipamentos na borda da rede. Recomendamos que as ACLs tenham suporte a classificação e manipulação tanto de bits 802.1p/ CoS como DSCP.
+((NG))Empresa NORTEL((CL))
+ITEM 1 – SWITCH TIPO 1 – 10/100 - Modelo proposto ERS 2500 NORTEL 
+Item 22. Deve implementar RADIUS client;
+Item 23. Deve ter suporte a Radius Authentication, Authorization e Accounting. O equipamento deve reconhecer no mínimo os seguintes atributos: Tunnel Attributes, User-Name, NAS-Identifier, Calling-Station-Id , Class, EAP-Message, NAS-Port-Type, Filter-ID, Framed-MTU, Message-Authenticator, NAS-IP-Address , NAS-Port , NAS-Port-Id , Session-Timeout , State , Termination-Action.
+Texto: Deve ter suporte a RADIUS Authentication (RFC 2865), RADIUS Authorization (RFC 2866) e 802.1x
+ 
+Item 25. Deve implemntar Syslog;
+Texto: retirar
+Item 35.Deve implementar classificação de tráfego nas camadas 2, 3 e 4;
+Texto: Deve implementer classificação de tráfego usando protocolo 802.1p e DiffServ (RFC 2474 e RFC 2475)
+ 
+Item 36.Deve implementar Lista de acesso (ACL) de camada 2 e 3 permitindo aplicação em cada porta do switch;
+Texto: Deve implementar mecanismos de controle de acesso por porta.
+ 
+Item 39.O arquivo de configuração deve ser baseado em texto, permitindo sua edição e seu Upload e Download;
+Item 42.Deve ser possível enviar um trap SNMP quando o número de MACs identificados em uma porta atingir ou exceder a quantidade de MACs permitidos na porta;
+Texto: Deve ser possível enviar um trap SNMP em situações críticas, como acesso não autorizado ou mudanças de status da porta.
+Item 43.Deve suportar Broadcast Suppression, permitindo configurar valores individuais de supressão por porta;
+Texto: Deve suportar o controle de pacotes tipo Broadcast e Multicast, limitando a sua quantidade por porta.
+Item 45.Deve implementar DHCP Client;
+Texto: Deve implementar DHCP.
+Item 49.Deve implementar qualidade de serviço Diffserv;
+ ITEM - 2 – SWITHC TIPO 2 – 10/100/1000 - ERS 5510 NORTEL + RPS(Fonte redundante)
+Item 28. Deve ter suporte a Radius Authentication, Authorization e Accounting. O equipamento deve reconhecer no mínimo os seguintes atributos: Tunnel Attributes, User-Name, NAS-Identifier, Calling-Station-Id , Class, EAP-Message, NAS-Port-Type, Filter-ID, Framed-MTU, Message-Authenticator, NAS-IP-Address , NAS-Port , NAS-Port-Id , Session-Timeout , State , Termination-Action.
+Texto: Deve ter suporte a RADIUS Authentication (RFC 2865), RADIUS Authorization (RFC 2866) e 802.1x.
+Item 45. O arquivo de configuração deve ser baseado em texto, permitindo sua edição e seu Upload e Download;
+Item 48. Deve suportar Broadcast Suppression, permitindo configurar valores individuais de supressão por porta;
+Texto: Deve suportar o controle de pacotes tipo Broadcast e Multicast, limitando a sua quantidade por porta.
+Item 49. Deve implementar no mínimo, 1005 VLANs ativas  e permitir 4094 identificador de vlan conforme o padrão IEEE 802.1Q.
+Texto: Deve implementar no mínimo 256 VLAN’s ativas e permitir 4094 identificadores de vlan, conforme o padrão IEEE 802.1Q.
+50. Deve implementar DHCP server
+ 
+Texto: Deve implementar DHCP.
+((NG))Empresa ZIVA((CL))
+1.	Questões gerais referentes ao edital e especificações técnicas:
+1.1.	Para correta compreensão e participação no processo, gostaríamos de entender qual o tempo previsto de amortização de investimento nos bens a ser adquiridos neste processo licitatório.
+1.2.	A garantia solicitada é de 36 meses na modalidade ‘on-site’. Entendemos que nesta modalidade o equipamento sobressalente é enviado ao cliente final, acompanhado de técnico para efetiva detecção de defeito e/ou substituição do mesmo se necessário. 
+ Está correto nosso entendimento?
+1.2.1.	Caso nosso entendimento para o item anterior esteja correto, sugerimos que para melhoria dos serviços prestados pela fornecedora da solução que vier a ganhar o processo licitatório, e para a garantia da Prodam e dos demais órgãos públicos que aderirem a ARP, que seja solicitado claramente que a proponente seja certificada, homologada ou autorizada pelo fabricante a prestar serviços de assistência técnica, possuindo em seu quadro de colaboradores profissionais habilitados a detectar e corrigir problemas causados ou não pelos produtos.
+1.2.2.	Existem vários casos, recentes e inclusive ocorridos na PMSP, nos quais empresas participam de processos de aquisição pública apenas por oportunismo, não reunindo condições técnicas ou comerciais de cumprir os compromissos estabelecidos, e com pouca preocupação ou envolvimento. Um item que resguarda o órgão público é a solicitação do aval do fabricante da solução, em relação a proponente, caso o fabricante não o seja. Tal solicitação ainda tem os seguintes benefícios:
+a.	100% dos produtos solicitados são de origem estrangeira. Caso a proponente não tenha aval do fabricante para comercialização, a garantia e assistência técnica em geral, além de qualidade inferior, são prestadas no país de origem.
+b.	Não é fator limitante de participação no processo, mas sim de elevação do nível de qualidade, pois todos os fabricantes possuem muitas revendas que podem apresentar condições de participação.
+c.	Um modelo de carta do fabricante que não infringe nenhuma determinação da lei 8.666 de 21/06/1993 segue: “A proponente deve apresentar carta do fabricante, caso não o seja, afirmando ser autorizada a comercializar, instalar, prestar assistência técnica e garantia aos produtos ofertados”.
+d.	Um exemplo de comparação simples é a aquisição de um veículo zero quilometro em uma agência de carros. Quem lhe prestará garantia, assistência técnica e suporte? Mesmo sabendo que a fábrica pode lhe fornecer e que qualquer um pode vender um carro zero quilometro, qual cidadão se sente a vontade para adquirir um veículo não sendo em uma autorizada? 
+1.3.	Não observamos no edital a referência de que ambos os equipamentos devem ser do mesmo fabricante e com mesma sintaxe de comandos. Entendemos que para o bem do órgão público isso é fundamental, pelos seguintes motivos:
+1.3.1.	Suporte técnico do mesmo fornecedor, reduzindo o custo administrativo;
+1.3.2.	Treinamento e know how da equipe técnica otimizado;
+1.3.3.	Método de configuração como mesmos parâmetros, diminuindo o tempo para configuração e solução de problemas;
+1.3.4.	Redução de custo em escala, pois os fabricantes podem diminuir drasticamente os valores pelo ganho em escala.
+1.4.	A certificação da ANATEL para equipamentos de telecomunicações é obrigatória, conforme determina a resolução 242, em seu capítulo XVI, XVII e XX. Existem vários ofícios da ANATEL para órgão de certificação, como o modelo que anexamos, que identifica claramente ser o Switch um equipamento que necessita desta homologação. Entendemos que a Prodam deva exigir esta certificação para os produtos ofertados, para estar de acordo com o órgão regulador nacional.
+1.5.	Em relação ao Switch tipo I – 10/100, o item 10 solicita duas funcionalidades totalmente distintas. Entendemos que para maior facilidade de compreensão seja dividido em dois itens.
+2.	Questões referentes a segurança dos equipamentos solicitados
+2.1.	Em relação ao Switch tipo I – 10/100, item 42, onde é solicitado: “...” Tal funcionalidade, da forma como solicitado, não representa vantagem, tendo em vista que se é solicitada a funcionalidade de limitação de endereços MAC permitidos por porta, e este número for excedido para o envio de trap, a funcionalidade não está atuando corretamente, logo o Switch está em desacordo com o especificado. Entendemos como adequado e muito mais seguro que seja solicitada a autenticação por MAC Adress por porta do Switch, garantindo desta forma que apenas os equipamentos previamente cadastrados possam acessar a rede. Lembramos que a funcionalidade, da forma como solicitada, não é atendida por vários fabricantes, limitando em demasia a quantidade de proponentes. Lembramos que este item, da forma como solicitado, inviabiliza a participação do fabricante 3Com, por nós representado, neste processo.
+2.2.	Em relação ao Switch tipo I – 10/100 e Switch tipo II – 10/100/1000, nos respectivos itens 31 e 37, é solicitado NTP ou SNTP. A funcionalidade de tempo sincronizado em rede é extremamente necessária e fundamental para uma plataforma de correlação de eventos ou de Syslog Server. Porém, de nada adianta se for vulnerável como o SNTP. Desta forma entendemos que a solicitação neste item deva ser apenas do protocolo NTP, que garante através de autenticação que todos os dispositivos de rede estão sincronizados de fato em relação ao horário.
+2.3.	Observamos que nenhum dos dois dispositivos pede a funcionalidade DHCP Tracker, que tem o objetivo de detectar o verdadeiro servidor DHCP da rede. Vários problemas de rede ocorrem por conta de habilitação na rede de dispositivos caseiros que tem servidor DHCP, como inclusive e solicitado no Switch tipo II – 10/100/1000, no item 50. Entendemos ser de vital importância esta funcionalidade de segurança, principalmente nos tempos de hoje onde todos podem facilmente habilitar em rede, dispositivos caseiros que podem causar a paralização dos serviços públicos essenciais à população, seja por negligência, incapacidade técnica ou má fé.
+2.4.	Ambos os produtos solicitados pedem o protocolo de link agreggation 802.3ad, no Switch tipo I -10/100, item 19 e no Switch tipo II – item 24. Levando-se em consideração:
+a.	Que este protocolo é fundamental para a alta disponibilidade e aumento de performance da rede;
+b.	Que a alta disponibilidade e performance da rede não pode estar restrito a apenas um Switch;
+c.	Também é solicitado o empilhamento dos Switches.
+		Entendemos que deva ser solicitado também, no mesmo item e em ambos os produtos, que a agregação de links possa ocorrer entre diferentes dispositivos na mesma pilha, a fim de garantir maior performance e a maior disponibilidade possível da rede.
+2.5.	 No item 11 do Switch tipo I e 15 do Switch Tipo II, “Suportar gerenciamento via SNMP v1, v2c e v3. Sendo que para a versão 3 deve permitir autenticação via MD5 e SHA e criptografia via DES”. Entendemos que é mais interessante para a Prodam que ao invés do Algorítmo DES, seja usado o algorítmo AES. O algorítmo DES é considerado, há vários anos, inseguro, e foi demonstrada sua fraqueza diante do desempenho atual dos computadores.
+3.	Questões referentes a performance e tempo de vida útil dos equipamentos
+Tendo em vista que equipamentos como os solicitados têm tempo de vida útil, não por suas características intrínsecas, mas sim pelo rápido avanço tecnológico, estimado em torno de 5-7 anos, entendemos ser fundamental que algumas funcionalidades não solicitadas, porém já utilizadas nas redes de computadores ao redor do mundo, deveriam ser analisadas e incluídas na solicitação, a fim de aumentar a sobrevida dos equipamentos e sua capacidade de atender a demanda atual e futura da Prodam.
+3.1.	Em relação ao Switch tipo II – 10/100/1000. Observamos que não foi solicitado suporte a porta de uplink de 10Gbps (10 gigabit ethernet). Levando-se em consideração:
+a.	Esta tecnologia já é largamente utilizada, e como todas as outras deve ter o preços das portas caindo drasticamente nos próximos anos;
+b.	O Switch solicitado tem capacidade para 24 portas 10/100/1000, ou seja, 24 Gigabit, causando um claro ‘gargalo’ na conexão entre dois equipamentos similares (1/24);
+c.	Todos os fabricantes implementam suporte a portas 10Gbps em produtos Gigabit Ethernet.
+Entendemos como sendo uma funcionalidade imprescindível e que deva ser obrigatória nos equipamentos ofertados o suporte implementação de portas 10Gbps, sem substituição de hardware.
+3.2.	Verificamos que no Switch tipo II – 10/100/1000 é solicitado no item 11 capacidade de Switching de 32 Gbps. Levando-se em consideração:
+a.	São solicitadas 24 portas 10/100/1000 (tráfego de 2 Gbps em Full Duplex por porta), com porta dedicada de empilhamento de 16 Gbps, nos itens 2 e 3 respectivamente. O tráfego total para esta configuração é de até 64Gbps;
+b.	Um produto com capacidade inferior a 64Gbps, para a configuração solicitada, será ‘blocking’, isto é, não terá capacidade de vazão.
+Entendemos que os produtos solicitados deverão possuir capacidade ‘non-blocking’, ou seja, capacidade de velocidade total em todas as portas simultaneamente, com capacidade de Switching não inferior a 64Gbps.
+3.3.	Verificamos que no Switch tipo II – 10/100/1000 é solicitado no item 12 capacidade de 35 Mpps. Levando-se em consideração:
+a.	São solicitadas 24 portas 10/100/1000, com porta dedicada de empilhamento de 16 Gbps, nos itens 2 e 3 respectivamente. O tráfego total para esta configuração é de até 60 Mpps (1,488 Mpps por interface Gigabit Ethernet + empilhamento);
+b.	Um produto com capacidade inferior a 60Mpps, para a configuração solicitada, não será capaz de processar todas as portas simultaneamente, efetuando descarte de pacotes.
+Entendemos que os produtos os produtos solicitados deverão possuir capacidade de no mínimo 60Mpps, ou seja, capacidade de velocidade total em todas as portas simultaneamente. 
+3.4.	Verificamos que no Switch tipo I -10/100, não foi solicitado suporte ao IGMP snooping v3, embora seja solicitado o suporte as versões anteriores e no item II – Switch 10/100/1000 seja solicitado o IGMP snooping v3. Levando-se em consideração:
+a.	Está é a última versão do protocolo de controle de tráfego multicast, já implementada largamente pela quase totalidade dos fabricantes de Switches;
+b.	Que o tráfego multicast é uma realidade e em franca expansão, principalmente em ambientes onde exista ambiente educacional (escolas, faculdades e centros de treinamento municipais);
+c.	Que o protocolo de controle de multicast faça muito mais sentido o mais próximo possível da estação de trabalho, para otimizar o tráfego de rede;
+Entendemos que os produtos solicitados no item I – Switch 10/100 deva possuir, além dos protocolos IGMP snooping v1 e v2, também deva possuir o protocolo IGMP snooping v3.
+3.5.	O Switch Tipo II irá exercer funções de roteamento IP, conforme requisitos da especificação. Hoje existem diversas aplicações que operam em multicast (). Assim sendo, para que estas aplicações funcionem é necessário que o Switch realize o roteamento dos pacotes tanto em unicast como em multicast. Por estes motivos, entendemos que é fundamental que o Switch tipo II – 10/100/1000 tenha suporte a roteamento multicast no mínimo com PIM-DM, sendo desejável também o PIM-SM.
+Nada mais havendo a tratar o Sr. Diniz encerrou a sessão informando que a Ata  dessa reunião estará disponível no site da Prodam e as respostas serão oportunamente divulgadas.

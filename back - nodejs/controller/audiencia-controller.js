@@ -1,5 +1,5 @@
-const Audiencia = require('../sequelize').Audiencia
-const Pauta = require('../sequelize').Pauta
+const Audiencia = require('../sequelize').Audiencia;
+const Pauta = require('../sequelize').Pauta;
 var sugeridas = [
     {
         nome: 'Audiência Pública',

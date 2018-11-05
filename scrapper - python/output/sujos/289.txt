@@ -1,0 +1,28 @@
+((TITULO))Comunicado SF/COTEC n.º 001, de 27 de março de 2012
+
+((TEXTO))Promove ((NG))Consulta Pública((CL)) no período de 29 de março a 27 de abril de 2012, com a finalidade de dirimir dúvidas e coletar contribuições para definição dos requisitos do Equipamento Sistema Autenticador e Transmissor de Documentos Fiscais (SAT/ISS).
+
+O Coordenador de Tecnologia de Informação e Comunicação da Secretaria Municipal de Finanças convida os Órgãos Técnicos em Engenharia Elétrica, Eletrônica e Tecnologia da Informação, o mercado empresarial, entidades de classe e a sociedade em geral para participarem de ((NG))Consulta Pública((CL)) com a finalidade de dirimir dúvidas e coletar contribuições para definição dos requisitos do ((NG))Sistema Autenticador e Transmissor de Documentos Fiscais Eletrônicos – SAT/ISS. ((CL))
+
+A Consulta Pública será realizada por meio da Internet, sendo que a documentação relativa ao projeto está disponível no site ((NG))http://www.prefeitura.sp.gov.br/cidade/secretarias/financas/, ((CL)) opção SAT-ISS. Os interessados enviar questões e sugestões à Secretaria Municipal de Finanças, pelo endereço eletrônico((NG)) satiss@prefeitura.sp.gov.br, ((CL)) entre ((NG))as 8 horas de 29 de março de 2012 e as 24 horas de 27 de abril de 2012. ((CL))
+
+O Projeto SAT-ISS visa ao desenvolvimento de um sistema autenticador e transmissor de documentos fiscais eletrônicos, com o objetivo de documentar, de forma eletrônica, as prestações de serviços no Município de São Paulo.
+
+O equipamento SAT será composto por um módulo de hardware com software embarcado, que irá possibilitar, por intermédio do uso de comunicação via banda larga, a transmissão do Recibo Provisório de Serviços Eletrônico - RPS-e periodicamente à Secretaria Municipal de Finanças, após sua validação e autenticação, devendo operar de forma integrada ao Aplicativo Comercial de frente de caixa.
+
+O Projeto SAT-ISS possibilitará à Secretaria Municipal de Finanças ter acesso, de forma eletrônica, às informações de prestação dos serviços tributáveis pelo ISS. Também possibilitará, ao contribuinte, simplificar o atendimento de suas obrigações acessórias.
+
+O documento de especificação de requisitos de Hardware e Software do Sistema Autenticador e Transmissor de Documentos Fiscais Eletrônicos – SAT-ISS está disponível no site((NG)) http://www.prefeitura.sp.gov.br/cidade/secretarias/financas/,((CL)) opção SAT-ISS. 
+
+Os interessados deverão enviar suas questões e sugestões no prazo acima indicado, ficando cientes de que não há obrigatoriedade, por parte da Secretaria Municipal de Finanças, do oferecimento de respostas ou de retorno sobre as considerações apresentadas. 
+
+
+((NG))Comunicado SF/COTEC n.º 002, de 27 de março de 2012((CL))
+
+Promove Audiência Pública, com a finalidade de dirimir dúvidas sobre os requisitos do Equipamento Sistema Autenticador e Transmissor de Documentos Fiscais (SAT/ISS).
+
+O Coordenador de Tecnologia de Informação e Comunicação da Secretaria Municipal de Finanças convida os Órgãos Técnicos em Engenharia Elétrica, Eletrônica e Tecnologia da Informação, o mercado empresarial, entidades de classe e a sociedade em geral para participarem de ((NG))Audiência Pública((CL)) com a finalidade de dirimir dúvidas e coletar contribuições para definição dos requisitos do ((NG))Sistema Autenticador e Transmissor de Documentos Fiscais Eletrônicos – SAT/ISS.((CL))
+
+O Projeto SAT-ISS visa ao desenvolvimento de um sistema autenticador e transmissor de documentos fiscais eletrônicos, com o objetivo de documentar, de forma eletrônica, as prestações de serviços no Município de São Paulo.
+
+A ((NG))Audiência Pública((CL)) será realizada em((NG)) 9 de abril de 2012, das 14 às 17 horas, ((CL))no Edifício Andraus, situado à Rua Pedro Américo, 32, 28º andar – Vila Buarque (Estação República do Metrô)  estando a participação condicionada a prévia inscrição no endereço eletrônico((NG)) satiss@prefeitura.sp.gov.br((CL)) até as 16 horas de 6 de abril de 2012. Na inscrição deverão ser informados os seguintes dados: ((NG))NOME COMPLETO – RG – EMPRESA/ENTIDADE – TELEFONE.((CL))

@@ -1,0 +1,89 @@
+((TITULO))COMISSÃO ESPECIAL DE LICITAÇÃO - CEL
+((TEXTO))((NG))2003-0.304.735-2 - CONCORRÊNCIA 012/2003-3 - SISTEMA INTEGRADO DE GESTÃO DE PESSOAS - SIGPEC((CL)) - A Comissão Especial de Licitação comunica aos interessados a resposta às impugnações ofertadas pelas empresas UNISYS BRASIL LTDA e  TECHNE ENGENHARIA DE SISTEMAS LTDA., em conjunto, e pela empresa SCHLUMBERGERSEMA DO BRASIL LTDA.
+
+((NG))1.((CL)) Somente ao apagar das luzes para oferecimento de impugnação, examinando as determinações editalícias, as empresas UNISYS BRASIL LTDA. e TECHNE ENGENHARIA DE SISTEMAS LTDA. (que pretendem apresentar oportunamente Termo de Compromisso de Constituição do Consórcio UNISYS/TECHNE) e a empresa SCHLUMBERGERSEMA DO BRASIL LTDA. se insurgiram contra alguns itens do Edital, entendendo como ilegais as exigências ali impostas, razão pela qual as impugnou, no propósito de demonstrar a esta Comissão o desacerto e a impossibilidade de mantê-las vigentes.
+
+((NG))1.2.((CL)) As impugnações foram ofertadas com fundamento no parágrafo 1º do artigo 41 da Lei Federal n°. 8.666/93, que confere a qualquer pessoa o direito de se insurgir contra prescrições contidas no instrumento convocatório, quando este contiver exigências ou disposições que não guardem fidelidade aos princípios que iluminam a licitação ou, ainda, que sejam desconformes com os preceitos legais que regem o procedimento licitatório. 
+
+ ((NG))1.3.((CL)) Outrossim, as impugnações foram ofertadas em obediência ao lapso temporal exigido para sua interposição, razão pela qual, por tempestivas, são recebidas e regularmente processadas. 
+
+((NG))2.((CL)) Passaremos a enfocar, uma a uma, as alegadas impropriedades encontradas no Edital, cuja natureza e gravidade, segundo as IMPUGNANTES, comprometem de modo inafastável - se mantidas - a legitimidade e legalidade do certame em tela.
+
+((NG))3.((CL)) O inconformismo da UNISYS/TECHNE cinge-se aos requisitos gerais sobre o teste de conformidade, alegando, em apertada síntese, o seguinte: 
+
+"Considerando que o hardware necessário ao atendimento dos requisitos do teste de performance deve suportar a carga de dados prevista no Anexo VII do instrumento editalício sob referência, com certeza estamos diante de necessidade de disponibilização de equipamentos de porte considerável. Isto porque, equipamento de pequeno porte não atingirá métricas satisfatórias. Aliás este é um ponto relevante, eis que as métricas não estão definidas, ressentindo-se o critério de julgamento da essencial objetividade....................................................................
+
+Desta forma, tão somente os equipamentos necessários ao atendimento da exigência podem alcançar o valor aproximado de U$ 74,087.00 (setenta e quatro mil e oitenta e sete dólares americanos). A este custo aditar-se-ão outros decorrentes da aquisição ou aluguel dos SWs, transporte de equipamentos, sabendo-se que existem especiais condições para movimentação de equipamentos, instalação e desinstalação dos mesmos. 
+Além disso, há que ressaltar que os equipamentos do porte considerado necessário à realização dos testes que suportem a carga de dados exigida no Edital sob referência, não traduzem a realidade do ambiente atual da PMSP. Ora, não há justificativa que respalde a realização de teste de performance em ambiente que não será aproveitado em fase de operação".
+
+((NG))3.1.((CL)) A UNISYS/TECHNE considera desproporcional, abusiva e ilegal a exigência imposta aos licitantes no instrumento editalício para a realização do teste de performance, asseverando:
+
+"Note-se mais que o teste de conformidade encontra diversas outras alternativas de realização, seja em equipamento de menor porte, perfeitamente adequado à realização de testes, seja em ambiente real a ser disponibilizado pela PMSP ou, ainda, no laboratório da licitante. Aliás, registre-se q	eu o teste de funcionalidade da solução não depende do teste de performance....................................................
+
+Além disso, a resposta ao nosso questionamento quanto às métricas a serem utilizadas no teste de performance, declarando que "Não haverá indicadores para medições...e que "a proponente deverá simular  (com softwares apropriados para tal fim) o ambiente conforme previsto...." (Ofício n. 030/04 - SGP/CEL) não garante a isonomia do teste de performance".
+
+((NG))3.2.((CL)) Prosseguindo em suas irresignações, a UNISYS/TECHNE é taxativa ao se rebelar contra a imposição aos licitantes de ônus injusto, desnecessário e estranho ao objeto da licitação, pois não existe empresa que mantenha ocioso equipamento desse porte, de forma a poder disponibilizá-lo como exige o Edital, agravando-se ainda mais pelo fato de não haver prazo para restituição do equipamento, que deverá permanecer instalado nas dependências da PMSP até o incerto encerramento da fase de qualificação técnica.
+
+((NG))3.3.((CL)) Finalmente, encerrando a peça impugnativa, após mencionar a inobservância dos princípios da razoabilidade, da isonomia e da proporcionalidade, requerem as empresas UNISYS BRASIL LTDA. e TECHNE ENGENHARIA DE SISTEMAS LTDA. que esta Comissão reconheça as razões expostas a fim de alterar a condição prevista no Anexo VII do Edital, adotando, conforme entendimento, a melhor alternativa: seja a realização de verificação de funcionalidades com equipamento menor, seja o teste realizado nos equipamentos de propriedade da PMSP ou seja permitido às licitantes realização do teste em suas instalações, dando, enfim, provimento à presente Impugnação.
+
+((NG))4.((CL)) A empresa SCHLUMBERGERSEMA insurge-se contra:
+
+((NG))a)((CL)) a ausência de definição de critérios de desempenho e de julgamento a serem observados no teste de conformidade;
+
+((NG))b)((CL)) a falta de divulgação das dotações orçamentárias previstas para todo o período do contrato.
+
+((NG))5.((CL)) No que se refere à alegada ausência de definição de critérios, assim não entende a Comissão, pois há precisa definição de parâmetros de julgamento. 
+
+Causa espécie à Comissão o fato de que, havendo dúvida de tal porte e, no entender da SCHLUMBERGERSEMA, sendo inexeqüível a apresentação de qualquer proposta, somente no limiar do prazo para oferecer impugnação, venha a se manifestar a interessada.
+
+((NG))5.1.((CL)) Deve-se deixar consignado que em momento algum deixou a Comissão de observar a legislação regente da matéria, sobretudo os princípios inerentes à Administração Pública. 
+
+((NG))5.2.((CL)) Não se pode olvidar que o objeto da contratação é o interesse público. Diante dessa realidade, há de partir da premissa de que a finalidade precípua do ajuste é a satisfação de necessidades coletivas. Nesse sentido, poderá e deverá a Comissão pautar-se com a lógica do razoável, tão bem definida pelo jurista Recaséns Siches.  
+
+((NG))6.((CL)) O segundo insurgimento da IMPUGNANTE refere-se à questão da publicidade da reserva orçamentária. Em síntese, requer a inserção, no corpo do Edital, do orçamento estimado para as despesas envolvidas na realização de todo o período do contrato. 
+
+((NG))6.1.((CL)) Em que pese tal entendimento da Impugnante, a Comissão discorda de tal postura, pois não há obrigatoriedade legal da Administração demonstrar o valor total orçado, no caso em espécie, pois não se trata de serviços de obras, considerando-se ainda a inexistência de custos unitários no objeto a ser licitado.
+
+((NG))6.2.((CL)) Cumpre ressaltar que existe reserva orçamentária para todo o período estimado para a realização do contrato,  razão pela qual a Comissão não vislumbra nenhuma ilegalidade no instrumento convocatório.
+
+((NG))É o relatório((CL)).
+
+A Comissão passa a decidir.
+
+((NG))7.((CL)) Preliminarmente, cumpre notar que esta Comissão, em nenhuma hipótese, deixou de se pautar pelos princípios do Direito Administrativo, principalmente o da Eficiência, que ganhou especial relevo a partir da Emenda Constitucional nº 19/98. 
+
+((NG))7.1.((CL)) A mencionada Emenda trouxe profundas modificações na Administração Pública. O fulcro principal é a substituição do antigo modelo burocrático pelo gerencial, no qual encontramos o abrandamento dos controles de procedimentos e incrementação dos controles de resultados, evitando-se, assim, o engessamento da máquina administrativa.
+
+((NG))7.2.((CL)) Em suma, é preciso superar concepções puramente burocráticas ou meramente formalísticas, dando-se maior ênfase ao exame da legitimidade, da economicidade e da razoabilidade, em benefício da eficiência. Não basta ao administrador demonstrar que agiu bem, em estrita conformidade com a lei: sem se divorciar da legalidade, cabe a ele evidenciar que caminhou no sentido dos melhores resultados.  
+
+((NG))7.3.((CL)) A Comissão Especial de Licitação, considerando ser premente a aquisição deste Sistema pela PMSP e a fim de não retardar ainda mais a sua efetivação, resolve ser complacente com algumas das razões apresentadas pelas impugnantes, a fim de rever tópicos do Edital nos moldes impugnados, acolhendo-as parcialmente. 
+
+No entanto, a Comissão não considera abusivos os custos dos testes de performance definidos no edital, tendo em vista o custo total do sistema e o esforço que a PMSP deverá desenvolver na implantação depois de contratado sistema.
+
+((NG))7.4.((CL)) Observa, ainda, que tais itens, inseridos desde a data da primeira publicação do plurimencionado Edital, somente foram impugnados nas últimas horas do seu prazo fatal, atrasando ainda mais sua implementação. 
+
+((NG))7.5.((CL)) De se frisar que o dever de agir com fidalguia, lealdade e boa fé não é obrigação exclusiva das relações entre particulares. Mormente quando se trata de relações afetas ao Direito Público, tais princípios, por se constituírem em princípios basilares do Estado Democrático de Direito, devem permear todos os vínculos constituídos sob a égide daquele ramo do Direito. Da mesma forma que os agentes da Administração devem tributar respeito aos possíveis interessados no certame, a recíproca deve ser observada, principalmente no tocante a evitar procedimentos meramente protelatórios.
+         
+((NG))8.((CL)) No que tange ao teste de performance, a Comissão Especial de Licitação,
+
+((NG))a) CONSIDERANDO((CL)) os questionamentos suscitados em audiência pública convocada por mera liberalidade desta Comissão;
+
+((NG))b) CONSIDERANDO((CL)) que, não obstante os esclarecimentos prestados por esta Comissão (publicados no Diário Oficial do Município nas edições de 07.02.2004, 17.03.2004, 07.05.2004 e 18.05.2004), persistiram dúvidas acerca do teste de performance e seus desdobramentos, objeto de impugnação por parte das empresas UNISYS BRASIL LTDA., TECHNE ENGENHARIA DE SISTEMAS Ltda. e SCHLUMBERGERSEMA;
+
+((NG))c) CONSIDERANDO((CL)), ainda, que o teste de funcionalidade da solução, essencial para garantia da qualidade do serviço, não depende, necessariamente, do teste de performance;
+
+((NG))d) CONSIDERANDO((CL)) o dever que incumbe ao administrador de assegurar a máxima competição no certame;
+
+((NG))e) CONSIDERANDO((CL)) que esta Comissão está estudando a introdução de modificações, a serem oportunamente divulgadas;
+
+((NG))RESOLVE ((CL))
+
+((NG))8.1. TORNAR PREJUDICADA((CL)), pela perda do objeto, a impugnação interposta pelas empresas UNISYS BRASIL LTDA. e TECHNE ENGENHARIA DE SISTEMAS Ltda. ;
+
+((NG))8.2. TORNAR PREJUDICADA((CL)), por idêntica razão, a impugnação interposta pela empresa SCHLUMBERGERSEMA, no que tange à definição de critérios para medição do teste de conformidade.
+
+((NG))9.((CL)) A Comissão, reiterando os termos do rebatido na Impugnação efetuada pela SCHLUMBERGERSEMA, 
+
+((NG))RESOLVE, ainda((CL)),
+
+((NG))9.1. ACOLHER((CL)), em estrita homenagem ao princípio da transparência, o pedido formulado pela SCHLUMBERGERSEMA de divulgação do valor total, reservado para atender, preliminar e estimativamente,  as despesas com a execução do contrato, que é da ordem de R$ 5.800.000,00 (cinco milhões e oitocentos mil reais), onerando as seguintes dotações orçamentárias para o ano de 2004, conforme já divulgado anteriormente: 15.10.04.126.0176.1383.44.90.39.00.00: R$ 1.827.000,00 (Hum milhão, oitocentos e vinte e sete mil reais) e 15.10.04.126.0176.1383.44.90.39.00.01: R$ 203.000,00 (Duzentos e três mil reais).
