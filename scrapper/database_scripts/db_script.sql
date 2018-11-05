@@ -18,6 +18,8 @@ ALTER TABLE publicacao DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 ALTER TABLE publicacao CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
+CREATE UNIQUE INDEX un_url ON publicacao(url_devcolab);
+
 CREATE TABLE publicacao_limpa (
     fk_id_publicacao INT NOT NULL
     ,texto TEXT NOT NULL
