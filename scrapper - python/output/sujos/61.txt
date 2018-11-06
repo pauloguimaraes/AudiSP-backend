@@ -1,5 +1,0 @@
-((TITULO))EDITAL
-((TEXTO))
-((TEXTO))O Secretário do Verde e do Meio Ambiente do Município de São Paulo, Presidente do Conselho Municipal do Meio Ambiente e Desenvolvimento Sustentável – CADES, convida entidades, autoridades e cidadãos interessados para ((NG))Audiência Pública ((CL))que fará realizar no dia 23/05/2006 às 18:30 horas, para apresentação, debate, esclarecimentos e sugestões sobre o ((NG))Estudo de Viabilidade Ambiental – EVA do projeto Nova Bandeirantes - Melhoria Viária Ambiental.
-((CL))A Audiência Pública realizar-se-á na Avenida Bandeirantes, 1051 – 1º andar, São Paulo.
-O referido Estudo de Viabilidade Ambiental está disponível para consulta, no horário das 10:00 às 16:00 horas, nos dias úteis, no CADES, à Rua do Paraíso, 387 – 1º andar.
