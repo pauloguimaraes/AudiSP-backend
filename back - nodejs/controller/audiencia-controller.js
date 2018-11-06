@@ -1,7 +1,6 @@
 const Audiencia = require('../sequelize').Audiencia;
 const Pauta = require('../sequelize').Pauta;
-var sugeridas = [
-    {
+var sugeridas = [{
         nome: 'Audiência Pública',
         data: '23/10/2018 11:30',
         pauta: 'Audiência Pública sobre desmatamento',
@@ -33,8 +32,7 @@ var sugeridas = [
     }
 ];
 
-var lista = [
-    {
+var lista = [{
         nome: 'Audiência Pública',
         data: '23/10/2018 11:30',
         pauta: 'Audiência Pública sobre desmatamento',
@@ -90,14 +88,15 @@ function getAudienciaSugerida(req) {
         });
 };
 
-function getListaAudencias(req,res) {
+function getListaAudencias(req, res) {
     return new Promise(
         (resolve, reject) => {
             resolve(
-                Audiencia.findAll(/*{include: [{
-                    model:Pauta, 
-                    attributes: ['nome']
-                }]}*/
+                Audiencia.findAll(
+                    /*{include: [{
+                                        model:Pauta, 
+                                        attributes: ['nome']
+                                    }]}*/
                 )
             );
         });
