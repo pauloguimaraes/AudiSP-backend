@@ -78,20 +78,18 @@ def main():
                 
                 id_inserido = audienciadao.insere(linha, connection)
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])#.decode('utf-8'))
-            
-            except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
-                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
-                print('{0}'.format(str(e)))#e.args[1]))
-				
-            try:
+
                 audilimpadao.insere(id_inserido, linha, connection)
                 fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])#.decode('utf-8'))
 
             except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count limpo "+str(contador))
+                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
+                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
                 print('{0}'.format(str(e)))#e.args[1]))
+			
+            finally:
                 conn.close(connection)
+
         del retorno
 
 

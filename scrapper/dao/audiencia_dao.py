@@ -55,7 +55,7 @@ def get_data_ultima_audiencia(connection):
 
     cursor = connection.cursor()
 
-    query = "SELECT MAX(data) AS 'data_pub' FROM publicacao ORDER BY data DESC"
+    query = "SELECT MIN(data) AS 'data_pub' FROM publicacao"
     cursor.execute(query)
 
     data_pub_var = None
