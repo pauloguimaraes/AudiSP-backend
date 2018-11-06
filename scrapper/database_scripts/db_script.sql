@@ -59,7 +59,7 @@ CREATE TABLE usuario (
     ,nome VARCHAR(512) NOT NULL
     ,email VARCHAR(255) NOT NULL 
     ,nascimento DATE
-    ,token_fb varchar(255) not null
+    ,hash_senha varchar(255) not null
     ,PRIMARY KEY(id)
 );
 
