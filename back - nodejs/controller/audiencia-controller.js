@@ -94,10 +94,10 @@ function getListaAudencias(req,res) {
     return new Promise(
         (resolve, reject) => {
             resolve(
-                Audiencia.findAll({include: [{
+                Audiencia.findAll(/*{include: [{
                     model:Pauta, 
                     attributes: ['nome']
-                }]}
+                }]}*/
                 )
             );
         });
