@@ -19,6 +19,6 @@ app.use('/user', userRoutes);
 app.use('/auth', authRoutes);
 
 var port = 6005;
-app.listen(port, function() {
+app.listen((process.env.PORT || port), function() {
     console.log("To view your app, open this link in your browser: http://localhost:" + port);
 }); 
