@@ -18,7 +18,7 @@ function getUserLikes(req) {
                     include: [Pauta]
                 });
 
-                if (!user) {
+                if (!user.pauta[0]) {
                     let pautas = await Pauta.findAll();
                     await pautas.map((pauta) => {
                         res.push({
@@ -29,6 +29,7 @@ function getUserLikes(req) {
                     });
                     resolve(res);
 
+
                 } else {
                     await user.pauta.map((pauta) => {
                         res.push({
@@ -37,7 +38,6 @@ function getUserLikes(req) {
                             score: pauta.interesse.score
                         });
                     });
-
                     resolve(res);
                 }
             }

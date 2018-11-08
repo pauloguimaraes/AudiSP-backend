@@ -41,12 +41,19 @@ function validateUser(req) {
                     token_fb: hash
                 }
             });
-            if(!user){
-                resolve({status: 'nok', user: 'none'});
+            if (!user) {
+                resolve({
+                    status: 'nok',
+                    user: 'none'
+                });
+            } else {
+                resolve(
+                    resolve({
+                        status: 'ok',
+                        user: user.id
+                    })
+                );
             }
-            resolve(
-                resolve({status: 'ok', user: user.id})
-            );
         }
     );
 }
