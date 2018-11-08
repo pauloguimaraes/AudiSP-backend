@@ -24,21 +24,28 @@ function registerUser(req) {
                     token_fb: hash
                 });
             }
-             resolve({status: 'ok', text: 'Usuário criado!'});
+            resolve({
+                status: 'ok',
+                text: 'Usuário criado!'
+            });
         });
 };
 
 function validateUser(req) {
     return new Promise(
-        (resolve, reject) => {
+        async (resolve, reject) => {
             var hash = crypto.createHash('sha256').update(req.body.email + req.body.senha).digest('base64');
-
+            let user = await User.findOne({
+                attributes: ['id'],
+                where: {
+                    token_fb: hash
+                }
+            });
+            if(!user){
+                resolve({status: 'nok', user: 'none'});
+            }
             resolve(
-                User.findAll({
-                    where: {
-                        token_fb: hash
-                    }
-                })
+                resolve({status: 'ok', user: user.id})
             );
         }
     );
