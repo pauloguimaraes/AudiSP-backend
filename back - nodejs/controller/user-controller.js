@@ -71,7 +71,7 @@ function updateUserLikes(req) {
                 resolve(res);
 
             } else {
-                
+
                 await req.body.pautas.map(
                     async (pauta) => {
                         Interesse.findOne({
@@ -80,9 +80,9 @@ function updateUserLikes(req) {
                                     id_pauta: pauta.id
                                 }
                             })
-                            .then(data => {
-                                if (data) {
-                                    data.updateAttributes({
+                            .then(dado => {
+                                if (dado) {
+                                    dado.updateAttributes({
                                         score: pauta.score
                                     });
                                 }
@@ -95,7 +95,32 @@ function updateUserLikes(req) {
     );
 }
 
+function likeAudiencia(req) {
+    return new Promise(
+        async (resolve, reject) => {
+            let interesse = await Interesse.findOne({
+                where: {
+                    id_usuario: req.body.userId,
+                    id_pauta: req.body.pautaId
+                }
+            }).then(dado => {
+                if (dado) {
+                    let sum = dado.score + 20;
+                    if (sum > 100) sum = 100;
+                    dado.updateAttributes({
+                        score: sum
+                    });
+                }
+            });
+
+            resolve({text: 'Curtido com sucesso'});
+        }
+    );
+
+}
+
 module.exports = {
     getUserLikes: getUserLikes,
-    updateUserLikes: updateUserLikes
+    updateUserLikes: updateUserLikes,
+    likeAudiencia: likeAudiencia
 };

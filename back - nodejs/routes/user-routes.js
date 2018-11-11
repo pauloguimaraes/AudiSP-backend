@@ -24,6 +24,15 @@ router.put('/updateLikes', function (req, res) {
         });
 });
 
-
+router.put('/likeAud', function (req, res) {
+    userController.likeAudiencia(req)
+        .then(
+            (response) => {
+                res.status(200).send(response)
+            })
+        .catch((error) => {
+            res.status(500).send(error.mesage)
+        });
+});
 
 module.exports = router;
