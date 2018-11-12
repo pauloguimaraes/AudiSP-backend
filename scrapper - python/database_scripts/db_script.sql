@@ -37,6 +37,7 @@ create table audiencia (
     id_publicacao int not null,
     data date,
     horario varchar(255),
+    local varchar(255)
     FOREIGN KEY(id_publicacao) REFERENCES publicacao(id)
 );
 
