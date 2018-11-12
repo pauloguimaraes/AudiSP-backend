@@ -38,8 +38,8 @@ from controller.get_audiencias import get_audiencias_publicas
 
 
 # Variáveis
-url = 'http://devcolab.each.usp.br/do/catalog.json?f[data][]=years_mais_5&q=audiencia+publica&per_page=5'
-hoje = datetime.date(2010, 3, 20)
+url = 'http://devcolab.each.usp.br/do/catalog.json?q=audiencia+publica&sort=data+desc&per_page=5'
+hoje = datetime.date(2013, 3, 20)
 
 
 
@@ -47,39 +47,49 @@ def main():
     """
     Método principal da aplicação
     """
-    maxrange = 2070
+    maxrange = 5000
     upLimit = 0
     jump = 30
-    for x in range(0,2100,jump):
+    for x in range(0,maxrange,jump):
         if(x > maxrange):
             break
         if(x + jump > maxrange):
             upLimit = maxrange
         else:
             upLimit = x+jump
-        retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=x, ending_page=upLimit)
+
+        
+        connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+        data_ultima_aud_no_banco = audienciadao.get_data_ultima_audiencia(connection)
+
+        if(data_ultima_aud_no_banco is not None):
+            print('caiu aqui, com data')
+            retorno = get_audiencias_publicas(base_date=data_ultima_aud_no_banco, url=url, starting_page=x, ending_page=upLimit)
+        else:
+            print('sem data')
+            retorno = get_audiencias_publicas(base_date=hoje, url=url, starting_page=x, ending_page=upLimit)
+
+        
         contador = 0
         for linha in retorno:
             try:
                 contador+=1
                 connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
-            
+                
                 id_inserido = audienciadao.insere(linha, connection)
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])#.decode('utf-8'))
-            
-            except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
-                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
-                print('{0}'.format(str(e)))#e.args[1]))
-				
-            try:
+
                 audilimpadao.insere(id_inserido, linha, connection)
                 fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])#.decode('utf-8'))
 
             except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count limpo "+str(contador))
+                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
+                fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
                 print('{0}'.format(str(e)))#e.args[1]))
+			
+            finally:
                 conn.close(connection)
+
         del retorno
 
 

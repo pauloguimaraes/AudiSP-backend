@@ -84,8 +84,8 @@ def filter_dates(base_date, suspects):
 
                     builded_date = datetime.date(ano, mes, dia)
 
-                    # Se a data encontrada estiver for maior que a base pode adicioná-la ao retorno
-                    if(base_date <= builded_date):
+                    # Se a data encontrada for maior que a base pode adicioná-la ao retorno
+                    if(base_date >= builded_date):
                         datas.append(builded_date)
 
                 except:
@@ -124,7 +124,7 @@ def filter_dates(base_date, suspects):
                     builded_date = datetime.date(ano, mes, dia)
 
                     # Se a data encontrada estiver for maior que a base pode adicioná-la ao retorno
-                    if(base_date <= builded_date):
+                    if(base_date >= builded_date):
                         datas.append(builded_date)
                 except:
                     continue
@@ -213,7 +213,7 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
         for audiencia in audiencias:
             links[audiencia] = 'http://devcolab.each.usp.br/do/{0}'.format(audiencias[audiencia]['id'])
             texto = str(audiencias[audiencia]['texto'])
-
+            
             # Busca as datas no texto
             datas[audiencia] = [re.findall(r'\d{1,2}\/\d{1,2}\/\d{2,4}', texto)]+[re.findall(r'\d{1,2}\s\w+\s\w+\s\w+\s\d{2,4}', texto)]
             # Filtra as datas
@@ -227,7 +227,8 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
             objt['text'] = str_texto
             objt['text_limpo'] = clear_text(str_texto)
             objt['url'] = links[audiencia]
-
+            print(str(audiencias[audiencia]['data']))
+            objt['data'] = datetime.datetime.strptime(re.sub(r'T|Z|-|:',' ',audiencias[audiencia]['data']).strip(),'%Y %m %d %H %M %S')
             # Se não foi encontrada data
             if not datas[audiencia]:
                 objt['date'] = None

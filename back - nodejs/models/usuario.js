@@ -8,6 +8,6 @@ module.exports = (sequelize, type) => {
         nome: type.STRING,
         email: type.STRING,
         nascimento: type.DATEONLY,
-        tokenfb: type.STRING
+        token_fb: type.STRING
     }, {timestamps:false,freezeTableName: true})
 }

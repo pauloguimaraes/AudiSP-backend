@@ -5,7 +5,7 @@ USE audisp;
 CREATE TABLE publicacao (
     id INT NOT NULL AUTO_INCREMENT
     ,titulo TEXT NOT NULL
-    ,data_audi DATETIME
+    ,data DATETIME
     ,texto TEXT NOT NULL
     ,url_devcolab VARCHAR(255)
     ,PRIMARY KEY(id)
@@ -17,6 +17,8 @@ ALTER TABLE publicacao CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
 ALTER TABLE publicacao DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 ALTER TABLE publicacao CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+CREATE UNIQUE INDEX un_url ON publicacao(url_devcolab);
 
 CREATE TABLE publicacao_limpa (
     fk_id_publicacao INT NOT NULL
@@ -58,7 +60,7 @@ CREATE TABLE usuario (
     ,nome VARCHAR(512) NOT NULL
     ,email VARCHAR(255) NOT NULL 
     ,nascimento DATE
-    ,token_fb varchar(255) not null
+    ,hash_senha varchar(255) not null
     ,PRIMARY KEY(id)
 );
 

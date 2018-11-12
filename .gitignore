@@ -64,5 +64,5 @@ typings/
 teste.txt
 __pycache__/
 .vscode/*
-./dao/__pycache__/
-output/*
+scrapper/dao/__pycache__/
+scrapper/output/*

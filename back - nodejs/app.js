@@ -9,14 +9,16 @@ app.use(express.json());
 var nluRoutes = require('./routes/nlu-routes');
 var audRoutes = require('./routes/audiencia-routes');
 var userRoutes = require('./routes/user-routes');
+var authRoutes = require('./routes/auth-routes');
 var routes = require('./routes/root-routes');
 
 app.use('/', routes);
 app.use('/nlu', nluRoutes);
 app.use('/aud', audRoutes);
 app.use('/user', userRoutes);
+app.use('/auth', authRoutes);
 
 var port = 6005;
-app.listen(port, function() {
+app.listen((process.env.PORT || port), function() {
     console.log("To view your app, open this link in your browser: http://localhost:" + port);
 }); 
