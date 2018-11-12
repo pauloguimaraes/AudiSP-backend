@@ -43,6 +43,13 @@ Audiencia.belongsToMany(Pauta, {
   otherKey: "id_pauta"
 });
 
+Pauta.belongsToMany(Audiencia, {
+  through: AudienciaPauta,
+  foreignKey: "id_audiencia",
+  otherKey: "id_pauta"
+});
+
+
 User.belongsToMany(Pauta, {
   through: Interesse,
   foreignKey: "id_usuario",
@@ -59,5 +66,6 @@ module.exports = {
   Pauta,
   Audiencia,
   Interesse,
-  Publicacao
+  Publicacao,
+  AudienciaPauta
 }

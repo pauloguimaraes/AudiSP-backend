@@ -1,5 +1,8 @@
 const Audiencia = require('../sequelize').Audiencia;
 const Pauta = require('../sequelize').Pauta;
+const AudienciaPauta = require('../sequelize').AudienciaPauta;
+const Op = require('Sequelize').Op;
+
 var sugeridas = [{
         nome: 'Audiência Pública',
         data: '23/10/2018 11:30',
@@ -58,7 +61,61 @@ function getListaAudencias(req, res) {
         });
 }
 
+function criarAudiencia(req) {
+    return new Promise(
+        async (resolve, reject) => {
+
+            pautas = [];
+            novas = [];
+            await Promise.all(req.body.pauta.map(async (pauta) => {
+                let res = await Pauta.findOne({
+                    where: {
+                        nome: pauta
+                    }
+                });
+
+                if (!res) {
+                    novas.push(pauta)
+                } else {
+                    pautas.push(res);
+
+                }
+
+            }));
+
+            await Promise.all(novas.map(
+                async pauta => {
+                    let res = await Pauta.create({
+                        nome: pauta
+                    });
+
+                    pautas.push(res);
+                }
+            ));
+
+            audiencia = await Audiencia.create({
+                data: req.body.data,
+                horario: req.body.horario,
+                local: req.body.local,
+                id_publicacao: 5,
+            });
+
+            await Promise.all(pautas.map(async (pauta) => {
+                await AudienciaPauta.create({
+                    id_audiencia: audiencia.id,
+                    id_pauta: pauta.id
+                });
+            }));
+
+            resolve({
+                text: 'Sucesso'
+            });
+
+        });
+}
+
 module.exports = {
     getAudienciaSugerida: getAudienciaSugerida,
-    getListaAudencias: getListaAudencias
+    getListaAudencias: getListaAudencias,
+    criarAudiencia: criarAudiencia
 };
