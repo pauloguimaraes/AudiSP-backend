@@ -56,6 +56,12 @@ User.belongsToMany(Pauta, {
   otherKey: "id_pauta"
 });
 
+Pauta.belongsToMany(User, {
+  through: Interesse,
+  foreignKey: "id_usuario",
+  otherKey: "id_pauta"
+});
+
 sequelize.sync()
   .then(() => {
     console.log(`Database & tables created!`)

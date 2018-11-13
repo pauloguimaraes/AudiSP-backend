@@ -1,4 +1,7 @@
 var request = require('request');
+const Audiencia = require('../sequelize').Audiencia;
+const Pauta = require('../sequelize').Pauta;
+const AudienciaPauta = require('../sequelize').AudienciaPauta;
 
 var options = {
     uri: process.env.NLU_URL + process.env.NLU_PATH + 'version=2018-03-19',
@@ -30,11 +33,11 @@ function getAudiencia(req) {
                     reject(error);
                 else {
                     var audiencia = {
-                        titulo: String,
-                        data: String,
-                        horario: String,
-                        local: String,
-                        pauta: String
+                        titulo: '',
+                        data: '',
+                        horario: '',
+                        local: '',
+                        pauta: []
                     };
                     response.body.entities.map((entity) => {
                         switch (entity.type) {
@@ -51,19 +54,74 @@ function getAudiencia(req) {
                                 audiencia.local = entity.text;
                                 break;
                             case "pauta":
-                                audiencia.pauta = entity.text;
+                                audiencia.pauta.push(entity.text);
                                 break;
 
                         }
                     });
 
-                    resolve(audiencia);
+                    
+                    resolve(criarAudiencia(audiencia));
                 }
             });
 
         });
 
 };
+
+function criarAudiencia(audi) {
+    return new Promise(
+        async (resolve, reject) => {
+
+            pautas = [];
+            novas = [];
+            await Promise.all(audi.pauta.map(async (pauta) => {
+                let res = await Pauta.findOne({
+                    where: {
+                        nome: pauta
+                    }
+                });
+
+                if (!res) {
+                    novas.push(pauta)
+                } else {
+                    pautas.push(res);
+
+                }
+
+            }));
+
+            await Promise.all(novas.map(
+                async pauta => {
+                    let res = await Pauta.create({
+                        nome: pauta
+                    });
+
+                    pautas.push(res);
+                }
+            ));
+
+            
+            audiencia = await Audiencia.create({
+                data: '2018-09-21',
+                horario: audi.horario,
+                local: audi.local,
+                id_publicacao: 5,
+            });
+
+            await Promise.all(pautas.map(async (pauta) => {
+                await AudienciaPauta.create({
+                    id_audiencia: audiencia.id,
+                    id_pauta: pauta.id
+                });
+            }));
+
+            resolve({
+                text: 'Sucesso'
+            });
+
+        });
+}
 
 module.exports = {
     getAudiencia: getAudiencia
