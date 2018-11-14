@@ -47,9 +47,9 @@ def get_index(identify):
 
 
 
-def filter_dates(base_date, suspects):
+def filter_dates(suspects):
     """
-    Filtra os @suspects, retornando as datas encontradas em uma lista que contém apenas aquelas maiores que @base_date
+    Filtra os @suspects, retornando as datas encontradas em uma lista
     """
 
     datas = []
@@ -83,10 +83,7 @@ def filter_dates(base_date, suspects):
                         continue
 
                     builded_date = datetime.date(ano, mes, dia)
-
-                    # Se a data encontrada for maior que a base pode adicioná-la ao retorno
-                    if(base_date >= builded_date):
-                        datas.append(builded_date)
+                    datas.append(builded_date)
 
                 except:
                     continue
@@ -122,10 +119,7 @@ def filter_dates(base_date, suspects):
                     ano = int(date_numbers[4])
 
                     builded_date = datetime.date(ano, mes, dia)
-
-                    # Se a data encontrada estiver for maior que a base pode adicioná-la ao retorno
-                    if(base_date >= builded_date):
-                        datas.append(builded_date)
+                    datas.append(builded_date)
                 except:
                     continue
         
@@ -158,9 +152,9 @@ def clear_text(texto):
 
 
 
-def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
+def get_audiencias_publicas(url, starting_page=1, ending_page=None):
     """
-    Busca as audiencias públicas que irão ocorrer a partir da @base_date, usando a @url e iniciando da @starting_page e indo até o fim
+    Busca as audiencias públicas que irão ocorrer, usando a @url e iniciando da @starting_page e indo até o fim
     """
 
     res = []
@@ -175,7 +169,6 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
 
         # Se tem resposta extrai a data
         if(response.status_code == 200):
-            print(str(starting_page))
             data = json.loads(response.content)
         else:
             print("Falha!")
@@ -217,7 +210,7 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
             # Busca as datas no texto
             datas[audiencia] = [re.findall(r'\d{1,2}\/\d{1,2}\/\d{2,4}', texto)]+[re.findall(r'\d{1,2}\s\w+\s\w+\s\w+\s\d{2,4}', texto)]
             # Filtra as datas
-            datas[audiencia] = filter_dates(base_date, datas[audiencia])
+            datas[audiencia] = filter_dates(datas[audiencia])
 
         # Percorre as audiências encontradas, para montar o objeto
         for audiencia in audiencias:
@@ -227,7 +220,6 @@ def get_audiencias_publicas(base_date, url, starting_page=1, ending_page=None):
             objt['text'] = str_texto
             objt['text_limpo'] = clear_text(str_texto)
             objt['url'] = links[audiencia]
-            print(str(audiencias[audiencia]['data']))
             objt['data'] = datetime.datetime.strptime(re.sub(r'T|Z|-|:',' ',audiencias[audiencia]['data']).strip(),'%Y %m %d %H %M %S')
             # Se não foi encontrada data
             if not datas[audiencia]:

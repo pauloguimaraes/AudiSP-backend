@@ -51,18 +51,17 @@ def get_last_audiencia(connection):
 
 def get_data_ultima_audiencia(connection):
     """
+    Recupera a data da audiência mais recente inserida na base
     """
 
     cursor = connection.cursor()
 
-    query = "SELECT MIN(data) AS 'data_pub' FROM publicacao"
+    query = "SELECT MAX(data) AS 'data_pub' FROM publicacao"
     cursor.execute(query)
 
     data_pub_var = None
     for(data_pub) in cursor:
         data_pub_var = data_pub[0]
-    
-    print('DATA: {0}'.format(data_pub))
 
     cursor.close()
     return data_pub_var
