@@ -39,7 +39,6 @@ from controller.get_audiencias import get_audiencias_publicas
 
 # Variáveis
 url = 'http://devcolab.each.usp.br/do/catalog.json?q=audiencia+publica&sort=data+desc&per_page=5'
-hoje = datetime.date(2013, 3, 20)
 data_limite = datetime.datetime(2017, 1, 1)
 
 
@@ -87,7 +86,7 @@ def main():
                 fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])
 
             except Exception as e:
-                print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
+                # print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
                 print('{0}'.format(str(e)))#e.args[1]))
 			
             finally:
