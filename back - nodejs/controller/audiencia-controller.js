@@ -1,6 +1,6 @@
 const Audiencia = require('../sequelize').Audiencia;
-const Pauta = require('../sequelize').Pauta;
-const AudienciaPauta = require('../sequelize').AudienciaPauta;
+const Tema = require('../sequelize').Tema;
+const AudienciaTema = require('../sequelize').AudienciaTema;
 const User = require('../sequelize').User;
 const Interesse = require('../sequelize').Interesse;
 
