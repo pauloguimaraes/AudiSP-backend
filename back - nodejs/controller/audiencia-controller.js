@@ -63,7 +63,7 @@ function getListaAudencias(req, res) {
                     order: [
                         ['data', 'DESC']
                     ],
-                    include: [Pauta]
+                    include: [Tema]
                 })
             );
         });
