@@ -69,8 +69,26 @@ function getListaAudencias(req, res) {
         });
 }
 
+function getListaAudienciaPorData(req, res) {
+    return new Promise(
+        (resolve, reject) => {
+            resolve(
+                Audiencia.findAll({
+                    where: {
+                        data: req.body.data
+                    },
+                    order: [
+                        ['data', 'DESC']
+                    ],
+                    include: [Tema]
+                })
+            );
+        });
+}
+
 
 module.exports = {
     getAudienciaSugerida: getAudienciaSugerida,
-    getListaAudencias: getListaAudencias
+    getListaAudencias: getListaAudencias,
+    getListaAudienciaPorData: getListaAudienciaPorData
 };

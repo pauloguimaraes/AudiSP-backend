@@ -24,5 +24,18 @@ router.get('/lista', function (req, res) {
 
 });
 
+router.post('/data', function (req, res) {
+    audController.getListaAudienciaPorData(req)
+        .then(
+            (response)=>{
+                res.status(200).send(response)
+            }
+        ).catch(
+            (error)=>{
+                res.status(500).send(error)
+            }
+        );
+});
+
 
 module.exports = router;
