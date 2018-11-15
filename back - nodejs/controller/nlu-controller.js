@@ -60,8 +60,8 @@ function getAudiencia(req) {
                         }
                     });
 
-                    
-                    resolve(criarAudiencia(audiencia));
+
+                    resolve(criarAudiencia(audiencia, req.body.id));
                 }
             });
 
@@ -69,52 +69,25 @@ function getAudiencia(req) {
 
 };
 
-function criarAudiencia(audi) {
+function criarAudiencia(audi, id_publicacao) {
     return new Promise(
         async (resolve, reject) => {
 
-            temas = [];
-            novas = [];
+            pautaText = '';
+            pautas = [];
             await Promise.all(audi.pauta.map(async (pauta) => {
-                let res = await Tema.findOne({
-                    where: {
-                        nome: pauta
-                    }
-                });
-
-                if (!res) {
-                    novas.push(pauta)
-                } else {
-                    pautas.push(res);
-
-                }
-
+                pautaText += pauta + ', '
             }));
 
-            await Promise.all(novas.map(
-                async pauta => {
-                    let res = await Tema.create({
-                        nome: pauta
-                    });
 
-                    pautas.push(res);
-                }
-            ));
-
-            
             audiencia = await Audiencia.create({
                 data: '2018-09-21',
                 horario: audi.horario,
                 local: audi.local,
                 id_publicacao: 5,
+                pauta: pautaText,
+                id_publicacao: id_publicacao
             });
-
-            await Promise.all(pautas.map(async (pauta) => {
-                await AudienciaTema.create({
-                    id_audiencia: audiencia.id,
-                    id_tema: pauta.id
-                });
-            }));
 
             resolve({
                 text: 'Sucesso'
