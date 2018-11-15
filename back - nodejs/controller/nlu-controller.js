@@ -1,7 +1,7 @@
 var request = require('request');
 const Audiencia = require('../sequelize').Audiencia;
-const Pauta = require('../sequelize').Pauta;
-const AudienciaPauta = require('../sequelize').AudienciaPauta;
+const Tema = require('../sequelize').Tema;
+const AudienciaTema = require('../sequelize').AudienciaTema;
 
 var options = {
     uri: process.env.NLU_URL + process.env.NLU_PATH + 'version=2018-03-19',
@@ -73,10 +73,10 @@ function criarAudiencia(audi) {
     return new Promise(
         async (resolve, reject) => {
 
-            pautas = [];
+            temas = [];
             novas = [];
             await Promise.all(audi.pauta.map(async (pauta) => {
-                let res = await Pauta.findOne({
+                let res = await Tema.findOne({
                     where: {
                         nome: pauta
                     }
@@ -93,7 +93,7 @@ function criarAudiencia(audi) {
 
             await Promise.all(novas.map(
                 async pauta => {
-                    let res = await Pauta.create({
+                    let res = await Tema.create({
                         nome: pauta
                     });
 
@@ -110,9 +110,9 @@ function criarAudiencia(audi) {
             });
 
             await Promise.all(pautas.map(async (pauta) => {
-                await AudienciaPauta.create({
+                await AudienciaTema.create({
                     id_audiencia: audiencia.id,
-                    id_pauta: pauta.id
+                    id_tema: pauta.id
                 });
             }));
 

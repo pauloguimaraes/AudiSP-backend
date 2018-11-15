@@ -1,5 +1,5 @@
 module.exports = (sequelize, type) => {
-    return sequelize.define('pauta', {
+    return sequelize.define('tema', {
         id: {
             type: type.INTEGER,
             primaryKey: true,

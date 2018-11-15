@@ -7,6 +7,7 @@ module.exports = (sequelize, type) => {
           },
         data: type.DATEONLY,
         horario: type.STRING,
-        local: type.STRING
+        local: type.STRING,
+        pauta: type.STRING
     }, {timestamps:false,freezeTableName: true})
 }

@@ -39,20 +39,21 @@ create table audiencia (
     id_publicacao int not null,
     data date,
     horario varchar(255),
-    local varchar(255)
+    local varchar(255),
+    pauta varchar(255),
     FOREIGN KEY(id_publicacao) REFERENCES publicacao(id)
 );
 
-create table pauta (
+create table tema (
     id int not null primary key AUTO_INCREMENT,
     nome varchar(255) not null
 );
 
-create table audienciaPauta (
+create table audienciaTema (
     id_audiencia int not null,
-    id_pauta int not null,
+    id_tema int not null,
     FOREIGN KEY(id_audiencia) REFERENCES audiencia(id),
-    FOREIGN KEY(id_pauta) REFERENCES pauta(id)
+    FOREIGN KEY(id_tema) REFERENCES tema(id)
 );
 
 CREATE TABLE usuario (
@@ -66,8 +67,8 @@ CREATE TABLE usuario (
 
 CREATE TABLE interesse (
     id_usuario INT NOT NULL,
-    id_pauta int NOT NULL,
+    id_tema int NOT NULL,
     score int,
     FOREIGN KEY(id_usuario) REFERENCES usuario(id),
-    FOREIGN KEY(id_pauta) REFERENCES pauta(id)
+    FOREIGN KEY(id_tema) REFERENCES tema(id)
 );

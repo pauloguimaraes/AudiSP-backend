@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const UserModel = require('./models/usuario');
 const AudienciaModel = require('./models/audiencia');
-const PautaModel = require('./models/pauta');
+const TemaModel = require('./models/tema');
 const PublicacaoModel = require('./models/publicacao');
 const InteresseModel = require('./models/interesse');
 require('dotenv').load();
@@ -19,12 +19,12 @@ const sequelize = new Sequelize(process.env.MYSQL_DATABASE, process.env.MYSQL_US
 })
 
 const User = UserModel(sequelize, Sequelize);
-const Pauta = PautaModel(sequelize, Sequelize);
+const Tema = TemaModel(sequelize, Sequelize);
 const Interesse = InteresseModel(sequelize, Sequelize);
 const Audiencia = AudienciaModel(sequelize, Sequelize);
 const Publicacao = PublicacaoModel(sequelize, Sequelize);
 
-const AudienciaPauta = sequelize.define('audienciaPauta', {}, {
+const AudienciaTema = sequelize.define('audienciaTema', {}, {
   timestamps: false,
   freezeTableName: true
 });
@@ -37,29 +37,25 @@ Audiencia.belongsTo(Publicacao, {
   }
 });
 
-Audiencia.belongsToMany(Pauta, {
-  through: AudienciaPauta,
-  foreignKey: "id_audiencia",
-  otherKey: "id_pauta"
+Audiencia.belongsToMany(Tema, {
+  through: AudienciaTema,
+  foreignKey: "id_audiencia"
 });
 
-Pauta.belongsToMany(Audiencia, {
-  through: AudienciaPauta,
-  foreignKey: "id_audiencia",
-  otherKey: "id_pauta"
+Tema.belongsToMany(Audiencia, {
+  through: AudienciaTema,
+  foreignKey: "id_tema"
 });
 
 
-User.belongsToMany(Pauta, {
+User.belongsToMany(Tema, {
   through: Interesse,
-  foreignKey: "id_usuario",
-  otherKey: "id_pauta"
+  foreignKey: "id_usuario"
 });
 
-Pauta.belongsToMany(User, {
+Tema.belongsToMany(User, {
   through: Interesse,
-  foreignKey: "id_usuario",
-  otherKey: "id_pauta"
+  foreignKey: "id_tema"
 });
 
 sequelize.sync()
@@ -69,9 +65,9 @@ sequelize.sync()
 
 module.exports = {
   User,
-  Pauta,
+  Tema,
   Audiencia,
   Interesse,
   Publicacao,
-  AudienciaPauta
+  AudienciaTema
 }
