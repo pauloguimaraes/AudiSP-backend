@@ -39,12 +39,14 @@ Audiencia.belongsTo(Publicacao, {
 
 Audiencia.belongsToMany(Tema, {
   through: AudienciaTema,
-  foreignKey: "id_audiencia"
+  foreignKey: "id_audiencia",
+  otherKey: "id_tema"
 });
 
 Tema.belongsToMany(Audiencia, {
   through: AudienciaTema,
-  foreignKey: "id_tema"
+  foreignKey: "id_tema",
+  otherKey: "id_audiencia"
 });
 
 
