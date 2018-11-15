@@ -13,8 +13,14 @@ function registerUser(req) {
             if (user[0]) {
                 resolve({
                     status: 'nok',
-                    text: 'Usuário já existe'
+                    text: 'Usuário já existe',
                 });
+            } else if (req.body.nome == '' ||req.body.email == '' ||req.body.nascimento == '' ||req.body.senha == '') {
+                resolve({
+                    status: 'nok',
+                    text: 'Dados incorretos'
+                });
+
             } else {
                 var hash = crypto.createHash('sha256').update(req.body.email + req.body.senha).digest('base64');
                 User.create({
@@ -22,12 +28,21 @@ function registerUser(req) {
                     email: req.body.email,
                     nascimento: req.body.nascimento,
                     token_fb: hash
-                });
+                }).then(
+                    resolve({
+                        status: 'ok',
+                        text: 'Usuário criado!'
+                    })
+                ).catch(
+                    (error) => {
+                        resolve({
+                            status: 'nok',
+                            text: 'Dados incorretos'
+                        })
+                    }
+                );
             }
-            resolve({
-                status: 'ok',
-                text: 'Usuário criado!'
-            });
+
         });
 };
 

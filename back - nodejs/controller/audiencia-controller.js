@@ -49,9 +49,7 @@ function getAudienciaSugerida(req) {
 
             res = [];
 
-            await Promise.all(
-
-            ).then(resolve(sugeridas));
+            resolve(sugeridas);
 
 
         });
