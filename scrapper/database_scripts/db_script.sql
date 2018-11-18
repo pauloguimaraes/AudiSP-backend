@@ -41,6 +41,7 @@ create table audiencia (
     horario varchar(255),
     local varchar(255),
     pauta varchar(255),
+    comissao varchar(255),
     FOREIGN KEY(id_publicacao) REFERENCES publicacao(id)
 );
 
