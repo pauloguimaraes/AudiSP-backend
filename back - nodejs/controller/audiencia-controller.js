@@ -95,7 +95,46 @@ function updateAudiencia(req, res) {
                 });
             }));
 
-            resolve(temas);
+            await Promise.all(
+                temas.map(
+                    async (tema) => {
+                        await AudienciaTema.findOne({
+                            where: {
+                                id_audiencia: req.body.id,
+                                id_tema: tema.id
+                            }
+                        }).then(
+                            async (res) => {
+                                if (!res) {
+                                    await AudienciaTema.create({
+                                        id_audiencia: req.body.id,
+                                        id_tema: tema.id
+                                    });
+                                }
+                            }
+                        );
+                    })
+            );
+
+             await Audiencia.findOne({
+                where: {
+                    id: req.body.id
+                }
+            }).then(
+                (res) => {
+                    if (res) {
+                        res.updateAttributes({
+                            data: req.body.data,
+                            horario: req.body.horario,
+                            local: req.body.local,
+                            pauta: req.body.pauta,
+                            comissao: req.body.comissao,
+                        });
+                    }
+                }
+            );
+
+            resolve({text: 'Atualizado com sucesso'});
         }
     );
 }

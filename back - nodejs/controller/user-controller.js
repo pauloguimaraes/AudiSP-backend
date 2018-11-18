@@ -28,11 +28,7 @@ function getUserLikes(req) {
                 }));
 
                 await Promise.all(user.temas.map((likedTema) => {
-                    // res.push({
-                    //     nome: tema.nome,
-                    //     id: tema.id,
-                    //     score: tema.interesse.score
-                    // });
+
                     allTemas.map((tema) => {
 
                         if (likedTema.id === tema.id) {
@@ -98,7 +94,7 @@ function updateUserLikes(req) {
 function likeAudiencia(req) {
     return new Promise(
         async (resolve, reject) => {
-            await req.body.temas.map(async (tema)=>{
+            await req.body.temas.map(async (tema) => {
                 let interesse = await Interesse.findOne({
                     where: {
                         id_usuario: req.body.userId,
@@ -114,7 +110,7 @@ function likeAudiencia(req) {
                     }
                 });
             })
-            
+
 
             resolve({
                 text: 'Curtido com sucesso'
