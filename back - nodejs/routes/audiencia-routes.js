@@ -51,6 +51,11 @@ router.put('/update', function (req, res) {
 });
 
 router.get('/url', function (req, res) {
+    /*
+    {
+        "audid":1
+    }
+    */
     audController.getUrlPublicacao(req)
         .then(
             (response) => {
