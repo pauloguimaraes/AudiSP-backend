@@ -37,5 +37,18 @@ router.post('/data', function (req, res) {
         );
 });
 
+router.put('/update', function (req, res) {
+    audController.updateAudiencia(req)
+        .then(
+            (response)=>{
+                res.status(200).send(response)
+            }
+        ).catch(
+            (error)=>{
+                res.status(500).send(error)
+            }
+        );
+});
+
 
 module.exports = router;
