@@ -3,6 +3,8 @@ const Tema = require('../sequelize').Tema;
 const AudienciaTema = require('../sequelize').AudienciaTema;
 const User = require('../sequelize').User;
 const Interesse = require('../sequelize').Interesse;
+const Publicacao = require('../sequelize').Publicacao;
+const Sequelize = require('sequelize');
 
 const Op = require('Sequelize').Op;
 
@@ -99,9 +101,26 @@ function updateAudiencia(req, res) {
         }
     );
 }
+
+function getUrlPublicacao(req){
+    return new Promise(
+        async (resolve, reject) => {
+            resolve( Audiencia.findById(req.body.audid,{
+                attributes:[[Sequelize.literal('publicacao.url_devcolab'), 'url']],
+                include:{
+                    model:Publicacao,
+                    attributes:[]
+                }
+            }))
+            
+        }
+    );
+}
+
 module.exports = {
     getAudienciaSugerida: getAudienciaSugerida,
     getListaAudencias: getListaAudencias,
     getListaAudienciaPorData: getListaAudienciaPorData,
-    updateAudiencia: updateAudiencia
+    updateAudiencia: updateAudiencia,
+    getUrlPublicacao: getUrlPublicacao
 };
