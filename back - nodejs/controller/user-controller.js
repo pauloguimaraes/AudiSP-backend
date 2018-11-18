@@ -1,4 +1,4 @@
-const Pauta = require('../sequelize').Pauta;
+const Tema = require('../sequelize').Tema;
 const Interesse = require('../sequelize').Interesse;
 const User = require('../sequelize').User;
 
@@ -15,31 +15,39 @@ function getUserLikes(req) {
                     where: {
                         id: req.body.userId
                     },
-                    include: [Pauta]
+                    include: [Tema]
                 });
 
-                if (!user.pauta[0]) {
-                    let pautas = await Pauta.findAll();
-                    await pautas.map((pauta) => {
-                        res.push({
-                            id: pauta.id,
-                            nome: pauta.nome,
-                            score: 0
-                        });
+                let allTemas = await Tema.findAll();
+                await Promise.all(allTemas.map((tema) => {
+                    res.push({
+                        id: tema.id,
+                        nome: tema.nome,
+                        score: 0
                     });
-                    resolve(res);
+                }));
 
+                await Promise.all(user.temas.map((likedTema) => {
+                    // res.push({
+                    //     nome: tema.nome,
+                    //     id: tema.id,
+                    //     score: tema.interesse.score
+                    // });
+                    allTemas.map((tema) => {
 
-                } else {
-                    await user.pauta.map((pauta) => {
-                        res.push({
-                            nome: pauta.nome,
-                            id: pauta.id,
-                            score: pauta.interesse.score
-                        });
+                        if (likedTema.id === tema.id) {
+                            res.map((resTema) => {
+                                if (resTema.nome === tema.nome) {
+                                    resTema.score = likedTema.interesse.score;
+                                }
+                            });
+
+                        }
                     });
-                    resolve(res);
-                }
+                }));
+
+                resolve(res);
+
             }
         });
 };
@@ -55,65 +63,62 @@ function updateUserLikes(req) {
                 where: {
                     id: req.body.userId
                 },
-                include: [Pauta]
+                include: [Tema]
             });
 
-            if (!user.pauta[0]) {
-                await req.body.pautas.map(
-                    async (pauta) => {
-                        await Interesse.create({
-                            id_usuario: req.body.userId,
-                            id_pauta: pauta.id,
-                            score: pauta.score
-                        });
-                    }
-                );
-                resolve(res);
-
-            } else {
-
-                await req.body.pautas.map(
-                    async (pauta) => {
-                        Interesse.findOne({
-                                where: {
+            await req.body.temas.map(
+                async (tema) => {
+                    Interesse.findOne({
+                            where: {
+                                id_usuario: req.body.userId,
+                                id_tema: tema.id
+                            }
+                        })
+                        .then(dado => {
+                            if (dado) {
+                                dado.updateAttributes({
+                                    score: tema.score
+                                });
+                            } else {
+                                Interesse.create({
                                     id_usuario: req.body.userId,
-                                    id_pauta: pauta.id
-                                }
-                            })
-                            .then(dado => {
-                                if (dado) {
-                                    dado.updateAttributes({
-                                        score: pauta.score
-                                    });
-                                }
-                            });
-                    }
-                );
-                resolve(res);
-            }
+                                    id_tema: tema.id,
+                                    score: tema.score
+                                });
+                            }
+                        });
+                }
+            );
+            resolve(res);
         }
+
     );
 }
 
 function likeAudiencia(req) {
     return new Promise(
         async (resolve, reject) => {
-            let interesse = await Interesse.findOne({
-                where: {
-                    id_usuario: req.body.userId,
-                    id_pauta: req.body.pautaId
-                }
-            }).then(dado => {
-                if (dado) {
-                    let sum = dado.score + 20;
-                    if (sum > 100) sum = 100;
-                    dado.updateAttributes({
-                        score: sum
-                    });
-                }
-            });
+            await req.body.temas.map(async (tema)=>{
+                let interesse = await Interesse.findOne({
+                    where: {
+                        id_usuario: req.body.userId,
+                        id_tema: tema.id
+                    }
+                }).then(dado => {
+                    if (dado) {
+                        let sum = dado.score + 20;
+                        if (sum > 100) sum = 100;
+                        dado.updateAttributes({
+                            score: sum
+                        });
+                    }
+                });
+            })
+            
 
-            resolve({text: 'Curtido com sucesso'});
+            resolve({
+                text: 'Curtido com sucesso'
+            });
         }
     );
 
