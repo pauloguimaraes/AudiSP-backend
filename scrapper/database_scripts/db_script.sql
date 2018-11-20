@@ -23,7 +23,7 @@ CREATE UNIQUE INDEX un_url ON publicacao(url_devcolab);
 CREATE TABLE publicacao_limpa (
     fk_id_publicacao INT NOT NULL primary key
     ,texto TEXT NOT NULL
-    ,processada INT NOT NULL DEFAULT (0)
+    ,processada INT NOT NULL DEFAULT 0
     ,FOREIGN KEY(fk_id_publicacao) REFERENCES publicacao(id)
 );
 
@@ -40,15 +40,27 @@ create table audiencia (
     data date,
     horario varchar(255),
     local varchar(255),
-    pauta varchar(255),
+    pauta text,
     comissao varchar(255),
     FOREIGN KEY(id_publicacao) REFERENCES publicacao(id)
 );
 
+ALTER TABLE audiencia CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+ALTER TABLE audiencia DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+ALTER TABLE audiencia CHANGE pauta pauta TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
 create table tema (
     id int not null primary key AUTO_INCREMENT,
-    nome varchar(255) not null
+    nome text not null
 );
+
+ALTER TABLE tema CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+ALTER TABLE tema DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+ALTER TABLE tema CHANGE nome nome TEXT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 create table audienciaTema (
     id_audiencia int not null,

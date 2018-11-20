@@ -51,7 +51,7 @@ def main():
     upLimit = 0
     jump = 30
     should_leave = False
-
+    datasetada = False
     for x in range(0,maxrange,jump):
         if(should_leave):
             break
@@ -65,7 +65,9 @@ def main():
 
         
         connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
-        data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
+        if (datasetada==False):
+            data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
+            datasetada=True
         retorno = get_audiencias_publicas(url=url, starting_page=x, ending_page=upLimit)
         if(data_audiencia_mais_recente == None):
             data_audiencia_mais_recente = data_limite
