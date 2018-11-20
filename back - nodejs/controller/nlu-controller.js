@@ -4,6 +4,8 @@ moment.locale('pt-br');
 const Audiencia = require('../sequelize').Audiencia;
 const Tema = require('../sequelize').Tema;
 const AudienciaTema = require('../sequelize').AudienciaTema;
+const Pubicacao = require('../sequelize').Publicacao;
+const PubicacaoLimpa = require('../sequelize').PublicacaoLimpa;
 
 var options = {
     uri: process.env.NLU_URL + process.env.NLU_PATH + 'version=2018-03-19',
@@ -42,10 +44,36 @@ function trataTexto(aud) {
     return aud;
 }
 
-function getPublicacao() {
+function trataPublicacao() {
     return new Promise(
-        (resolve, reject) => {
-            
+        async (resolve, reject) => {
+            res = [];
+            await PubicacaoLimpa.findAll({
+                include: [Pubicacao]
+            }).then(
+                async (publicacao) => {
+                    await publicacao.map(
+                        async (pub) => {
+                            if (pub.processada === 1) {
+                                obj = {
+                                    body: {
+                                        id: pub.fk_id_publicacao,
+                                        text: pub.texto
+                                    }
+                                }
+                                await getAudiencia(obj).then(
+                                    pub.updateAttributes({
+                                        processada: 0
+                                    })
+                                );
+                            } else {
+                                /*do nothing*/
+                            }
+                        }
+                    );
+                }
+            );
+            resolve({text: 'ok'});
         }
     );
 }
@@ -65,7 +93,7 @@ function getAudiencia(req) {
                 }
             };
             request.post(options, function (error, response, body) {
-                if (error)
+                if (error || !body.entities)
                     reject(error);
                 else {
                     var audiencia = {
@@ -118,7 +146,7 @@ function criarAudiencia(audi, id_publicacao) {
 
 
             audiencia = await Audiencia.create({
-                data: '2018-09-21',
+                data: audi.data,
                 horario: audi.horario,
                 local: audi.local,
                 id_publicacao: 5,
@@ -134,5 +162,6 @@ function criarAudiencia(audi, id_publicacao) {
 }
 
 module.exports = {
-    getAudiencia: getAudiencia
+    getAudiencia: getAudiencia,
+    trataPublicacao: trataPublicacao
 };
