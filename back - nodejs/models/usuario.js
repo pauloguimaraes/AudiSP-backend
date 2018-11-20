@@ -8,6 +8,6 @@ module.exports = (sequelize, type) => {
         nome: type.STRING,
         email: type.STRING,
         nascimento: type.DATEONLY,
-        token_fb: type.STRING
+        hash_senha: type.STRING
     }, {timestamps:false,freezeTableName: true})
 }

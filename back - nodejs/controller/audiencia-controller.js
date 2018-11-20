@@ -43,7 +43,8 @@ function getAudienciaSugerida(req) {
     return new Promise(
         async (resolve, reject) => {
 
-            res = [];
+             response = [];
+            auds = [];
             await User.findOne({
                 where: {
                     id: req.params.id
@@ -75,7 +76,7 @@ function getAudienciaSugerida(req) {
                                         await Promise.all(
                                             await audiencias.map(
                                                 (aud) => {
-                                                    if (!res.some(r => (r.id === aud.id))) res.push(aud);
+                                                    if (!auds.some(r => (r.id === aud.id))) auds.push(aud);
                                                 }
                                             )
                                         );
@@ -87,7 +88,11 @@ function getAudienciaSugerida(req) {
                 }
             );
 
-            resolve(res);
+            await Promise.all(await auds.map(async (aud) => {
+                await Audiencia.findOne({where: {id: aud.id}, include:[Tema]}).then((res)=> response.push(res));
+            }));
+
+            resolve(response);
 
         });
 };

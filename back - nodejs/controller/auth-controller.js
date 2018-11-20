@@ -28,7 +28,7 @@ function registerUser(req) {
                     nome: req.body.nome,
                     email: req.body.email,
                     nascimento: req.body.nascimento,
-                    token_fb: hash
+                    hash_senha: hash
                 }).then(
                     resolve({
                         status: 'ok',
@@ -56,7 +56,7 @@ function validateUser(req) {
             let user = await User.findOne({
                 attributes: ['id'],
                 where: {
-                    token_fb: hash
+                    hash_senha: hash
                 }
             });
             if (!user) {

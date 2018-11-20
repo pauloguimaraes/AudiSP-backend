@@ -23,8 +23,8 @@ app.use('/user', userRoutes);
 app.use('/auth', authRoutes);
 app.use('/tema', temaRoutes);
 
-var j = schedule.scheduleJob("20 * * * * *", function () {
-    //nlu.trataPublicacao().then((res) => console.log(res))
+var j = schedule.scheduleJob("* 23 * * *", function () {
+    nlu.trataPublicacao().then((res) => console.log(res))
 });
 
 var port = 6005;
