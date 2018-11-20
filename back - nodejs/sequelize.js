@@ -4,6 +4,7 @@ const AudienciaModel = require('./models/audiencia');
 const TemaModel = require('./models/tema');
 const PublicacaoModel = require('./models/publicacao');
 const InteresseModel = require('./models/interesse');
+const LimpaModel = require('./models/publicacaolimpa')
 require('dotenv').load();
 //var config = require('./configuration/config')
 
@@ -23,6 +24,7 @@ const Tema = TemaModel(sequelize, Sequelize);
 const Interesse = InteresseModel(sequelize, Sequelize);
 const Audiencia = AudienciaModel(sequelize, Sequelize);
 const Publicacao = PublicacaoModel(sequelize, Sequelize);
+const PublicacaoLimpa = LimpaModel(sequelize, Sequelize);
 
 const AudienciaTema = sequelize.define('audienciaTema', {}, {
   timestamps: false,
@@ -60,6 +62,13 @@ Tema.belongsToMany(User, {
   foreignKey: "id_tema"
 });
 
+PublicacaoLimpa.belongsTo(Publicacao, {
+  foreignKey:{
+    name:"fk_id_publicacao",
+    allowNull: false
+  }
+})
+
 sequelize.sync()
   .then(() => {
     console.log(`Database & tables created!`)
@@ -71,5 +80,6 @@ module.exports = {
   Audiencia,
   Interesse,
   Publicacao,
-  AudienciaTema
+  AudienciaTema,
+  PublicacaoLimpa
 }
