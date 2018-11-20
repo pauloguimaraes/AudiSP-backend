@@ -80,13 +80,7 @@ router.post('/addAud', function (req, res) {
         });
 });
 
-router.delete('/remAud', function (req, res) {
-    /* 
-    {
-    	"temaid":1,
-        "audid":1
-    }
-    */
+router.post('/remAud', function (req, res) {
     temaController.removeFromAudiencia(req)
         .then(
             (response) => {

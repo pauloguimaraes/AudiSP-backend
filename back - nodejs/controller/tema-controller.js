@@ -14,16 +14,16 @@ function getTemas(req) {
 }
 
 /*CRIA OS TEMAS REQUISITADOS*/
-function addTemas(req){
+function addTemas(req) {
     return new Promise(
         async (resolve, reject) => {
-            await Promise.all(req.body.temas.map(async (tema)=>{
+            await Promise.all(req.body.temas.map(async (tema) => {
                 Tema.findOne({
-                    where:{
+                    where: {
                         nome: tema.trim().toLowerCase()
                     }
-                }).then(busca =>{
-                    if(busca){
+                }).then(busca => {
+                    if (busca) {
                         //do nothing
                     } else {
                         Tema.create({
@@ -32,62 +32,64 @@ function addTemas(req){
                     }
                 });
             }));
-            resolve(
-                {
-                    text: "OK"
-                }
-            )
+            resolve({
+                text: "OK"
+            })
         }
     );
 }
 
 /*FAZ UMA BUSCA NO BANCO PELO NOME DO TEMA*/
-function searchTema(req){
+function searchTema(req) {
     return new Promise(
-        async (resolve,reject)=>{
+        async (resolve, reject) => {
             var name = req.body.busca.trim().toLowerCase();
             resolve(
-                Tema.findAll(
-                    {
-                        where: {nome: {$like: '%'+name+'%'}}
+                Tema.findAll({
+                    where: {
+                        nome: {
+                            $like: '%' + name + '%'
+                        }
                     }
-                )
+                })
             );
         }
     );
 }
 
 /*ATUALIZA O TEMA REQUISITADO*/
-function updateTema(req){
+function updateTema(req) {
     return new Promise(
-        async (resolve,reject)=>{
+        async (resolve, reject) => {
             var tema = req.body.tema;
-            if(tema && tema.nome && tema.id){
+            if (tema && tema.nome && tema.id) {
                 Tema.findOne({
-                    where: {id: tema.id}
+                    where: {
+                        id: tema.id
+                    }
                 }).then(t => {
-                    if(t){
+                    if (t) {
                         t.updateAttributes({
                             nome: tema.nome
                         })
                     }
                 })
             }
-            resolve(
-                { text: "OK"}
-            );
+            resolve({
+                text: "OK"
+            });
         }
     );
 }
 
 /*ADICIONA O TEMA À AUDIÊNCIA*/
-function addToAudiencia(req){
+function addToAudiencia(req) {
     return new Promise(
-        
-        async (resolve,reject)=>{
+
+        async (resolve, reject) => {
             var id_tema = req.body.temaid;
             var id_aud = req.body.audid;
-            if(id_tema && id_aud){
+            if (id_tema && id_aud) {
                 id_tema = parseInt(id_tema);
                 id_aud = parseInt(id_aud);
 
@@ -97,54 +99,76 @@ function addToAudiencia(req){
                         id_tema: id_tema
                     }
                 }).then(val => {
-                    if(!val){
+                    if (!val) {
                         AudienciaTema.create({
                             id_audiencia: id_aud,
                             id_tema: id_tema
                         })
                     }
                 })
-            }  
+            }
             resolve({
                 text: "OK"
-            })  
+            })
         }
-        
+
     );
 }
 
 /*REMOVE O TEMA DA AUDIÊNCIA*/
-function removeFromAudiencia(req){
+function removeFromAudiencia(req) {
     return new Promise(
-        
-        async (resolve,reject)=>{
-            var id_tema = req.body.temaid;
-            var id_aud = req.body.audid;
-            if(id_tema && id_aud){
-                id_tema = parseInt(id_tema);
-                id_aud = parseInt(id_aud);
 
-                AudienciaTema.findOne({
-                    where: {
-                        id_audiencia: id_aud,
-                        id_tema: id_tema
+        async (resolve, reject) => {
+            temas = [];
+
+            id_aud = req.body.audId;
+            await Promise.all(req.body.temas.map(
+                async (tema) => {
+                    tema = tema.toLowerCase();
+                    await Tema.findOne({
+                        where: {
+                            nome: tema
+                        }
+                    }).then(async (res) => {
+                        if (res) temas.push(res);
+                    });
+                }
+            ));
+            await Promise.all(
+                await temas.map(
+                    async (tema) => {
+                        id_aud = req.body.audId;
+                        if (tema.id && id_aud) {
+                            tema.id = parseInt(tema.id);
+                            id_aud = parseInt(id_aud);
+
+                            await AudienciaTema.findOne({
+                                where: {
+                                    id_audiencia: id_aud,
+                                    id_tema: tema.id
+                                }
+                            }).then(val => {
+                                if (val) {
+                                    AudienciaTema.destroy({
+                                        where: {
+                                            id_audiencia: id_aud,
+                                            id_tema: tema.id
+                                        }
+                                    })
+                                }
+                            })
+                        }
                     }
-                }).then(val => {
-                    if(val){
-                        AudienciaTema.destroy({
-                            where:{
-                                id_audiencia: id_aud,
-                                id_tema: id_tema
-                            }
-                        })
-                    }
-                })
-            }  
+                )
+            );
+
             resolve({
                 text: "OK"
-            })  
+            });
         }
-        
+
+
     );
 }
 

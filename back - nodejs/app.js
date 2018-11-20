@@ -7,6 +7,7 @@ require('dotenv').load();
 app.use(cors());
 app.use(express.json());
 
+var nlu = require('./controller/nlu-controller');
 var nluRoutes = require('./routes/nlu-routes');
 var audRoutes = require('./routes/audiencia-routes');
 var userRoutes = require('./routes/user-routes');
