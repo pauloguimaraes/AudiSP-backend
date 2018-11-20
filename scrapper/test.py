@@ -67,7 +67,8 @@ def main():
         connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
         data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
         retorno = get_audiencias_publicas(url=url, starting_page=x, ending_page=upLimit)
-        
+        if(data_audiencia_mais_recente == None):
+            data_audiencia_mais_recente = data_limite
         contador = 0
         for linha in retorno:
             try:
