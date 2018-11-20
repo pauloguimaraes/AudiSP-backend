@@ -1,7 +1,7 @@
 var router = require("express").Router();
 var audController = require('../controller/audiencia-controller');
 
-router.post('/sugeridas', function (req, res) {
+router.get('/sugeridas/:id', function (req, res) {
     audController.getAudienciaSugerida(req)
         .then(
             (response) => {
@@ -50,12 +50,7 @@ router.put('/update', function (req, res) {
         );
 });
 
-router.get('/url', function (req, res) {
-    /*
-    {
-        "audid":1
-    }
-    */
+router.get('/url/:id', function (req, res) {
     audController.getUrlPublicacao(req)
         .then(
             (response) => {
@@ -64,7 +59,6 @@ router.get('/url', function (req, res) {
         .catch((error) => {
             res.status(500).send(error.mesage)
         });
-
 });
 
 

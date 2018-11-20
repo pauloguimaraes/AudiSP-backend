@@ -37,8 +37,50 @@ function getAudienciaSugerida(req) {
         async (resolve, reject) => {
 
             res = [];
+            await User.findOne({
+                where: {
+                    id: req.params.id
+                },
+                include: [Tema]
+            }).then(
+                async (user) => {
+                    await Promise.all(
+                        user.temas.map(
+                            async (tema) => {
+                                let n = 0;
+                                if (tema.interesse.score >= 75) n = 4;
+                                else if (tema.interesse.score >= 50) n = 3;
+                                else if (tema.interesse.score >= 25) n = 2;
+                                else if (tema.interesse.score > 0) n = 1;
+                                await Audiencia.findAll({
+                                    include: [{
+                                        model: Tema,
+                                        through: {
+                                            where: {
+                                                id_tema: tema.id
+                                            }
+                                        }
+                                    }],
+                                    limit: n
 
-            resolve(sugeridas);
+                                }).then(
+                                    async audiencias => {
+                                        await Promise.all(
+                                            await audiencias.map(
+                                                (aud) => {
+                                                    if (!res.some(r => (r.id === aud.id))) res.push(aud);
+                                                }
+                                            )
+                                        );
+                                    }
+                                );
+                            }
+                        )
+                    );
+                }
+            );
+
+            resolve(res);
 
 
         });
@@ -102,17 +144,19 @@ function updateAudiencia(req, res) {
     );
 }
 
-function getUrlPublicacao(req){
+function getUrlPublicacao(req) {
     return new Promise(
         async (resolve, reject) => {
-            resolve( Audiencia.findById(req.body.audid,{
-                attributes:[[Sequelize.literal('publicacao.url_devcolab'), 'url']],
-                include:{
-                    model:Publicacao,
-                    attributes:[]
+            resolve(Audiencia.findById(req.params.id, {
+                attributes: [
+                    [Sequelize.literal('publicacao.url_devcolab'), 'url']
+                ],
+                include: {
+                    model: Publicacao,
+                    attributes: []
                 }
             }))
-            
+
         }
     );
 }

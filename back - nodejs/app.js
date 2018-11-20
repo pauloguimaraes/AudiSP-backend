@@ -21,8 +21,8 @@ app.use('/user', userRoutes);
 app.use('/auth', authRoutes);
 app.use('/tema',temaRoutes);
 
-var j = schedule.scheduleJob("* * 20 * * *", function(){
-
+var j = schedule.scheduleJob("20 * * * * *", function(){
+    
 });
 
 var port = 6005;
