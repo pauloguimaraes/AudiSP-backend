@@ -19,7 +19,7 @@ var options = {
 
 function trataTexto(aud) {
     /*LOCAL: XXXXX*/
-    aud.local = aud.local.replace('LOCAL: ', '');
+    aud.local = aud.local.replace('LOCAL: ', '').replace('LOCAL ', '');
 
     /*TEMA: XXXXXXX; AUDIENCIA PUBLICA TEMATICA: XXXXXX; PAUTA: XXXXX; TEMATICA: XXXXXXX*/
     pautas = [];
@@ -32,8 +32,10 @@ function trataTexto(aud) {
     /*HORARIO: || HORA:*/
     aud.horario = aud.horario.replace('HORARIO: ', '').replace('HORA: ', '');
     /*XXHXX; XX:XX H; DAS XXHXX AS XXHXX */
-    aud.horario = aud.horario.replace(' H', '').replace('H', ':');
-
+    aud.horario = aud.horario.replace('HORAS', '').replace(' H', '').replace('H', ':');
+    if (aud.horario.length === 2) {
+        aud.horario += ':00';
+    }
     aud.data = aud.data.replace('DIA ', '').replace('DATA: ', '').replace('DATA DA REUNIAO: ', '');
 
     if (aud.data.includes('DE')) {
@@ -49,31 +51,33 @@ function trataPublicacao() {
         async (resolve, reject) => {
             res = [];
             await PubicacaoLimpa.findAll({
+                where: {
+                    processada: 0
+                },
                 include: [Pubicacao]
             }).then(
                 async (publicacao) => {
                     await publicacao.map(
                         async (pub) => {
-                            if (pub.processada === 1) {
-                                obj = {
-                                    body: {
-                                        id: pub.fk_id_publicacao,
-                                        text: pub.texto
-                                    }
+                            obj = {
+                                body: {
+                                    id: pub.fk_id_publicacao,
+                                    text: pub.texto
                                 }
-                                await getAudiencia(obj).then(
-                                    pub.updateAttributes({
-                                        processada: 0
-                                    })
-                                );
-                            } else {
-                                /*do nothing*/
                             }
+                            await getAudiencia(obj).then(
+                                pub.updateAttributes({
+                                    processada: 1
+                                })
+                            );
+
                         }
                     );
                 }
             );
-            resolve({text: 'ok'});
+            resolve({
+                text: 'ok'
+            });
         }
     );
 }
@@ -124,9 +128,10 @@ function getAudiencia(req) {
                         }
                     });
 
-                    audiencia = trataTexto(audiencia);
-
-                    resolve(criarAudiencia(audiencia, req.body.id));
+                    if (audiencia.data) {
+                        audiencia = trataTexto(audiencia);
+                        resolve(criarAudiencia(audiencia, req.body.id));
+                    }
                 }
             });
 
