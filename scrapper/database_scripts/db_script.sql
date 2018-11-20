@@ -21,9 +21,9 @@ ALTER TABLE publicacao CHANGE texto texto TEXT CHARACTER SET utf8 COLLATE utf8_g
 CREATE UNIQUE INDEX un_url ON publicacao(url_devcolab);
 
 CREATE TABLE publicacao_limpa (
-    fk_id_publicacao INT NOT NULL
+    fk_id_publicacao INT NOT NULL primary key
     ,texto TEXT NOT NULL
-    ,processada BIT NOT NULL DEFAULT b'0'
+    ,processada INT NOT NULL DEFAULT (0)
     ,FOREIGN KEY(fk_id_publicacao) REFERENCES publicacao(id)
 );
 
