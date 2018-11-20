@@ -42,6 +42,13 @@ function trataTexto(aud) {
     return aud;
 }
 
+function getPublicacao() {
+    return new Promise(
+        (resolve, reject) => {
+            
+        }
+    );
+}
 
 function getAudiencia(req) {
     return new Promise(

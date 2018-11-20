@@ -132,6 +132,7 @@ function updateAudiencia(req, res) {
             temas = [];
 
             await Promise.all(req.body.temas.map(async (tema) => {
+                tema = tema.toLowerCase();
                 await Tema.findOne({
                     where: {
                         nome: tema

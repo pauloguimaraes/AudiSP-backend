@@ -118,8 +118,8 @@ function removeFromAudiencia(req){
     return new Promise(
         
         async (resolve,reject)=>{
-            var id_tema = req.body.temaid;
-            var id_aud = req.body.audid;
+            var id_tema = req.body.temaId;
+            var id_aud = req.body.audId;
             if(id_tema && id_aud){
                 id_tema = parseInt(id_tema);
                 id_aud = parseInt(id_aud);
