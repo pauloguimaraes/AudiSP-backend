@@ -32,6 +32,13 @@ var sugeridas = [{
     ]
 }];
 
+/* DEVOLVE UMA LISTA DE AUDIÊNCIAS SUGERIDAS, CONFORME O GOSTO DO USUÁRIO.
+RECEBE O ID POR PARÂMETRO, DEPOIS:
+1-) ACHA O USUÁRIO NO BD DANDO JOIN COM A TABELA TEMA, PARA PEGAR SEUS GOSTOS
+2-) FAZ UM MAP NESSES TEMAS QUE O USUÁRIO DEU LIKE E VÊ SEU SCORE
+3-) ACHA UM NÚMERO N DE AUDIÊNCIAS DE ACORDO COM O SCORE NAQUELE TEMA
+4-) VERIFICA SE A AUDIÊNCIA JÁ ESTÁ NA RESPOSTA USANDO O MÉTODO array.some()
+-> se sim, ignora, se não, adiciona*/
 function getAudienciaSugerida(req) {
     return new Promise(
         async (resolve, reject) => {
@@ -82,10 +89,10 @@ function getAudienciaSugerida(req) {
 
             resolve(res);
 
-
         });
 };
 
+/*RETORNA TODAS AS AUDIÊNCIAS PÚBLICAS, ORDENADAS POR DATA*/
 function getListaAudencias(req, res) {
     return new Promise(
         (resolve, reject) => {
@@ -100,6 +107,7 @@ function getListaAudencias(req, res) {
         });
 }
 
+/*RETORNA TODAS AUDIÊNCIAS PÚBLICAS NO DIA REQUISITADO*/
 function getListaAudienciaPorData(req, res) {
     return new Promise(
         (resolve, reject) => {
@@ -117,6 +125,7 @@ function getListaAudienciaPorData(req, res) {
         });
 }
 
+/*ATUALIZA A AUDIÊNCIA REQUISITADA, CRIA NOVOS TEMAS NO BANCO SE NECESSÁRIO*/
 function updateAudiencia(req, res) {
     return new Promise(
         async (resolve, reject) => {
@@ -144,6 +153,7 @@ function updateAudiencia(req, res) {
     );
 }
 
+/*RETORNA A URL NO COLAB DA PUBLICAÇÃO DE ONDE A AUDIÊNCIA FOI TIRADA*/
 function getUrlPublicacao(req) {
     return new Promise(
         async (resolve, reject) => {

@@ -1,4 +1,6 @@
 var request = require('request');
+var moment = require('moment');
+moment.locale('pt-br');
 const Audiencia = require('../sequelize').Audiencia;
 const Tema = require('../sequelize').Tema;
 const AudienciaTema = require('../sequelize').AudienciaTema;
@@ -12,6 +14,33 @@ var options = {
     },
     json: {}
 };
+
+function trataTexto(aud) {
+    /*LOCAL: XXXXX*/
+    aud.local = aud.local.replace('LOCAL: ', '');
+
+    /*TEMA: XXXXXXX; AUDIENCIA PUBLICA TEMATICA: XXXXXX; PAUTA: XXXXX; TEMATICA: XXXXXXX*/
+    pautas = [];
+    aud.pauta.map((p) => {
+        nova = p.replace('PAUTA: ', '').replace('TEMA: ', '').replace('AUDIENCIA PUBLICA TEMATICA: ', '').replace('TEMATICA: ', '')
+        pautas.push(nova);
+    });
+
+    aud.pauta = pautas;
+    /*HORARIO: || HORA:*/
+    aud.horario = aud.horario.replace('HORARIO: ', '').replace('HORA: ', '');
+    /*XXHXX; XX:XX H; DAS XXHXX AS XXHXX */
+    aud.horario = aud.horario.replace(' H', '').replace('H', ':');
+
+    aud.data = aud.data.replace('DIA ', '').replace('DATA: ', '').replace('DATA DA REUNIAO: ', '');
+
+    if (aud.data.includes('DE')) {
+        aud.data = moment(aud.data, 'DD ** MMMM ** YYYY').format('YYYY-MM-DD')
+    } else {
+        aud.data = moment(aud.data, 'DD/MM/YYYY').format('YYYY-MM-DD');
+    }
+    return aud;
+}
 
 
 function getAudiencia(req) {
@@ -60,6 +89,7 @@ function getAudiencia(req) {
                         }
                     });
 
+                    audiencia = trataTexto(audiencia);
 
                     resolve(criarAudiencia(audiencia, req.body.id));
                 }

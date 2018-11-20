@@ -2,6 +2,7 @@ const Tema = require('../sequelize').Tema;
 const Interesse = require('../sequelize').Interesse;
 const User = require('../sequelize').User;
 
+/*RETORNA TODOS OS GOSTOS DO USUÁRIO, ALÉM DE TODOS TEMAS REGISTRADOR*/
 function getUserLikes(req) {
     return new Promise(
         async (resolve, reject) => {
@@ -48,6 +49,7 @@ function getUserLikes(req) {
         });
 };
 
+/*ATUALIZA OS GOSTOS DO USUÁRIO*/
 function updateUserLikes(req) {
     return new Promise(
         async (resolve, reject) => {
@@ -91,6 +93,7 @@ function updateUserLikes(req) {
     );
 }
 
+/*AUMENTA O SCORE DA AUDIÊNCIA CURTIDA PELO USUÁRIO*/
 function likeAudiencia(req) {
     return new Promise(
         async (resolve, reject) => {

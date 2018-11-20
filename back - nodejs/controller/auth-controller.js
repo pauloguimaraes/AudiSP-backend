@@ -1,6 +1,7 @@
 var crypto = require('crypto');
 const User = require('../sequelize').User;
 
+/*REGISTRA O USUÁRIO*/
 function registerUser(req) {
     return new Promise(
         async (resolve, reject) => {
@@ -46,6 +47,8 @@ function registerUser(req) {
         });
 };
 
+
+/*VALIDA O USUÁRIO*/
 function validateUser(req) {
     return new Promise(
         async (resolve, reject) => {

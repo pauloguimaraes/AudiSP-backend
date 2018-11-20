@@ -2,6 +2,7 @@ const Tema = require('../sequelize').Tema;
 const AudienciaTema = require('../sequelize').AudienciaTema;
 const User = require('../sequelize');
 
+/*RETORNA TODOS OS TEMAS*/
 function getTemas(req) {
     return new Promise(
         async (resolve, reject) => {
@@ -12,6 +13,7 @@ function getTemas(req) {
     );
 }
 
+/*CRIA OS TEMAS REQUISITADOS*/
 function addTemas(req){
     return new Promise(
         async (resolve, reject) => {
@@ -39,6 +41,7 @@ function addTemas(req){
     );
 }
 
+/*FAZ UMA BUSCA NO BANCO PELO NOME DO TEMA*/
 function searchTema(req){
     return new Promise(
         async (resolve,reject)=>{
@@ -54,6 +57,7 @@ function searchTema(req){
     );
 }
 
+/*ATUALIZA O TEMA REQUISITADO*/
 function updateTema(req){
     return new Promise(
         async (resolve,reject)=>{
@@ -76,6 +80,7 @@ function updateTema(req){
     );
 }
 
+/*ADICIONA O TEMA À AUDIÊNCIA*/
 function addToAudiencia(req){
     return new Promise(
         
@@ -108,6 +113,7 @@ function addToAudiencia(req){
     );
 }
 
+/*REMOVE O TEMA DA AUDIÊNCIA*/
 function removeFromAudiencia(req){
     return new Promise(
         
