@@ -196,11 +196,16 @@ def get_audiencias_publicas(url, starting_page=1, ending_page=None):
             else:
                 texto = str(nota['texto'])
 
+                up = clear_text(texto.upper())
                 # Se encontra Audiência ou Pública no texto, é um caso a ser observado
-                if(fit_pattern(texto, r'Audiência') or fit_pattern(texto, r'Pública')):
-                    if(fit_pattern(texto, r'às')):
-                        index = get_index(nota['id'])
-                        audiencias[index] = nota
+                if(fit_pattern(up, r'AUDIENCIA') or fit_pattern(up, r'PUBLICA')):
+                    if(fit_pattern(up, r'AS')):
+                        if(fit_pattern(up, r'LOCAL:') and 
+                            (fit_pattern(up, r'DATA:') or fit_pattern(up, r'DATA DA REUNIAO:')) and 
+                            fit_pattern(up, r'HORARIO:') and
+                            (fit_pattern(up, r'TEMA:') or fit_pattern(up, r'AUDIENCIA PUBLICA TEMATICA:') or fit_pattern(up, r'PAUTA:'))):
+                            index = get_index(nota['id'])
+                            audiencias[index] = nota
         
         # Percorre as audiências encontradas
         for audiencia in audiencias:

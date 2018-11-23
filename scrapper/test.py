@@ -63,7 +63,6 @@ def main():
         else:
             upLimit = x+jump
 
-        
         connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
         if (datasetada==False):
             data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
@@ -87,7 +86,6 @@ def main():
 
                 audilimpadao.insere(id_inserido, linha, connection)
                 fileman.write_audiencia('./output/limpos/{0}.txt'.format(id_inserido), linha['text_limpo'])
-
             except Exception as e:
                 # print(str(x) + " up "+str(upLimit)+" count sujo "+str(contador))
                 print('{0}'.format(str(e)))#e.args[1]))
