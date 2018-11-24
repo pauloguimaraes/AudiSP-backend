@@ -67,7 +67,11 @@ def main():
         if (datasetada==False):
             data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
             datasetada=True
+
+        print('inicio {0}'.format(datetime.datetime.now()))
+        print('{0} -> pagina {1}'.format(url, x))
         retorno = get_audiencias_publicas(url=url, starting_page=x, ending_page=upLimit)
+        print('fim {0}'.format(datetime.datetime.now()))
         if(data_audiencia_mais_recente == None):
             data_audiencia_mais_recente = data_limite
         contador = 0

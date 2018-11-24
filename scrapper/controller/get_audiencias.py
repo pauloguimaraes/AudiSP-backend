@@ -166,6 +166,7 @@ def get_audiencias_publicas(url, starting_page=1, ending_page=None):
 
         # Faz a requisição
         response = requests.get('{0}&page={1}'.format(url, starting_page))
+        print('chamou {0}&page={1}'.format(url, starting_page))
 
         # Se tem resposta extrai a data
         if(response.status_code == 200):
@@ -202,8 +203,7 @@ def get_audiencias_publicas(url, starting_page=1, ending_page=None):
                     if(fit_pattern(up, r'AS')):
                         if(fit_pattern(up, r'LOCAL:') and 
                             (fit_pattern(up, r'DATA:') or fit_pattern(up, r'DATA DA REUNIAO:')) and 
-                            fit_pattern(up, r'HORARIO:') and
-                            (fit_pattern(up, r'TEMA:') or fit_pattern(up, r'AUDIENCIA PUBLICA TEMATICA:') or fit_pattern(up, r'PAUTA:'))):
+                            fit_pattern(up, r'HORARIO:')):
                             index = get_index(nota['id'])
                             audiencias[index] = nota
         
@@ -223,7 +223,7 @@ def get_audiencias_publicas(url, starting_page=1, ending_page=None):
             objt['title'] = audiencias[audiencia]['secretaria']
             str_texto = audiencias[audiencia]['texto'].strip()#.encode('utf8')
             objt['text'] = str_texto
-            objt['text_limpo'] = clear_text(str_texto)
+            objt['text_limpo'] = re.sub('[ ]+', ' ', clear_text(str_texto))
             objt['url'] = links[audiencia]
             objt['data'] = datetime.datetime.strptime(re.sub(r'T|Z|-|:',' ',audiencias[audiencia]['data']).strip(),'%Y %m %d %H %M %S')
             # Se não foi encontrada data
