@@ -52,7 +52,7 @@ def main():
     jump = 30
     should_leave = False
     datasetada = False
-    for x in range(0,maxrange,jump):
+    for x in range(1, maxrange,jump):
         if(should_leave):
             break
 

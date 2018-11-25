@@ -66,3 +66,4 @@ __pycache__/
 .vscode/*
 scrapper/dao/__pycache__/
 scrapper/output/*
+backup*

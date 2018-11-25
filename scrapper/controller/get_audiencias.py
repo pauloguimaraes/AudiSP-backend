@@ -198,6 +198,9 @@ def get_audiencias_publicas(url, starting_page=1, ending_page=None):
                 texto = str(nota['texto'])
 
                 up = clear_text(texto.upper())
+
+                if(fit_pattern(up, r'RELATO DE REUNIAO')):
+                    continue
                 # Se encontra Audiência ou Pública no texto, é um caso a ser observado
                 if(fit_pattern(up, r'AUDIENCIA') or fit_pattern(up, r'PUBLICA')):
                     if(fit_pattern(up, r'AS')):
