@@ -63,7 +63,7 @@ def main():
         else:
             upLimit = x+jump
 
-        connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+        connection = conn.set_connection(server='52.15.50.176', user='root', password='12345678', db_name='audisp')
         if (datasetada==False):
             data_audiencia_mais_recente = audienciadao.get_data_ultima_audiencia(connection)
             datasetada=True
@@ -83,7 +83,7 @@ def main():
                     should_leave = True
                     break
 
-                connection = conn.set_connection(server='localhost', user='root', password='123456', db_name='audisp')
+                connection = conn.set_connection(server='52.15.50.176', user='root', password='12345678', db_name='audisp')
                 
                 id_inserido = audienciadao.insere(linha, connection)
                 fileman.write_audiencia('./output/sujos/{0}.txt'.format(id_inserido), linha['text'])
