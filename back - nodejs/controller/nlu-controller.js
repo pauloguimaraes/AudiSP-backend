@@ -105,7 +105,8 @@ function getAudiencia(req) {
                         data: '',
                         horario: '',
                         local: '',
-                        pauta: []
+                        pauta: [],
+                        comissao: ''
                     };
                     response.body.entities.map((entity) => {
                         switch (entity.type) {
@@ -122,6 +123,9 @@ function getAudiencia(req) {
                                 audiencia.local = entity.text;
                                 break;
                             case "pauta":
+                                audiencia.pauta.push(entity.text);
+                                break;
+                            case "comissao":
                                 audiencia.pauta.push(entity.text);
                                 break;
 
@@ -156,7 +160,8 @@ function criarAudiencia(audi, id_publicacao) {
                 local: audi.local,
                 id_publicacao: 5,
                 pauta: pautaText,
-                id_publicacao: id_publicacao
+                id_publicacao: id_publicacao,
+                comissao: audi.comissao
             });
 
             resolve({

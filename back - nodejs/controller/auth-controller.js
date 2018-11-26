@@ -1,5 +1,6 @@
 var crypto = require('crypto');
 const User = require('../sequelize').User;
+const moment = require('moment');
 
 /*REGISTRA O USUÁRIO*/
 function registerUser(req) {
@@ -27,7 +28,7 @@ function registerUser(req) {
                 User.create({
                     nome: req.body.nome,
                     email: req.body.email,
-                    nascimento: req.body.nascimento,
+                    nascimento: moment(req.body.nascimento, 'YYYY-MM-DD').format('YYYY-MM-DD'),
                     hash_senha: hash
                 }).then(
                     resolve({

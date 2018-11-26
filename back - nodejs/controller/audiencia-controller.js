@@ -5,7 +5,7 @@ const User = require('../sequelize').User;
 const Interesse = require('../sequelize').Interesse;
 const Publicacao = require('../sequelize').Publicacao;
 const Sequelize = require('sequelize');
-
+const moment = require('moment');
 const Op = require('Sequelize').Op;
 
 var sugeridas = [{
@@ -43,7 +43,7 @@ function getAudienciaSugerida(req) {
     return new Promise(
         async (resolve, reject) => {
 
-             response = [];
+            response = [];
             auds = [];
             await User.findOne({
                 where: {
@@ -65,11 +65,16 @@ function getAudienciaSugerida(req) {
                                         model: Tema,
                                         through: {
                                             where: {
-                                                id_tema: tema.id
+                                                id_tema: tema.id,
                                             }
                                         }
-                                    }],
-                                    limit: n
+                                    }, ],
+                                    limit: n,
+                                    where: {
+                                        data: {
+                                            [Op.gte]: moment().format('YYYY/MM/DD')
+                                        }
+                                    }
 
                                 }).then(
                                     async audiencias => {
@@ -89,7 +94,12 @@ function getAudienciaSugerida(req) {
             );
 
             await Promise.all(await auds.map(async (aud) => {
-                await Audiencia.findOne({where: {id: aud.id}, include:[Tema]}).then((res)=> response.push(res));
+                await Audiencia.findOne({
+                    where: {
+                        id: aud.id
+                    },
+                    include: [Tema]
+                }).then((res) => response.push(res));
             }));
 
             resolve(response);
@@ -183,7 +193,7 @@ function updateAudiencia(req, res) {
                 (res) => {
                     if (res) {
                         res.updateAttributes({
-                            data: req.body.data,
+                            data: moment(req.body.data, 'YYYY-MM-DD').format('YYYY-MM-DD'),
                             horario: req.body.horario,
                             local: req.body.local,
                             pauta: req.body.pauta,
