@@ -108,7 +108,7 @@ function getAudiencia(req) {
                         horario: '',
                         local: '',
                         pauta: [],
-                        comissao: ''
+                        comissao: []
                     };
                     response.body.entities.map((entity) => {
                         switch (entity.type) {
@@ -128,7 +128,7 @@ function getAudiencia(req) {
                                 audiencia.pauta.push(entity.text);
                                 break;
                             case "comissao":
-                                audiencia.comissao=entity.text;
+                                audiencia.comissao.push(entity.text);
                                 break;
 
                         }
@@ -150,9 +150,13 @@ function criarAudiencia(audi, id_publicacao) {
         async (resolve, reject) => {
 
             pautaText = '';
-            pautas = [];
             await Promise.all(audi.pauta.map(async (pauta) => {
                 pautaText += pauta + ', '
+            }));
+
+            comText = '';
+            await Promise.all(audi.comissao.map(async (com) => {
+                comText += com + ', '
             }));
 
 
@@ -163,7 +167,7 @@ function criarAudiencia(audi, id_publicacao) {
                 id_publicacao: 5,
                 pauta: pautaText,
                 id_publicacao: id_publicacao,
-                comissao: audi.comissao
+                comissao: comText
             });
 
             resolve({
