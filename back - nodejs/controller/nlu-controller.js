@@ -33,7 +33,7 @@ function trataTexto(aud) {
     aud.horario = aud.horario.replace('HORARIO: ', '').replace('HORA: ', '');
     /*XXHXX; XX:XX H; DAS XXHXX AS XXHXX */
     aud.horario = aud.horario.replace('HORAS', '').replace(' H', '').replace('H', ':');
-    if (aud.horario.length === 2) {
+    if (aud.horario.trim().length === 2 || aud.horario.trim().length === 3) {
         aud.horario += ':00';
     }
     aud.data = aud.data.replace('DIA ', '').replace('DATA: ', '').replace('DATA DA REUNIAO: ', '');
