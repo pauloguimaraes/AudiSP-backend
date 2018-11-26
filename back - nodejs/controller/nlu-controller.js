@@ -126,7 +126,7 @@ function getAudiencia(req) {
                                 audiencia.pauta.push(entity.text);
                                 break;
                             case "comissao":
-                                audiencia.pauta.push(entity.text);
+                                audiencia.comissao.push(entity.text);
                                 break;
 
                         }
