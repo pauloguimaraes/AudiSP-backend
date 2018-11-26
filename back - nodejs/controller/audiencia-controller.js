@@ -6,7 +6,7 @@ const Interesse = require('../sequelize').Interesse;
 const Publicacao = require('../sequelize').Publicacao;
 const Sequelize = require('sequelize');
 const moment = require('moment');
-const Op = require('Sequelize').Op;
+const Op = require('sequelize').Op;
 
 var sugeridas = [{
     nome: 'Audiência Pública',
