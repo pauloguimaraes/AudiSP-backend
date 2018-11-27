@@ -33,8 +33,10 @@ function trataTexto(aud) {
     aud.horario = aud.horario.replace('HORARIO: ', '').replace('HORA: ', '');
     /*XXHXX; XX:XX H; DAS XXHXX AS XXHXX */
     aud.horario = aud.horario.replace('HORAS', '').replace(' H', '').replace('H', ':');
-    if (aud.horario.length === 2) {
+    if (aud.horario.trim().length === 2) {
         aud.horario += ':00';
+    } else if (aud.horario.trim().length === 3) {
+        aud.horario += '00';
     }
     aud.data = aud.data.replace('DIA ', '').replace('DATA: ', '').replace('DATA DA REUNIAO: ', '');
 
@@ -105,7 +107,8 @@ function getAudiencia(req) {
                         data: '',
                         horario: '',
                         local: '',
-                        pauta: []
+                        pauta: [],
+                        comissao: []
                     };
                     response.body.entities.map((entity) => {
                         switch (entity.type) {
@@ -123,6 +126,9 @@ function getAudiencia(req) {
                                 break;
                             case "pauta":
                                 audiencia.pauta.push(entity.text);
+                                break;
+                            case "comissao":
+                                audiencia.comissao.push(entity.text);
                                 break;
 
                         }
@@ -144,9 +150,13 @@ function criarAudiencia(audi, id_publicacao) {
         async (resolve, reject) => {
 
             pautaText = '';
-            pautas = [];
             await Promise.all(audi.pauta.map(async (pauta) => {
                 pautaText += pauta + ', '
+            }));
+
+            comText = '';
+            await Promise.all(audi.comissao.map(async (com) => {
+                comText += com + ', '
             }));
 
 
@@ -156,7 +166,8 @@ function criarAudiencia(audi, id_publicacao) {
                 local: audi.local,
                 id_publicacao: 5,
                 pauta: pautaText,
-                id_publicacao: id_publicacao
+                id_publicacao: id_publicacao,
+                comissao: comText
             });
 
             resolve({
